@@ -1,0 +1,7 @@
+
+#World Settings
+[world]
+	#Defines the weight of ancient seed loot in ancient city chests. Set to 0 to disable.
+	#Range: > 0
+	ancientSeedLootWeight = 8
+
