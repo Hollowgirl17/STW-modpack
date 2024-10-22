@@ -1,0 +1,118 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "challenges"
+	group: "3269EA31E17BD0F1"
+	icon: "simplehats:hatbag_epic"
+	id: "3EA196CA82E7CA42"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["25AF07590EA27478"]
+			id: "13B88FE933AC01B7"
+			rewards: [
+				{
+					count: 5
+					id: "5655DEBBBCAB8C1C"
+					item: "chancecubes:compact_giant_chance_cube"
+					type: "item"
+				}
+				{
+					id: "24D785AD6877A5C3"
+					item: "simplehats:hatbag_easter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2CF8070F9A533BF8"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1000000L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["14260D947027F8DA"]
+			id: "6417D24EB76CA886"
+			rewards: [
+				{
+					count: 5
+					id: "79B150FC981FEFF0"
+					item: "chancecubes:compact_giant_chance_cube"
+					type: "item"
+				}
+				{
+					id: "020C6489E16CF0AC"
+					item: "simplehats:hatbag_summer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				amount: 10000L
+				fluid: "tconstruct:molten_diamond"
+				id: "29D2E326B7F03AC3"
+				type: "fluid"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["588A012F055C2A3B"]
+			id: "7452B9E67AF23C53"
+			rewards: [
+				{
+					count: 5
+					id: "758023A2FBD12AA1"
+					item: "chancecubes:compact_giant_chance_cube"
+					type: "item"
+				}
+				{
+					id: "5F0580A218300ECB"
+					item: "simplehats:hatbag_halloween"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "26EB0865BE1CFA89"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1814E205B489863B"]
+			id: "1AAC2D1EF67A813E"
+			rewards: [
+				{
+					count: 5
+					id: "5D2E581CEFE269E1"
+					item: "chancecubes:compact_giant_chance_cube"
+					type: "item"
+				}
+				{
+					id: "7F14C3164EEF8897"
+					item: "simplehats:hatbag_festive"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "7D5843223BB4738B"
+				item: "mysticalagriculture:awakened_supremium_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+	]
+	title: "Challenges!"
+}

@@ -1,0 +1,69 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space"
+	group: "0D47AD304F67B0B3"
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_4_rocket"
+		tag: {
+			BotariumData: { }
+		}
+	}
+	id: "3D8EA015AE438DF1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "22AC3A565CA2B5A0"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				id: "4F0712A932368C58"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "397341D6CB7D3735"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "590A590E9606DE14"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "4FE843CFC7E0ACBC"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				id: "45F7CCF82753477C"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "2AE848322234D3E3"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "6AC7FE11DFF03F7F"
+				type: "dimension"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "6E3236A58F987998"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "02A3CD5B57FCE65F"
+				type: "dimension"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+	]
+	title: "Space"
+}

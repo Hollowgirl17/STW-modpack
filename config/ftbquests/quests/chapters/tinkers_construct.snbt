@@ -1,0 +1,475 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_construct"
+	group: "0E9C5249EF39A22C"
+	icon: {
+		Count: 1b
+		id: "tconstruct:smeltery_controller"
+		tag: {
+			texture: "tconstruct:seared_bricks"
+		}
+	}
+	id: "45D93F648FB7F66F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["68DA8BD14F76E41D"]
+			description: ["Your first tinkers setup!"]
+			id: "629FF0551D9E9159"
+			rewards: [{
+				id: "68BDDA79EF20FBF7"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4ECAD7891958B1A0"
+					item: {
+						Count: 1b
+						id: "tconstruct:tinker_station"
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6508D047A0A8C216"
+					item: {
+						Count: 1b
+						id: "tconstruct:part_builder"
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60BB5F44FD636B8D"
+					item: {
+						Count: 1b
+						id: "tconstruct:crafting_station"
+						tag: {
+							texture: "minecraft:oak_wood"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Basic setup"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["629FF0551D9E9159"]
+			description: ["Make your first tinkers tool/weapon!"]
+			id: "3701FC55E14322D7"
+			tasks: [{
+				id: "1EC8BA1921AB1E13"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:modifiable"
+					}
+				}
+				title: "Any #tconstruct:modifiable"
+				type: "item"
+			}]
+			title: "Your first tinkers tool!"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["426F1383F4AD4000"]
+			description: ["Not all items can be modified without turning the ores into heated liquid, lets get started!"]
+			id: "3F09375E1F2538E7"
+			rewards: [{
+				id: "6AE8E45232E11E8C"
+				item: "tconstruct:puny_smelting"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1A619FE770A1158F"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "7A822A500D923A76"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "6AB880E2F4DA0443"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "3C1E85D3BCB49B72"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7EF65D81BDC930B1"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+			]
+			title: "Our first multiblock"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3701FC55E14322D7"]
+			description: ["To start moving forward in tinkers, you'll need a lot of this!"]
+			id: "426F1383F4AD4000"
+			tasks: [{
+				id: "64A8EDD0E397CFA0"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F09375E1F2538E7"]
+			description: [
+				"Start by making an iron pick head and repair kit, at this point you should use a sand cast but you can make a gold cast if you'd like!"
+				""
+				"If a repair kit is the same type as the main head of your tool, you can combine them in a crafting table to repair it. You may need multiple repair kits depending on durability of the tool"
+			]
+			id: "62B9EDADD5845341"
+			rewards: [{
+				id: "28F1E4736CC27D67"
+				item: {
+					Count: 1b
+					id: "tconstruct:tool_handle"
+					tag: {
+						Material: "tconstruct:iron"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "280347F9291E9432"
+					item: {
+						Count: 1b
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:iron"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56B9DDA53A614B2A"
+					item: {
+						Count: 1b
+						id: "tconstruct:repair_kit"
+						tag: {
+							Material: "tconstruct:iron"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F09375E1F2538E7"]
+			description: ["A step up from the melter, introducing the smeltery!"]
+			id: "14260D947027F8DA"
+			rewards: [{
+				id: "71FAD20964957A89"
+				item: "tconstruct:mighty_smelting"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "63435D3E77B0BB9C"
+					item: {
+						Count: 1b
+						id: "tconstruct:smeltery_controller"
+						tag: {
+							texture: "tconstruct:seared_bricks"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "118A6C7A33BE7014"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:seared_bricks"
+						}
+					}
+					title: "Any #tconstruct:seared_bricks"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "47076FDE7BD1F917"
+					item: {
+						Count: 1b
+						id: "tconstruct:seared_drain"
+						tag: {
+							texture: "tconstruct:seared_bricks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "704A0A490B954485"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:seared_tanks"
+						}
+					}
+					title: "Any #tconstruct:seared_tanks"
+					type: "item"
+				}
+			]
+			title: "The smeltery"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["14260D947027F8DA"]
+			description: [
+				"An anvil is a huge upgrade from our old tinkers station!"
+				""
+				"Rose gold should be your easiest alloy to make early on, it's just copper and gold in the smeltery on a 1:1 basis!"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:tinkers_anvil"
+				tag: {
+					texture: "tconstruct:rose_gold_block"
+				}
+			}
+			id: "2FCAFC31090A631C"
+			rewards: [{
+				id: "52BABFC7C40D37A9"
+				item: "tconstruct:tinkers_gadgetry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01328FEB4A03AE17"
+				item: {
+					Count: 1b
+					id: "tconstruct:tinkers_anvil"
+					tag: {
+						texture: "tconstruct:rose_gold_block"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["534F2FA06E06F535"]
+			description: [
+				"The smelters big brother! "
+				""
+				"Please note: The foundry can not make alloys "
+			]
+			id: "5D4BDC0A891BDD68"
+			tasks: [
+				{
+					id: "46242A67D0122797"
+					item: {
+						Count: 1b
+						id: "tconstruct:foundry_controller"
+						tag: {
+							texture: "tconstruct:scorched_bricks"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "016DDFE51B5F4E9A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:foundry_bricks"
+						}
+					}
+					title: "Any #tconstruct:foundry_bricks"
+					type: "item"
+				}
+				{
+					id: "3BCA113598758DDD"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:scorched_tanks"
+						}
+					}
+					title: "Any #tconstruct:scorched_tanks"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "06661F5AFD8B930D"
+					item: "tconstruct:scorched_faucet"
+					type: "item"
+				}
+				{
+					id: "7D99F1D1B6CE362C"
+					item: "tconstruct:scorched_table"
+					type: "item"
+				}
+				{
+					id: "3C6B80AA37EEF367"
+					item: "tconstruct:scorched_basin"
+					type: "item"
+				}
+			]
+			title: "The foundry"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["14260D947027F8DA"]
+			description: ["Regular grout is no good to you anymore!"]
+			id: "534F2FA06E06F535"
+			rewards: [{
+				id: "7E7FBDB0BB33D853"
+				item: "tconstruct:fantastic_foundry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F893F8DBEA9A6ED"
+				item: "tconstruct:nether_grout"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["534F2FA06E06F535"]
+			description: ["If you want to use the foundry instead, you can use this to make alloys!"]
+			id: "057D3DCE3ED14327"
+			tasks: [
+				{
+					id: "748B1AFF149EB859"
+					item: "tconstruct:scorched_alloyer"
+					type: "item"
+				}
+				{
+					id: "1DF2A82B036EC207"
+					item: "tconstruct:scorched_faucet"
+					type: "item"
+				}
+				{
+					id: "0EA82362A722D415"
+					item: "tconstruct:scorched_basin"
+					type: "item"
+				}
+				{
+					id: "7D7CE201B06A5330"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:scorched_tanks"
+						}
+					}
+					title: "Any #tconstruct:scorched_tanks"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5D4BDC0A891BDD68"
+				"057D3DCE3ED14327"
+			]
+			description: ["Now you've got all the multiblocks, you'll probably want all the books in just one!"]
+			id: "6E07BF0307E55B3D"
+			tasks: [{
+				id: "160959404643B027"
+				item: "tconstruct:encyclopedia"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["14260D947027F8DA"]
+			description: ["A heavily modifiable piece of equiptment that will help a lot! Get yourself a set of tinkers armor!"]
+			id: "76410D5B566147E6"
+			tasks: [
+				{
+					id: "7D73DC9042089DA4"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:modifiable/armor/chestplate"
+						}
+					}
+					title: "Any #tconstruct:modifiable/armor/chestplate"
+					type: "item"
+				}
+				{
+					id: "090EA68D2AA5547B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:modifiable/armor/boots"
+						}
+					}
+					title: "Any #tconstruct:modifiable/armor/boots"
+					type: "item"
+				}
+				{
+					id: "640A5AEE7F065D67"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:modifiable/armor/leggings"
+						}
+					}
+					title: "Any #tconstruct:modifiable/armor/leggings"
+					type: "item"
+				}
+				{
+					id: "692141DA35C7C3B6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:modifiable/armor/helmets"
+						}
+					}
+					title: "Any #tconstruct:modifiable/armor/helmets"
+					type: "item"
+				}
+			]
+			title: "Tinkers armor!"
+			x: 6.5d
+			y: 1.0d
+		}
+	]
+	title: "Tinkers Construct"
+}

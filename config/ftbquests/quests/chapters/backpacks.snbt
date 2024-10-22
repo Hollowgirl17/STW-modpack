@@ -1,0 +1,453 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "backpacks"
+	group: "175372E337042CB9"
+	icon: {
+		Count: 1b
+		id: "sophisticatedbackpacks:backpack"
+		tag: {
+			contentsUuid: [I;
+				-1448099574
+				25642087
+				-2141271809
+				-808990931
+			]
+			inventorySlots: 27
+			upgradeSlots: 1
+		}
+	}
+	id: "06FE23F78FD72951"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["238D7849116085A5"]
+			id: "40235F08542B4856"
+			rewards: [{
+				id: "137067F9E9930087"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1318BFACCBF0BAE1"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							-1448099574
+							25642087
+							-2141271809
+							-808990931
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			description: ["Because you always need more portable storage!"]
+			id: "238D7849116085A5"
+			rewards: [{
+				count: 4
+				id: "01442DC597979383"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40C3B51AF73AFAF4"
+				title: "Backpacks!"
+				type: "checkmark"
+			}]
+			title: "Backpack, backpack!"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40235F08542B4856"]
+			description: ["Need more storage? Start upgrading your existing one!"]
+			id: "24F79849683EC0B1"
+			rewards: [{
+				id: "71D9BE60E08A200A"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DF1278D393E97D5"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:copper_backpack"
+					tag: {
+						contentsUuid: [I;
+							-662156647
+							756239049
+							-1632250888
+							-1295534114
+						]
+						inventorySlots: 45
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["24F79849683EC0B1"]
+			id: "41869C5D6C75F2D4"
+			rewards: [{
+				id: "1E8064CDD8BF4F80"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DCAF425FA282A8A"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:iron_backpack"
+					tag: {
+						contentsUuid: [I;
+							934779997
+							-250329738
+							-1810374279
+							-484221653
+						]
+						inventorySlots: 54
+						upgradeSlots: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41869C5D6C75F2D4"]
+			id: "4EF2B389C0E9B284"
+			rewards: [{
+				id: "5ADBA87B91D39A07"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "743C2C712C0AF72E"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:gold_backpack"
+					tag: {
+						contentsUuid: [I;
+							-1292476861
+							-627162206
+							-1464165457
+							1374878677
+						]
+						inventorySlots: 81
+						upgradeSlots: 3
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4EF2B389C0E9B284"]
+			description: ["The ultimate backpack!"]
+			id: "6A3DA1AEE118CBC0"
+			rewards: [{
+				id: "33C5C3256B824720"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "434A4DA584B3CAF5"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:diamond_backpack"
+					tag: {
+						contentsUuid: [I;
+							-331703063
+							1780828600
+							-2100407588
+							-608202735
+						]
+						inventorySlots: 108
+						upgradeSlots: 5
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["40235F08542B4856"]
+			description: ["Your first upgrade! Checkout JEI to see what you can do with it and your upgrade options!"]
+			id: "3E209C62EACD0FFC"
+			rewards: [{
+				id: "6F69C34C28658B40"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2550BE085A05513F"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["238D7849116085A5"]
+			id: "3E9274CAEF2AADA1"
+			tasks: [{
+				id: "12B43A9ACA5C811D"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["44880754393A0410"]
+			id: "03954B3DBE8B3A9A"
+			tasks: [{
+				id: "59BB0C2DA70E31EE"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:netherite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["56A6FE7E79EC7301"]
+			id: "76FF454136ECAC6D"
+			tasks: [{
+				id: "0B2C95B51CE428FD"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33BAFB4005821898"]
+			id: "0EF607F811A1B7C9"
+			tasks: [{
+				id: "2BFAAAFC9C806D7C"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["149989D03242F34E"]
+			id: "6EB2522FA1BD593E"
+			tasks: [{
+				id: "4832D415D151EEA0"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:diamond"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3E9274CAEF2AADA1"]
+			description: ["Use this to upgrade your backpack tier or add a crafting table!"]
+			id: "10A0B66158650BCB"
+			tasks: [{
+				id: "2C06EC7F55CA5DC0"
+				item: "travelersbackpack:blank_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["238D7849116085A5"]
+			id: "26A351A1CC01C33F"
+			tasks: [{
+				id: "7037176C2F8E2B1B"
+				item: {
+					Count: 1b
+					id: "quark:backpack"
+					tag: {
+						Inventory: [
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["238D7849116085A5"]
+			id: "581F982263968033"
+			tasks: [{
+				id: "1061D0AD7907AFFC"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_backpack"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["238D7849116085A5"]
+			id: "2DEF483A267C0712"
+			tasks: [{
+				id: "6B8A2D457726B7FE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 4
+						}
+					}
+					id: "immersiveengineering:powerpack"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A3DA1AEE118CBC0"]
+			id: "03B7D0D8482EB3CB"
+			rewards: [{
+				id: "608D5C334EED6D43"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "335C4B4A3F37E4B7"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:netherite_backpack"
+					tag: {
+						contentsUuid: [I;
+							-628926225
+							-1056094192
+							-2121465176
+							488078305
+						]
+						inventorySlots: 120
+						upgradeSlots: 7
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E9274CAEF2AADA1"]
+			id: "56A6FE7E79EC7301"
+			tasks: [{
+				id: "153503EC5FD9CFEA"
+				item: "travelersbackpack:iron_tier_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["76FF454136ECAC6D"]
+			id: "33BAFB4005821898"
+			tasks: [{
+				id: "56C025242AF6C9F3"
+				item: "travelersbackpack:gold_tier_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EF607F811A1B7C9"]
+			id: "149989D03242F34E"
+			tasks: [{
+				id: "4825B50BA364D62D"
+				item: "travelersbackpack:diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6EB2522FA1BD593E"]
+			id: "44880754393A0410"
+			tasks: [{
+				id: "05F903AC55527075"
+				item: "travelersbackpack:netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+	]
+	title: "Backpacks"
+}

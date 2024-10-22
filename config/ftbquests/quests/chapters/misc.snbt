@@ -1,0 +1,379 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "misc"
+	group: "175372E337042CB9"
+	icon: "ironchest:iron_chest"
+	id: "5D4C95030C81BC1B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0CDE4AA9646F76F8"]
+			id: "5BF59138E1BE6AC0"
+			tasks: [{
+				id: "50E0CE243F09CE66"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5BF59138E1BE6AC0"]
+			id: "17D4F52CBD5EA4A2"
+			tasks: [{
+				id: "54BCDCB2A1A577DD"
+				item: "ironchest:gold_chest"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17D4F52CBD5EA4A2"]
+			icon: "ironchest:diamond_chest"
+			id: "18A97FA0C41C4E7D"
+			tasks: [{
+				id: "3E96BDDF1C173771"
+				item: "ironchest:diamond_chest"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0CDE4AA9646F76F8"]
+			id: "33692D65F4A42C58"
+			tasks: [{
+				id: "4EA763E7B5710659"
+				item: "ironchest:copper_chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18A97FA0C41C4E7D"]
+			id: "3F3D438978B4EC6F"
+			tasks: [{
+				id: "1E1C641A6DB0C07F"
+				item: "ironchest:crystal_chest"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18A97FA0C41C4E7D"]
+			id: "124D50CB69251E74"
+			tasks: [{
+				id: "29FE174DB104D6B3"
+				item: "ironchest:obsidian_chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5DE11FFDF1AA71BF"]
+			id: "0CDE4AA9646F76F8"
+			tasks: [{
+				id: "20F6A950A6E9EA34"
+				title: "Iron Chests"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CDE4AA9646F76F8"]
+			id: "2714EFD96EB3EAE7"
+			tasks: [{
+				id: "41E1FE0988413ADF"
+				item: "ironchest:dirt_chest"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CDE4AA9646F76F8"]
+			description: ["For ease of effort, try making upgrades for your chests instead of emptying and picking them up!"]
+			id: "56005C4619E54D54"
+			tasks: [{
+				id: "6E8F766AA392CD62"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["53DA99B714DF8DA1"]
+			id: "4D5BC4D3322AE145"
+			tasks: [{
+				id: "00B2C45AB741E095"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "sophisticatedstorage:base_tier_wooden_storage"
+					}
+				}
+				title: "Any #sophisticatedstorage:base_tier_wooden_storage"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DE11FFDF1AA71BF"]
+			id: "53DA99B714DF8DA1"
+			tasks: [{
+				id: "6BD44764656E0B29"
+				title: "Sophisticated Storage!"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4D5BC4D3322AE145"]
+			description: ["Despite this quest showing each upgrade individually, there's many more such as skipping from basic to netherite! Search @sophisticatedstorage in JEI for more information!"]
+			id: "6E63BDF95BE5D36D"
+			tasks: [{
+				id: "774853368455D068"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E63BDF95BE5D36D"]
+			id: "4CEF1FFD66764FF9"
+			tasks: [{
+				id: "300ACFCBC4AEF7E5"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CEF1FFD66764FF9"]
+			id: "690704021408AACF"
+			tasks: [{
+				id: "0DC9044A65C14C71"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["690704021408AACF"]
+			id: "6E0229D4EAF4ABD5"
+			tasks: [{
+				id: "016934CE17446B62"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53DA99B714DF8DA1"]
+			id: "5569B18223BF37EC"
+			tasks: [{
+				id: "5E877DAE31993A01"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["53DA99B714DF8DA1"]
+			id: "371C7BA8911B48E4"
+			tasks: [{
+				id: "5BA08B9D3EC57474"
+				item: "sophisticatedstorage:controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["534BB50ADDB3A6C2"]
+			description: ["1x1, 2x2 or 4x4 storage drawers! You can frame them, compact them and everything!"]
+			id: "51046202BB513AEB"
+			tasks: [{
+				id: "4B8EB542F11FAB94"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Any #functionalstorage:drawer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DE11FFDF1AA71BF"]
+			id: "534BB50ADDB3A6C2"
+			tasks: [{
+				id: "483EA2BB87E9810F"
+				title: "Functional Storage!"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["534BB50ADDB3A6C2"]
+			id: "1FAB750AA2384658"
+			tasks: [{
+				id: "5F4A84670D230E25"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1FAB750AA2384658"]
+			id: "767EB6187A964701"
+			tasks: [{
+				id: "47AA82F3AE6C0342"
+				item: "functionalstorage:controller_extension"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["534BB50ADDB3A6C2"]
+			id: "127D69E89E134E34"
+			tasks: [{
+				id: "378ECCA80847B445"
+				item: "functionalstorage:compacting_drawer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["534BB50ADDB3A6C2"]
+			description: ["All the upgrades you could ever need!"]
+			id: "587B8F7E8A0452C3"
+			optional: true
+			tasks: [
+				{
+					id: "0FE1A3B04C86A801"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					id: "7623B8F4D02D2913"
+					item: "functionalstorage:gold_upgrade"
+					type: "item"
+				}
+				{
+					id: "0DCB227425951B28"
+					item: "functionalstorage:diamond_upgrade"
+					type: "item"
+				}
+				{
+					id: "39C41D161A5538C3"
+					item: "functionalstorage:netherite_upgrade"
+					type: "item"
+				}
+				{
+					id: "3622D4CF31774F48"
+					item: "functionalstorage:iron_downgrade"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1FAB750AA2384658"]
+			id: "446A380CF8C5BDDB"
+			tasks: [{
+				id: "43F61E846448614C"
+				item: "functionalstorage:armory_cabinet"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["534BB50ADDB3A6C2"]
+			id: "125FACADDDFA1F43"
+			tasks: [
+				{
+					id: "6E700ECBD29D9F3E"
+					item: {
+						Count: 1b
+						id: "functionalstorage:linking_tool"
+						tag: {
+							Action: "ADD"
+							Mode: "SINGLE"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "168BFB51629FF0DC"
+					item: {
+						Count: 1b
+						id: "functionalstorage:configuration_tool"
+						tag: {
+							Mode: "LOCKING"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29DD985949E51529"]
+			description: [
+				"Modpacks are FULL of new content and new things to do, but that also leads to an issue with storage and not wanting to sort through 50 chests. Thankfully, we have multiple fixes for that!"
+				""
+				"The best parts of these different methods are that they can all be linked to AE2 or Refined storage! Save on some disk space early-late game by using these!"
+			]
+			id: "5DE11FFDF1AA71BF"
+			tasks: [{
+				id: "41F5FD71A747CAD8"
+				title: "Looking for a better way to store items?"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["534BB50ADDB3A6C2"]
+			description: ["To learn how to frame drawers, hover over the drawer in this quest! The same applies to the controller, compacting drawers and pretty much every block within Functional Storage!"]
+			id: "0BEC77479C679947"
+			optional: true
+			tasks: [{
+				id: "7ACDF1DC50662738"
+				item: "functionalstorage:framed_1"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+	]
+	title: "Misc"
+}

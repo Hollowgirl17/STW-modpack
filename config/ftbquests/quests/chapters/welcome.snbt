@@ -1,0 +1,50 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "593827B5F6B36A85"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to the Save The World (STW) Modpack!"
+				""
+				"This modpack is designed to be based on Mianite season 2 with a modern take to it, includes most of the same mods where possible and alternatives if not. This modpack focuses on magic, technology and exploration! "
+				""
+				"Quests have been made as a guide to help you rather than an all inclusive knowledge base so not everything will be in the quest book and it's not a definitive guide, I recommend watching youtube videos by creators like GamingOnCaffeine and ChosenArchitect if you're looking for detailed information on any mods in this pack, most will have been covered or played by both of them"
+			]
+			id: "6BFD094738D8AA3E"
+			rewards: [{
+				id: "2B669E47F8827402"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01C316D6E6BC9FCC"
+				title: "Welcome to Save The World!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BFD094738D8AA3E"]
+			description: [
+				"If a quest is locked, you likely haven't completed one of the required quests to progress. "
+				""
+				"Most quests with dependencies will tell you what you must do to unlock them or if the quest is in the same line as the dependent, you can hover over the quest you want to do and it'll show a line of progression."
+			]
+			id: "502CE0126AC5B9F4"
+			tasks: [{
+				id: "579EE3B35AFDB7EA"
+				title: "Quest Progression"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+	]
+	title: "Welcome!"
+}

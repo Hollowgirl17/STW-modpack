@@ -1,0 +1,673 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pipes"
+	group: "0B1CECDAF6B5EB34"
+	icon: "mekanism:ultimate_mechanical_pipe"
+	id: "37794EC2777B23BB"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3DE51890E7003E45"]
+			id: "1CF08CD0D66ED261"
+			tasks: [{
+				id: "53246BFFE0FA43D7"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3DE51890E7003E45"]
+			id: "0AA94F7CBA66E234"
+			tasks: [{
+				id: "7A4CAB602C35916C"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3DE51890E7003E45"]
+			id: "1D40A637DA2281E3"
+			tasks: [{
+				id: "3B9EE4FBCC429118"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1D40A637DA2281E3"
+				"0AA94F7CBA66E234"
+				"1CF08CD0D66ED261"
+			]
+			id: "5152E30904BEA80A"
+			tasks: [{
+				id: "61579F32A397982F"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3DE51890E7003E45"
+				"0EEA635484D9C366"
+			]
+			description: ["Optional if you're using Mekanism and want to pull gasses around!"]
+			id: "7DA0A21B2E80DAE7"
+			tasks: [{
+				id: "49927C1ADB3CA02A"
+				item: "pipez:gas_pipe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DE51890E7003E45"]
+			description: ["The wrench for the Pipez mod"]
+			id: "4C5D4A5ADDE9C4A1"
+			tasks: [{
+				id: "3022A88A78C440FD"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10C0227DA7BCA78F"]
+			description: ["An easy early game solution to moving around power"]
+			id: "3DE51890E7003E45"
+			tasks: [{
+				id: "7D916B634B4ECCC5"
+				title: "Pipez mod"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37B719553AE4FB00"]
+			description: [
+				"This section covers different pipes you can use, variants, wrenches and more"
+				""
+				"Please note: This isn't the case with some wrenches/mods however a lot of mods allow different wrenches from others to work on their items too!"
+			]
+			id: "10C0227DA7BCA78F"
+			tasks: [{
+				id: "1DAD8F164911CE2A"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "Different ways to move things around"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"10C0227DA7BCA78F"
+				"49543785C439A59B"
+			]
+			id: "0EEA635484D9C366"
+			tasks: [{
+				id: "0176D334C8E11A7B"
+				title: "Mekanism"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EEA635484D9C366"]
+			id: "3491E6CE3ED1C3E4"
+			tasks: [{
+				id: "69EC22F6AB7DEDE2"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5F17FBCC509599E3"
+				"3491E6CE3ED1C3E4"
+			]
+			id: "0A3CA297079BF12F"
+			tasks: [{
+				id: "5C2704BFDDD0246B"
+				item: "mekanism:advanced_universal_cable"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0A3CA297079BF12F"
+				"72D1BDCD631F4F24"
+			]
+			id: "24EEAE9EFC67A454"
+			tasks: [{
+				id: "53759250A6BD7BF4"
+				item: "mekanism:elite_universal_cable"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"24EEAE9EFC67A454"
+				"7F7EFE3306AB4B8B"
+			]
+			id: "4C7264D033BC53EB"
+			tasks: [{
+				id: "14535CA3B9D7B75A"
+				item: "mekanism:ultimate_universal_cable"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0EEA635484D9C366"]
+			id: "316B61195FF72AB6"
+			tasks: [{
+				id: "680DCA093E44C4B0"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5F17FBCC509599E3"
+				"316B61195FF72AB6"
+			]
+			id: "37DCDA3CB3059FAA"
+			tasks: [{
+				id: "063212B652562765"
+				item: "mekanism:advanced_mechanical_pipe"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"37DCDA3CB3059FAA"
+				"72D1BDCD631F4F24"
+			]
+			id: "0A48CC93AE931627"
+			tasks: [{
+				id: "3BB3E5847122D277"
+				item: "mekanism:elite_mechanical_pipe"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0A48CC93AE931627"
+				"7F7EFE3306AB4B8B"
+			]
+			id: "76EE2721773D30EB"
+			tasks: [{
+				id: "1134B97C52C17759"
+				item: "mekanism:ultimate_mechanical_pipe"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0EEA635484D9C366"]
+			id: "549BC2E44FC96B6E"
+			tasks: [{
+				id: "4A211D2E3FC290D1"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"549BC2E44FC96B6E"
+				"5F17FBCC509599E3"
+			]
+			id: "17289639BE016CF8"
+			tasks: [{
+				id: "18FFD874C5C47026"
+				item: "mekanism:advanced_pressurized_tube"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"17289639BE016CF8"
+				"5F17FBCC509599E3"
+			]
+			id: "757EF59DA23DC7D1"
+			tasks: [{
+				id: "19F34C58E7173C4B"
+				item: "mekanism:elite_pressurized_tube"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"757EF59DA23DC7D1"
+				"7F7EFE3306AB4B8B"
+			]
+			id: "7D3E275AE10FD99F"
+			tasks: [{
+				id: "383C106720C65574"
+				item: "mekanism:ultimate_pressurized_tube"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0EEA635484D9C366"]
+			id: "12942ECFE96289A7"
+			tasks: [{
+				id: "7B499DBBEAF05FDC"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0EEA635484D9C366"]
+			id: "53EBE351CF968DD0"
+			tasks: [{
+				id: "468A3258696A3985"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"12942ECFE96289A7"
+				"5F17FBCC509599E3"
+			]
+			id: "4C8B72A35D620AD9"
+			tasks: [{
+				id: "62A2B8C3585123D2"
+				item: "mekanism:advanced_logistical_transporter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"53EBE351CF968DD0"
+				"5F17FBCC509599E3"
+			]
+			id: "21284356B314C4BF"
+			tasks: [{
+				id: "019889A6C81A1F0C"
+				item: "mekanism:advanced_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4C8B72A35D620AD9"
+				"72D1BDCD631F4F24"
+			]
+			id: "6BED73335947F03C"
+			tasks: [{
+				id: "3B495D0E1D1D9302"
+				item: "mekanism:elite_logistical_transporter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"21284356B314C4BF"
+				"72D1BDCD631F4F24"
+			]
+			id: "500E27A5F78DE8AD"
+			tasks: [{
+				id: "33EBF5A12FD12C1D"
+				item: "mekanism:elite_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6BED73335947F03C"
+				"7F7EFE3306AB4B8B"
+			]
+			id: "6487645755651F03"
+			tasks: [{
+				id: "7AF3390FA8B13CD4"
+				item: "mekanism:ultimate_logistical_transporter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"7F7EFE3306AB4B8B"
+				"500E27A5F78DE8AD"
+			]
+			id: "33B7864391FAA295"
+			tasks: [{
+				id: "36510D4E1D3DC4CA"
+				item: "mekanism:ultimate_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0EEA635484D9C366"]
+			description: ["This is the wrench for Mekanism"]
+			id: "6D1BFCF868C8F854"
+			tasks: [{
+				id: "345EA6CD6628166A"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10C0227DA7BCA78F"]
+			description: [
+				"XNet allows you to pull items/fluid/energy etc around within a system but this requires power and a controller to do so."
+				""
+				"This is a great mid-game way to control your base before you get into wireless!"
+			]
+			icon: "xnet:controller"
+			id: "04982769035408C4"
+			tasks: [
+				{
+					id: "1600DAD6D877360E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "xnet:cables"
+						}
+					}
+					title: "Any #xnet:cables"
+					type: "item"
+				}
+				{
+					id: "795F28AE8414C75A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "xnet:connectors"
+						}
+					}
+					title: "Any #xnet:connectors"
+					type: "item"
+				}
+				{
+					id: "122C03C10DAE9377"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "xnet:advanced_connectors"
+						}
+					}
+					title: "Any #xnet:advanced_connectors"
+					type: "item"
+				}
+				{
+					id: "510D657025B00524"
+					item: "xnet:controller"
+					type: "item"
+				}
+			]
+			title: "XNet"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"10C0227DA7BCA78F"
+				"2BF7BF8C78794A07"
+			]
+			description: [
+				"Used to connect different things via Refined Storage"
+				""
+				"Items will still require power"
+			]
+			id: "519273DE61DAA2E8"
+			tasks: [{
+				id: "4862BA35A9B38AE5"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["519273DE61DAA2E8"]
+			description: ["This wrench is used for Refined Storage cables and items, this will also allow you to rotate things such as crafters"]
+			id: "4CA8B539EB8B78DE"
+			tasks: [{
+				id: "28881CFA34AEA3A1"
+				item: "refinedstorage:wrench"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["519273DE61DAA2E8"]
+			description: ["Used to import items/fluids into your refined storage system"]
+			id: "495227B37C5C486D"
+			tasks: [{
+				id: "5465645D38893D6C"
+				item: "refinedstorage:importer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["519273DE61DAA2E8"]
+			description: ["Used to remove items/fluids from your refined storage system"]
+			id: "313CE18F5BCEC7C8"
+			tasks: [{
+				id: "451A4ED715CD13D8"
+				item: "refinedstorage:exporter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["519273DE61DAA2E8"]
+			description: ["Used on storage containers such as chests, drawers, barrels etc. This will allow refined storage to import into, export from or view that item/fluid container"]
+			id: "5C88B4189EB92F17"
+			tasks: [{
+				id: "0A875AD6930FD000"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"10C0227DA7BCA78F"
+				"0538196CC93DC221"
+			]
+			description: [
+				"The basic tier of cable used in Applied Energistics 2"
+				""
+				"Unlike Refined Storage, the importers and exporters for this mod will be covered in the AE2 questline as they're technically not parts of the cabling."
+			]
+			id: "54C242B02DD4E8D9"
+			tasks: [{
+				id: "6D5E3F5EB1781AF3"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54C242B02DD4E8D9"]
+			id: "4536D315D6366E5D"
+			tasks: [{
+				id: "3FB1E79A8E5C8134"
+				item: "ae2:fluix_covered_cable"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4536D315D6366E5D"]
+			id: "287DB74E0643279E"
+			tasks: [{
+				id: "173EB882E0833102"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4536D315D6366E5D"]
+			id: "6BF41980FB1D55A7"
+			tasks: [{
+				id: "10BFD942292BD243"
+				item: "ae2:fluix_covered_dense_cable"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6BF41980FB1D55A7"]
+			id: "3BA0CFA92B641123"
+			tasks: [{
+				id: "2ADE93EB0DAC35B6"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54C242B02DD4E8D9"]
+			description: ["The wrench for AE2"]
+			id: "1634231DE27AA657"
+			tasks: [{
+				id: "50F091313B7E8C8A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:quartz_wrench"
+					}
+				}
+				title: "Any #ae2:quartz_wrench"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10C0227DA7BCA78F"]
+			description: ["Want to cover up those cables and make them blend in?"]
+			id: "2C5F7D71DFFB40E6"
+			tasks: [{
+				id: "562E731806012B8C"
+				title: "Facades"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C5F7D71DFFB40E6"]
+			description: [
+				"This block is the xnet facade"
+				""
+				"To use it, place it on the cable you want to hide and then right click or sneak right click with the block you want to use to cover it."
+			]
+			id: "527CFD86F5201A7B"
+			tasks: [{
+				id: "3E0061EBA1ED97F7"
+				item: "xnet:facade"
+				type: "item"
+			}]
+			title: "XNet"
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2C5F7D71DFFB40E6"
+				"0538196CC93DC221"
+			]
+			description: ["To use this, craft four cable anchors around the block you wish to use as a facade, if you're unsure you can always search it in JEI and click R or click U on the cable anchor."]
+			icon: "ae2:cable_anchor"
+			id: "52317A59A9E3FCF4"
+			tasks: [
+				{
+					id: "243D43C4C73988D7"
+					item: "ae2:cable_anchor"
+					type: "item"
+				}
+				{
+					id: "3BC2DF702A47935A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:knife"
+						}
+					}
+					title: "Any #ae2:knife"
+					type: "item"
+				}
+			]
+			title: "AE2"
+			x: 17.5d
+			y: -0.5d
+		}
+	]
+	title: "Ways to move things"
+}

@@ -1,0 +1,210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "0B1CECDAF6B5EB34"
+	icon: "mekanism:alloy_infused"
+	id: "1898CB1222229B23"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37B719553AE4FB00"]
+			id: "49543785C439A59B"
+			rewards: [{
+				count: 10
+				id: "1440AE42DB80CEB6"
+				item: "alltheores:osmium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "162BAD55A2CF4659"
+				item: "alltheores:raw_osmium"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["545E06F48382A515"]
+			id: "5F17FBCC509599E3"
+			tasks: [{
+				id: "4811D6B56B2B8B61"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F17FBCC509599E3"]
+			id: "72D1BDCD631F4F24"
+			tasks: [{
+				id: "3F0E40F732EBC81D"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72D1BDCD631F4F24"]
+			id: "7F7EFE3306AB4B8B"
+			tasks: [{
+				id: "67A90CCBDE614156"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49543785C439A59B"]
+			description: ["Your first Mek machine!"]
+			id: "545E06F48382A515"
+			tasks: [{
+				id: "65DF7BB6BDAD4A3A"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F17FBCC509599E3"]
+			id: "2B42645B1EDCB940"
+			tasks: [{
+				id: "78B281128BB36487"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B42645B1EDCB940"]
+			id: "74310D07D2D8FA71"
+			tasks: [{
+				id: "5D684AD2A8EE9C55"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74310D07D2D8FA71"]
+			id: "702060C1A159E826"
+			tasks: [{
+				id: "6DEFAA5D716625B0"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["702060C1A159E826"]
+			id: "1F871B4838719868"
+			tasks: [{
+				id: "764F5912E2A3EBDF"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6A86FE890C120F52"
+				"2B42645B1EDCB940"
+			]
+			id: "5DCA3E35D69561AD"
+			tasks: [{
+				id: "3966292AE5BC71A2"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77D1D1C5E03A673A"]
+			id: "190FD589DB0C6264"
+			tasks: [{
+				id: "5B2434F6DC383532"
+				item: "alltheores:steel_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2D9CC8294120ED54"]
+			id: "77D1D1C5E03A673A"
+			tasks: [{
+				id: "5E31FBAE4857A4C3"
+				item: "alltheores:steel_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37B719553AE4FB00"]
+			description: ["Make a hammer!"]
+			id: "2D9CC8294120ED54"
+			tasks: [{
+				id: "696D02830B0802B9"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "alltheores:ore_hammers"
+					}
+				}
+				title: "Any #alltheores:ore_hammers"
+				type: "item"
+			}]
+			title: "Hammer"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["190FD589DB0C6264"]
+			description: ["To make this easier and automated later on, I recommend making seeds from Mystical Agriculture!"]
+			id: "3905992A0C3CEC05"
+			tasks: [{
+				id: "516B51CB6266EB23"
+				item: "mysticalagriculture:steel_seeds"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["49543785C439A59B"]
+			description: ["To make this easier and automated later on, I recommend making seeds from Mystical Agriculture!"]
+			id: "58D85C14F8F9C69E"
+			tasks: [{
+				id: "351B9890E7317607"
+				item: "mysticalagriculture:osmium_seeds"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["190FD589DB0C6264"]
+			id: "6A86FE890C120F52"
+			tasks: [{
+				id: "028D6EB9C3B13CBF"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+	]
+	title: "Mekanism"
+}

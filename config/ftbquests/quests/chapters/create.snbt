@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "0B1CECDAF6B5EB34"
+	icon: "create:andesite_alloy"
+	id: "323DB9B05BA3F799"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37B719553AE4FB00"]
+			description: ["Welcome to Create! Copper has a use now!"]
+			id: "19F9FF6E08A01656"
+			tasks: [
+				{
+					id: "35F06151E3B2EAC9"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "7570F03930EB27AC"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+			]
+			title: "Andesite and copper!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19F9FF6E08A01656"]
+			id: "76E020C274F5DF87"
+			tasks: [{
+				id: "4854EB8B73A7AB5D"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "Create"
+}

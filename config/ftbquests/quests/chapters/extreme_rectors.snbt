@@ -1,0 +1,105 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extreme_rectors"
+	group: "0B1CECDAF6B5EB34"
+	icon: "alltheores:uranium_ingot"
+	id: "1BD7C97139DBADF1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37B719553AE4FB00"]
+			description: ["Welcome to Extreme Reactors! This is an easy early game way to get a large amount of power but first you'll need a lot of uranium as this will be fuelling our reactor!"]
+			id: "72F6870038A554DB"
+			tasks: [{
+				id: "3FEF208B735EF038"
+				item: "alltheores:uranium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B9A8F0FF621F36E"]
+			description: [
+				"You can use either of these items to build your first reactor!"
+				""
+				"You can use glass on the side of the reactor but not along the edges, this will require casing instead."
+			]
+			id: "62BDA3E56C3160A3"
+			tasks: [
+				{
+					id: "7EBE0DA55477CE3D"
+					item: "bigreactors:basic_reactorcasing"
+					type: "item"
+				}
+				{
+					id: "507B3AD100B68552"
+					item: "bigreactors:basic_reactorglass"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72F6870038A554DB"]
+			id: "7B9A8F0FF621F36E"
+			tasks: [{
+				id: "42BA6B7EDDA1955A"
+				item: "bigreactors:graphite_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B9A8F0FF621F36E"]
+			description: [
+				"The smallest reactor you can build is 3x3x3"
+				""
+				"Extreme Reactors doesn't have any pipes of their own so you will need to use different pipes, checkout the pipe category for this!"
+			]
+			id: "5C9FA64306E30355"
+			tasks: [
+				{
+					id: "717FC47C040C6AA2"
+					item: "bigreactors:basic_reactorsolidaccessport"
+					type: "item"
+				}
+				{
+					id: "284E9D2549FCDB5C"
+					item: "bigreactors:basic_reactorcontroller"
+					type: "item"
+				}
+				{
+					id: "6D7D6B896217F014"
+					item: "bigreactors:basic_reactorfuelrod"
+					type: "item"
+				}
+				{
+					id: "6263977DB105081C"
+					item: "bigreactors:basic_reactorpowertapfe_active"
+					type: "item"
+				}
+			]
+			title: "Reactor components"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C9FA64306E30355"]
+			description: ["You'll get this in the form of your reactors waste!"]
+			id: "5817F46086975AAF"
+			tasks: [{
+				id: "67D45C9839936713"
+				item: "bigreactors:cyanite_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Extreme Reactors"
+}

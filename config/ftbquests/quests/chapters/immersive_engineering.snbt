@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	group: "0B1CECDAF6B5EB34"
+	icon: "immersiveengineering:coal_coke"
+	id: "633B2AC5A3AA85D3"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Immersive Engineering"
+}

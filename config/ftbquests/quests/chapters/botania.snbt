@@ -1,0 +1,741 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "0E9C5249EF39A22C"
+	icon: "botania:fertilizer"
+	id: "0718EECC612BDD66"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome to Botania!"]
+			id: "6C4FC067FB644982"
+			rewards: [{
+				id: "49C8E1AC46B39A40"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
+			tasks: [{
+				id: "658199751047D2D7"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7068474892E24F0D"]
+			id: "40EFDF16E7C6FAF6"
+			tasks: [{
+				id: "7C8C4FC427330832"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["56979887933179BD"]
+			id: "7068474892E24F0D"
+			tasks: [{
+				id: "3EEF62A190321E2D"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"57B044E63576F7ED"
+				"5E5164CB7D0BE726"
+			]
+			icon: "botania:mana_pool"
+			id: "600E9872E34C5061"
+			tasks: [{
+				id: "48206ED8A6F14C10"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["40EFDF16E7C6FAF6"]
+			id: "57B044E63576F7ED"
+			tasks: [{
+				id: "25908762D34EA737"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["40EFDF16E7C6FAF6"]
+			id: "5E5164CB7D0BE726"
+			tasks: [{
+				id: "0B8A414A67C822D7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:livingwood_logs"
+					}
+				}
+				title: "Any #botania:livingwood_logs"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C4FC067FB644982"]
+			id: "56979887933179BD"
+			tasks: [{
+				id: "733F5F182CC98C20"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:petals"
+					}
+				}
+				title: "Any #botania:petals"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5B93E78A680A1247"
+				"0A6B4F1511703C97"
+			]
+			dependency_requirement: "one_completed"
+			id: "21F131C628218300"
+			tasks: [{
+				id: "26C9039281656996"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["600E9872E34C5061"]
+			id: "5B93E78A680A1247"
+			tasks: [{
+				id: "5FF001C686F6CD9C"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"56979887933179BD"
+				"40EFDF16E7C6FAF6"
+			]
+			id: "30A1A17695884800"
+			tasks: [{
+				id: "1ACA4009A779FDD6"
+				title: "Can you collect them all?"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "530C2E2B9EEFED79"
+			tasks: [{
+				id: "7AA679FFE1410AC3"
+				item: "botania:white_mystical_flower"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "5D12D0CD05449E5E"
+			tasks: [{
+				id: "25986DA18496E84F"
+				item: "botania:orange_mystical_flower"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "5927F1E80655053B"
+			tasks: [{
+				id: "724528040203C59E"
+				item: "botania:magenta_mystical_flower"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "7FF0E396C97B352E"
+			tasks: [{
+				id: "53807704EC5BE2FD"
+				item: "botania:light_blue_mystical_flower"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "1A09D73C9C3EA739"
+			tasks: [{
+				id: "338A7275FED2E2FE"
+				item: "botania:yellow_mystical_flower"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "4E1B1A8184FF0331"
+			tasks: [{
+				id: "0991278915880512"
+				item: "botania:lime_mystical_flower"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "49FF2823B1F0DFC0"
+			tasks: [{
+				id: "5017BDD8C7CBF0AE"
+				item: "botania:pink_mystical_flower"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "7FC49325B1A1D017"
+			tasks: [{
+				id: "1D6256F9F4B436B2"
+				item: "botania:gray_mystical_flower"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "6C82352CE2D0FCC2"
+			tasks: [{
+				id: "128EDF84530AFEBC"
+				item: "botania:light_gray_mystical_flower"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "75A1D9BD1FACDC78"
+			tasks: [{
+				id: "28002AAFB9F35D91"
+				item: "botania:cyan_mystical_flower"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "707F3ACABE79D957"
+			tasks: [{
+				id: "20A81BDB80C8DC04"
+				item: "botania:purple_mystical_flower"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "3F849FE9A03ABDCC"
+			tasks: [{
+				id: "09CB4BB4A3C6E13F"
+				item: "botania:blue_mystical_flower"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "27C0D1032F86C336"
+			tasks: [{
+				id: "4B16D9C8CB94ED7B"
+				item: "botania:brown_mystical_flower"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "74EDAC258F7F6663"
+			tasks: [{
+				id: "058F7FAFB9613E6F"
+				item: "botania:green_mystical_flower"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "09497F0429D359F6"
+			tasks: [{
+				id: "19D608DACB5F0721"
+				item: "botania:red_mystical_flower"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["30A1A17695884800"]
+			id: "0706F355042D0FC0"
+			tasks: [{
+				id: "1F1B7056ECC02772"
+				item: "botania:black_mystical_flower"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E5164CB7D0BE726"]
+			id: "1D1602929F806702"
+			tasks: [{
+				id: "0FA8F1F0D78B6DC9"
+				item: {
+					Count: 1b
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["600E9872E34C5061"]
+			id: "4C39602B023F751E"
+			tasks: [{
+				id: "33CB47000BC3581E"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C39602B023F751E"]
+			id: "0E34902B0C4956D0"
+			tasks: [
+				{
+					id: "62889B35D4A774C9"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CE7D2AFE9E117E3"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "554B06CF4426F967"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EB24526947176E5"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C39602B023F751E"]
+			description: ["Saving on Mana? I'm down! Follow the mystical agriculture questline to get this easier in future!"]
+			id: "3C01A2941A7564C5"
+			tasks: [{
+				id: "4C7941A2A39C5983"
+				item: "mysticalagriculture:manasteel_seeds"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["011A189F2E907650"]
+			id: "3630116A8D418798"
+			tasks: [{
+				id: "3BF6B42D32EB4DC7"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B815544E9B36B49"]
+			id: "011A189F2E907650"
+			tasks: [{
+				id: "04EEE64DE378B8C8"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5B93E78A680A1247"
+				"0A6B4F1511703C97"
+			]
+			dependency_requirement: "one_completed"
+			id: "5E9454CDC9787F01"
+			tasks: [{
+				id: "78072B6D96630CF2"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["600E9872E34C5061"]
+			id: "0A6B4F1511703C97"
+			tasks: [{
+				id: "2E4A7B1225ECE9FF"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E9454CDC9787F01"]
+			id: "5B815544E9B36B49"
+			tasks: [
+				{
+					id: "011BEE72A6B037E1"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "734BF6C25F3B0868"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "3BF6FB83601C232E"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+				{
+					id: "40E2B19122DB57F2"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					id: "6AA83A68CF2983BE"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+			]
+			title: "Runes!"
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["600E9872E34C5061"]
+			id: "1B3C9F5B9AEEE0E9"
+			tasks: [{
+				id: "5551A11E48015625"
+				item: "botania:mana_powder"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["011A189F2E907650"]
+			id: "3B08F6F379397914"
+			tasks: [{
+				id: "5610B6E538EB5EA6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/terrasteel"
+					}
+				}
+				title: "Any #forge:ingots/terrasteel"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B08F6F379397914"]
+			id: "464549DD1D1A97AA"
+			tasks: [
+				{
+					id: "2A765C54661A9298"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AA4899158F68204"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CC15D643479F388"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AAE0154CC9EFD11"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B08F6F379397914"]
+			description: ["Saving on Mana? I'm down! Follow the mystical agriculture questline to get this easier in future!"]
+			id: "7CFC3F08C3515E9F"
+			tasks: [{
+				id: "7BF4EAFFA5BA7586"
+				item: "mysticalagriculture:terrasteel_seeds"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3630116A8D418798"]
+			id: "588A012F055C2A3B"
+			tasks: [{
+				id: "266F1677D4DF92F1"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["588A012F055C2A3B"]
+			id: "551B48EB129A60C9"
+			tasks: [
+				{
+					id: "1FC72F75526664F8"
+					item: {
+						Count: 1b
+						id: "botania:elementium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C7BA3DA58807353"
+					item: {
+						Count: 1b
+						id: "botania:elementium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E33D28669242825"
+					item: {
+						Count: 1b
+						id: "botania:elementium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "214798C6099D10BE"
+					item: {
+						Count: 1b
+						id: "botania:elementium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["588A012F055C2A3B"]
+			description: ["Saving on Mana? I'm down! Follow the mystical agriculture questline to get this easier in future!"]
+			id: "1825EA9C7EDB162B"
+			tasks: [{
+				id: "3D2A8225FB04397D"
+				item: "mysticalagriculture:elementium_seeds"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3630116A8D418798"]
+			id: "1B1FD48CEA6C4290"
+			tasks: [{
+				id: "0385F95C23B94F7B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:dreamwood_logs"
+					}
+				}
+				title: "Any #botania:dreamwood_logs"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B1FD48CEA6C4290"]
+			id: "23898436C2335F45"
+			tasks: [{
+				id: "68C5B76A65795452"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3630116A8D418798"]
+			id: "07ACAB62F711B586"
+			tasks: [{
+				id: "30AF4FB88D0D7F36"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:gems/dragonstone"
+					}
+				}
+				title: "Any #forge:gems/dragonstone"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D1602929F806702"]
+			id: "7E52F2C9D0AF387D"
+			tasks: [{
+				id: "705877D6F61FCF4B"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C39602B023F751E"]
+			id: "34ADEF304ADE0BFD"
+			tasks: [{
+				id: "3DF19C3118547990"
+				item: "botania:mana_distributor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+	]
+	title: "Botania"
+}

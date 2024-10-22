@@ -1,0 +1,758 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "all_the_ores"
+	group: "3269EA31E17BD0F1"
+	icon: "minecraft:iron_ore"
+	id: "3FEDC6DA69021E06"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "3044C02F55A5419C"
+			tasks: [{
+				id: "6790F34DAA40B845"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:coal_ores"
+					}
+				}
+				title: "Any #minecraft:coal_ores"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "0CA5D48E529C7191"
+			tasks: [{
+				id: "5D505B5E61BF3499"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:iron_ores"
+					}
+				}
+				title: "Any #minecraft:iron_ores"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "26B9039D879E8E35"
+			tasks: [{
+				id: "50C595F5850A3192"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:copper_ores"
+					}
+				}
+				title: "Any #minecraft:copper_ores"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "21139B9584184429"
+			tasks: [{
+				id: "50DC9C54B1FBAE33"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/gold"
+					}
+				}
+				title: "Any #forge:ores/gold"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "52FFDE12CA05D9AD"
+			tasks: [{
+				id: "73B1B1E978F1AC84"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/redstone"
+					}
+				}
+				title: "Any #forge:ores/redstone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "1FBA36D3F6773BE1"
+			tasks: [{
+				id: "4C6E16EF4B477475"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:emerald_ores"
+					}
+				}
+				title: "Any #minecraft:emerald_ores"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "5471223D58FD6E40"
+			tasks: [{
+				id: "67CC731C9D6E6F03"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:lapis_ores"
+					}
+				}
+				title: "Any #minecraft:lapis_ores"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "67F088E216B1D442"
+			tasks: [{
+				id: "293076D9F2F9314D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:diamond_ores"
+					}
+				}
+				title: "Any #minecraft:diamond_ores"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "694A784A80434B92"
+			tasks: [{
+				id: "346BE169D3A9A90C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/quartz"
+					}
+				}
+				title: "Any #forge:ores/quartz"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "213A30B2F1F47A28"
+			tasks: [{
+				id: "6E8941B50B26B64D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/aluminum"
+					}
+				}
+				title: "Any #forge:ores/aluminum"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "613221BB2422EB88"
+			tasks: [{
+				id: "7BF4DB2F5E19ED21"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/lead"
+					}
+				}
+				title: "Any #forge:ores/lead"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "2A627A2F6D96BA43"
+			tasks: [{
+				id: "7F55C33BA94EAC01"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/nickel"
+					}
+				}
+				title: "Any #forge:ores/nickel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "3F78C85F45DE5219"
+			tasks: [{
+				id: "5DB18CE48AEBAD59"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/osmium"
+					}
+				}
+				title: "Any #forge:ores/osmium"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "7E45644ECA780A86"
+			tasks: [{
+				id: "51D8897AC450240A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/platinum"
+					}
+				}
+				title: "Any #forge:ores/platinum"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "6DDFA9C671825D72"
+			tasks: [{
+				id: "1D54FFB29BC22499"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/silver"
+					}
+				}
+				title: "Any #forge:ores/silver"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "7731DA5AA9B0499D"
+			tasks: [{
+				id: "006417C067E247C2"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/tin"
+					}
+				}
+				title: "Any #forge:ores/tin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "0AEDC534DA8FC28C"
+			tasks: [{
+				id: "019E205CEC2A777C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/uranium"
+					}
+				}
+				title: "Any #forge:ores/uranium"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "25410BB03FE93BAE"
+			tasks: [{
+				id: "74D4FAEFB7EBDF58"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/zinc"
+					}
+				}
+				title: "Any #forge:ores/zinc"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "35C94420B26C6343"
+			tasks: [{
+				id: "2847278F713FED9B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/iridium"
+					}
+				}
+				title: "Any #forge:ores/iridium"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "667AE93210ED9D96"
+			tasks: [{
+				id: "273E6AD24A8CDFFF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/ruby"
+					}
+				}
+				title: "Any #forge:ores/ruby"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "7540AF5DD3FD0CB8"
+			tasks: [{
+				id: "31104AF7C3D45E3C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/peridot"
+					}
+				}
+				title: "Any #forge:ores/peridot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "142DF80D4EFA817A"
+			tasks: [{
+				id: "2B2AA3FA286267A8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/sapphire"
+					}
+				}
+				title: "Any #forge:ores/sapphire"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "41EE6F44500C760F"
+			tasks: [{
+				id: "60366F151EB24668"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/fluorite"
+					}
+				}
+				title: "Any #forge:ores/fluorite"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "3AC62D6817577AC5"
+			tasks: [{
+				id: "39517286062C419E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/apatite"
+					}
+				}
+				title: "Any #forge:ores/apatite"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "14CF78F078BEB82D"
+			tasks: [{
+				id: "78B96D526B2A8447"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/cinnabar"
+					}
+				}
+				title: "Any #forge:ores/cinnabar"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "004BDE2719ACF20A"
+			tasks: [{
+				id: "61ACAAFCE451F887"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/niter"
+					}
+				}
+				title: "Any #forge:ores/niter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "686FB053A0B68FF3"
+			tasks: [{
+				id: "2B66A5CBC00608A2"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/sulfur"
+					}
+				}
+				title: "Any #forge:ores/sulfur"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "5A5CB90154248C7C"
+			tasks: [{
+				id: "3BC1F3F86368C612"
+				item: "immersiveengineering:ore_aluminum"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "07844F125CE440BB"
+			tasks: [{
+				id: "44C85E2ACE2FF899"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/cheese"
+					}
+				}
+				title: "Any #forge:ores/cheese"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "182B4B178BA9E407"
+			tasks: [{
+				id: "4409B0487A6977B4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/desh"
+					}
+				}
+				title: "Any #forge:ores/desh"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "28486CE74F54C403"
+			tasks: [{
+				id: "0F0D7989BCFA47D7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/ice_shard"
+					}
+				}
+				title: "Any #forge:ores/ice_shard"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "2494F99B40EF8726"
+			tasks: [{
+				id: "5712B541DABE87FF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/ostrum"
+					}
+				}
+				title: "Any #forge:ores/ostrum"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "4F1F005BCF616635"
+			tasks: [{
+				id: "367656E8554DA69E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/calorite"
+					}
+				}
+				title: "Any #forge:ores/calorite"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "35308832EFE8B5E7"
+			tasks: [{
+				id: "1D1DC46245F9DC0F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/yellorite"
+					}
+				}
+				title: "Any #forge:ores/yellorite"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "0594F64E874D6AE7"
+			tasks: [{
+				id: "6AA2F8E640E76CE1"
+				item: "bigreactors:anglesite_ore"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "5B242FA27A410567"
+			tasks: [{
+				id: "700AC32021F33361"
+				item: "bigreactors:benitoite_ore"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "02CEE77B20B6478A"
+			tasks: [{
+				id: "5FDD5E2F734DE32B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/dimensional_shard"
+					}
+				}
+				title: "Any #forge:ores/dimensional_shard"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "2F010424C6C4F553"
+			tasks: [{
+				id: "4C4373F2CF9DB190"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/prosperity"
+					}
+				}
+				title: "Any #forge:ores/prosperity"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "05A2132E84822270"
+			tasks: [{
+				id: "7E16A8FD7AE5A1E4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/inferium"
+					}
+				}
+				title: "Any #forge:ores/inferium"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "286613FBA1139414"
+			tasks: [{
+				id: "58678DB48E5D85A2"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/soulium"
+					}
+				}
+				title: "Any #forge:ores/soulium"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17DF32DAEF2CEC33"]
+			id: "551CA72FAD82F5EA"
+			tasks: [{
+				id: "4ACFC372256DEF70"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/cobalt"
+					}
+				}
+				title: "Any #forge:ores/cobalt"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37B719553AE4FB00"]
+			description: ["Is this even possible? Who knows! Silk touch at the ready!"]
+			disable_toast: true
+			hide_dependent_lines: true
+			id: "17DF32DAEF2CEC33"
+			rewards: [{
+				id: "41182F1DB10FCB7F"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D29D883FAD074E0"
+				title: "Every ore?!"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+	]
+	title: "All the ores!"
+}

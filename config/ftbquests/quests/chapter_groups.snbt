@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "0E9C5249EF39A22C", title: "Getting started" }
+		{ id: "175372E337042CB9", title: "Storage" }
+		{ id: "0B1CECDAF6B5EB34", title: "Technology" }
+		{ id: "0D47AD304F67B0B3", title: "Exploration" }
+		{ id: "3269EA31E17BD0F1", title: "Bonus Quests" }
+	]
+}

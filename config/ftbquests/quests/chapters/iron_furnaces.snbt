@@ -1,0 +1,345 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_furnaces"
+	group: "0E9C5249EF39A22C"
+	icon: {
+		Count: 1b
+		id: "ironfurnaces:million_furnace"
+		tag: {
+			display: {
+				Name: "{\"extra\":[{\"color\":\"yellow\",\"text\":\"R\"},{\"color\":\"aqua\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"i\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"red\",\"text\":\"b\"},{\"color\":\"light_purple\",\"text\":\"o\"},{\"color\":\"aqua\",\"text\":\"w\"},{\"color\":\"light_purple\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"yellow\",\"text\":\"u\"},{\"color\":\"red\",\"text\":\"r\"},{\"color\":\"green\",\"text\":\"n\"},{\"color\":\"green\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"c\"},{\"color\":\"blue\",\"text\":\"e\"}],\"text\":\"\"}"
+			}
+		}
+	}
+	id: "552D542CBB4A7539"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Hate how slow regular furnaces are? This is the mod for you!"]
+			id: "0C555EBCAF35F8F3"
+			tasks: [{
+				id: "062577BBBABFC666"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C555EBCAF35F8F3"]
+			id: "782F3A4E17E6781C"
+			tasks: [{
+				id: "1C6474E7F45A80F1"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"782F3A4E17E6781C"
+				"42AD0D0EBBED18F4"
+			]
+			dependency_requirement: "one_completed"
+			id: "692D6A513EB69043"
+			tasks: [{
+				id: "10EA8A67F1EFEC0F"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["692D6A513EB69043"]
+			id: "73984F5C805C99B8"
+			tasks: [{
+				id: "154D40DDCB674F61"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73984F5C805C99B8"]
+			id: "23C95F8A643F926A"
+			tasks: [{
+				id: "75F6A8A47A90D99A"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"23C95F8A643F926A"
+				"25B33407D98A9D6F"
+			]
+			dependency_requirement: "one_completed"
+			id: "2A362D193B7CCCE5"
+			tasks: [{
+				id: "77B4D653B17564CB"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["73984F5C805C99B8"]
+			id: "25B33407D98A9D6F"
+			tasks: [{
+				id: "398F6C94F578B49A"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A362D193B7CCCE5"]
+			id: "4905252ADCFA679E"
+			tasks: [{
+				id: "1CE78874C6EC25FC"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0C555EBCAF35F8F3"]
+			id: "046212301BD7C6AA"
+			tasks: [{
+				id: "66E5E65967FD7AEA"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"046212301BD7C6AA"
+				"782F3A4E17E6781C"
+			]
+			dependency_requirement: "one_completed"
+			id: "42AD0D0EBBED18F4"
+			tasks: [{
+				id: "0BF96816581FDAA6"
+				item: "ironfurnaces:silver_furnace"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6708D898DDFB4E72"
+				"399ADC02FA668AE1"
+			]
+			id: "6238A01B2F6B65FD"
+			tasks: [{
+				id: "21E4064590CDBA59"
+				item: {
+					Count: 1b
+					id: "ironfurnaces:million_furnace"
+					tag: {
+						display: {
+							Name: "{\"extra\":[{\"color\":\"light_purple\",\"text\":\"R\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"i\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"b\"},{\"color\":\"light_purple\",\"text\":\"o\"},{\"color\":\"green\",\"text\":\"w\"},{\"color\":\"yellow\",\"text\":\" \"},{\"color\":\"aqua\",\"text\":\"F\"},{\"color\":\"green\",\"text\":\"u\"},{\"color\":\"blue\",\"text\":\"r\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"aqua\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"c\"},{\"color\":\"light_purple\",\"text\":\"e\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4905252ADCFA679E"]
+			id: "6708D898DDFB4E72"
+			tasks: [{
+				count: 8L
+				id: "4AE709C94C76652E"
+				item: "ironfurnaces:rainbow_plating"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4905252ADCFA679E"]
+			id: "399ADC02FA668AE1"
+			tasks: [{
+				id: "1F5A2A07EE7A2836"
+				item: "ironfurnaces:rainbow_core"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6238A01B2F6B65FD"]
+			description: ["You blew up your rainbow furnace?! Well, at least you got a cool drop!"]
+			id: "1361AF583B3B7C8A"
+			optional: true
+			rewards: [{
+				id: "1B7B10EE980904F2"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "32FDCD8C42DA0230"
+				item: "ironfurnaces:rainbow_coal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0C555EBCAF35F8F3"]
+			description: ["You can craft upgrade kits for your furnaces to save time! Just shift right click them onto your existing furnace, make sure you have the right tier upgrade!"]
+			id: "689528558361F160"
+			tasks: [{
+				id: "543A2C87385F5883"
+				item: "ironfurnaces:upgrade_iron"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A31AA41047ED81F"]
+			id: "4A93993A65FB2E72"
+			tasks: [{
+				id: "2D2F31B483E494C8"
+				item: "ironfurnaces:augment_blasting"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C555EBCAF35F8F3"]
+			description: [
+				"How does turning your super fast furnace into a super fast blaster sound? No? How about a factory with multiple slots that runs on energy instead?! I thought so! "
+				""
+				"Make sure you read the augment, they all have pros and cons!"
+			]
+			id: "0A31AA41047ED81F"
+			tasks: [{
+				id: "61B715D862CB8DA7"
+				title: "Augments!"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0A31AA41047ED81F"]
+			id: "218333901E23B34F"
+			tasks: [{
+				id: "6C83D6DD349B59D3"
+				item: "ironfurnaces:augment_smoking"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A31AA41047ED81F"]
+			id: "02F9E1F69B4D4F00"
+			tasks: [{
+				id: "2F789D8B6973D7A1"
+				item: "ironfurnaces:augment_factory"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A31AA41047ED81F"]
+			id: "2CF313C16B161671"
+			tasks: [{
+				id: "0D83679013EB147A"
+				item: "ironfurnaces:augment_generator"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A31AA41047ED81F"]
+			id: "6C7DF149A26E189B"
+			tasks: [{
+				id: "1CB6E672C22655AB"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A31AA41047ED81F"]
+			id: "043F8DA600E88153"
+			tasks: [{
+				id: "1CAC62BFAD626B35"
+				item: "ironfurnaces:augment_fuel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A31AA41047ED81F"]
+			id: "64AC5605FD34890D"
+			tasks: [{
+				id: "42654CF54FDC7D63"
+				item: "ironfurnaces:augment_xp"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74F468FAF2824033"]
+			id: "1539A88148729A3A"
+			tasks: [{
+				id: "72AD49F4347A0253"
+				item: "ironfurnaces:item_spooky"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74F468FAF2824033"]
+			id: "706AC13CDE9A6190"
+			tasks: [{
+				id: "330B9E76F407F857"
+				item: "ironfurnaces:item_xmas"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C555EBCAF35F8F3"]
+			id: "74F468FAF2824033"
+			tasks: [{
+				id: "1A164801E256C147"
+				title: "Wraps!"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "Iron Furnaces"
+}

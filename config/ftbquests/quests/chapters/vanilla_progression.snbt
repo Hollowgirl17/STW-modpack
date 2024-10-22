@@ -1,0 +1,386 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vanilla_progression"
+	group: "0E9C5249EF39A22C"
+	icon: "minecraft:oak_log"
+	id: "2FDE0229FA84FEE0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "all_started"
+			description: ["As always, we begin by punching a tree, any tree will do!"]
+			id: "2283526C08D3FAEA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13A6A8CFA25FC18C"
+					table_id: 2057222963205038249L
+					type: "random"
+				}
+				{
+					count: 10
+					id: "4DB77A90995E4BD1"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
+			subtitle: "Get some wood"
+			tasks: [{
+				count: 32L
+				id: "582814E986313901"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Punch a tree"
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2283526C08D3FAEA"]
+			description: ["This will unlock the Tinkers Construct questline"]
+			id: "68DA8BD14F76E41D"
+			tasks: [{
+				id: "4F17335F41B21804"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:workbenches"
+					}
+				}
+				title: "Any #forge:workbenches"
+				type: "item"
+			}]
+			title: "Crafting table!"
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68DA8BD14F76E41D"]
+			description: [
+				"Your first way of getting ores and mining, awh! Will also unlock numerous questlines!"
+				""
+				"If you'd like to look at ore duplication, check out the Mekanism quest line once you get some Osmium!"
+			]
+			id: "37B719553AE4FB00"
+			rewards: [{
+				count: 10
+				id: "59B742DD16E88150"
+				item: "tconstruct:blank_sand_cast"
+				type: "item"
+			}]
+			tasks: [{
+				id: "400F1E9F4572BAC3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:pickaxes"
+					}
+				}
+				title: "Any #forge:pickaxes"
+				type: "item"
+			}]
+			title: "Pickaxe!"
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37B719553AE4FB00"]
+			description: ["Welcome to the stone age!"]
+			id: "283E542C1F5B899B"
+			tasks: [{
+				id: "1584E5F4E960C0CF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:cobblestone"
+					}
+				}
+				title: "Any #forge:cobblestone"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["283E542C1F5B899B"]
+			description: ["Will unlock the Iron Furnaces questline"]
+			id: "2FA8D0CBC969831F"
+			tasks: [{
+				id: "368302E98FC59D80"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["534CF52BB056D888"]
+			description: ["Completing this will unlock the AE2 quest line!"]
+			icon: "ae2:flawless_budding_quartz"
+			id: "6925D057D83F3442"
+			rewards: [{
+				count: 10
+				id: "773DA67339671D67"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00AECFF34A73261F"
+				structure: "ae2:meteorite"
+				type: "structure"
+			}]
+			title: "Find a meteor!"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FA8D0CBC969831F"]
+			description: ["Now we're through the basics, lets see about moving forward!"]
+			id: "534CF52BB056D888"
+			tasks: [{
+				id: "1BDF19F22949D742"
+				title: "Key to the world!"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["534CF52BB056D888"]
+			description: ["Unlocks the nether mob kills!"]
+			icon: "minecraft:netherrack"
+			id: "5148F90F697FC5DF"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6CEA632D4A06E23F"
+				type: "dimension"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5148F90F697FC5DF"]
+			icon: "minecraft:end_stone"
+			id: "1C01BCEBE359CBFC"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "41D68F6DA2E6252A"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5148F90F697FC5DF"]
+			id: "6CD53BE4224DF794"
+			tasks: [{
+				icon: "minecraft:sculk_sensor"
+				id: "309EAEF13C26082B"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["37B719553AE4FB00"]
+			description: [
+				"Diamonds make the world go around!"
+				""
+				"Unlocks the Refined Storage quest line"
+			]
+			id: "688D8AC263A89046"
+			rewards: [
+				{
+					id: "10590DAF79E447E3"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "2568D8D6E9EC729B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0FEBF1593D9CBC29"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["68DA8BD14F76E41D"]
+			description: ["Are you ready to fight through the night?"]
+			id: "57D4906A9E11A4AD"
+			tasks: [{
+				id: "65F5FDAF8ACD852E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:swords"
+					}
+				}
+				title: "Any #forge:swords"
+				type: "item"
+			}]
+			title: "Ready your defences!"
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2283526C08D3FAEA"]
+			id: "29DD985949E51529"
+			tasks: [{
+				id: "7875D1002015F985"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				title: "Any #forge:chests/wooden"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["68DA8BD14F76E41D"]
+			id: "1889FF28C78AD47B"
+			tasks: [{
+				id: "7E09B59D82E8515D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/hoes"
+					}
+				}
+				title: "Any #forge:tools/hoes"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4587EC3ED826875F"]
+			id: "5C27DDF6D06A0710"
+			rewards: [
+				{
+					id: "113BDB3660738BDA"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0399F15372B8B02F"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "mining_dimension:mining"
+				id: "7CE9D3A041CA5A00"
+				type: "dimension"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37B719553AE4FB00"]
+			description: [
+				"So, you've got a pickaxe! "
+				""
+				"In this pack, we know what it's like when you just want to relax, zone out and mine! To get to the mining dimension is pretty easy and should be easily one of the first things you get setup to help with ores!"
+			]
+			id: "4587EC3ED826875F"
+			tasks: [{
+				id: "20FEFCC4C82481A8"
+				item: "mining_dimension:teleporter"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5148F90F697FC5DF"]
+			id: "6F85A32CBBEBAA04"
+			tasks: [{
+				id: "568EEE23DC48C00B"
+				structure: "minecraft:fortress"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5148F90F697FC5DF"]
+			id: "11CADA2CDEDA5FA2"
+			tasks: [{
+				id: "77BCF057E551A94F"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5148F90F697FC5DF"]
+			id: "44F42CC06CC4FEA7"
+			tasks: [{
+				id: "22340647F7640D38"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C01BCEBE359CBFC"]
+			id: "6244BD13B490D719"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "231A30ADE27820F5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6244BD13B490D719"]
+			id: "04B9814E818C7F77"
+			tasks: [{
+				id: "70AFEB293DF71861"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+	]
+	title: "Starting out"
+}
