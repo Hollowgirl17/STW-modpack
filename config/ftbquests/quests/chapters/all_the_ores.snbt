@@ -11,6 +11,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "3044C02F55A5419C"
+			rewards: [{
+				id: "23CA63039099A89D"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "6790F34DAA40B845"
 				item: {
@@ -29,6 +34,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "0CA5D48E529C7191"
+			rewards: [{
+				id: "48AFDA12A73ECE15"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "5D505B5E61BF3499"
 				item: {
@@ -47,6 +57,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "26B9039D879E8E35"
+			rewards: [{
+				id: "1C27826A0D89CE99"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "50C595F5850A3192"
 				item: {
@@ -65,6 +80,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "21139B9584184429"
+			rewards: [{
+				id: "284706C0697EB76B"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "50DC9C54B1FBAE33"
 				item: {
@@ -83,6 +103,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "52FFDE12CA05D9AD"
+			rewards: [{
+				id: "02AD1B521999962E"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "73B1B1E978F1AC84"
 				item: {
@@ -101,6 +126,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "1FBA36D3F6773BE1"
+			rewards: [{
+				id: "6D44DB9AAB7D5A5D"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "4C6E16EF4B477475"
 				item: {
@@ -119,6 +149,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "5471223D58FD6E40"
+			rewards: [{
+				id: "629A4A63173443BD"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "67CC731C9D6E6F03"
 				item: {
@@ -137,6 +172,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "67F088E216B1D442"
+			rewards: [{
+				id: "00007FC58E379D93"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "293076D9F2F9314D"
 				item: {
@@ -155,6 +195,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "694A784A80434B92"
+			rewards: [{
+				id: "69778B72E5FED62B"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "346BE169D3A9A90C"
 				item: {
@@ -173,6 +218,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "213A30B2F1F47A28"
+			rewards: [{
+				id: "44648D1B6A1E9E4F"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "6E8941B50B26B64D"
 				item: {
@@ -191,6 +241,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "613221BB2422EB88"
+			rewards: [{
+				id: "20807B7944C752AD"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7BF4DB2F5E19ED21"
 				item: {
@@ -209,6 +264,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "2A627A2F6D96BA43"
+			rewards: [{
+				id: "151A91976E7FEF93"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7F55C33BA94EAC01"
 				item: {
@@ -227,6 +287,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "3F78C85F45DE5219"
+			rewards: [{
+				id: "6AC68BFDD631C7A4"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "5DB18CE48AEBAD59"
 				item: {
@@ -245,6 +310,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "7E45644ECA780A86"
+			rewards: [{
+				id: "6833ED9CA1AE28D1"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "51D8897AC450240A"
 				item: {
@@ -263,6 +333,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "6DDFA9C671825D72"
+			rewards: [{
+				id: "444160AFEFFA7CF7"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1D54FFB29BC22499"
 				item: {
@@ -281,6 +356,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "7731DA5AA9B0499D"
+			rewards: [{
+				id: "00B3B663FDE7A94A"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "006417C067E247C2"
 				item: {
@@ -299,6 +379,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "0AEDC534DA8FC28C"
+			rewards: [{
+				id: "77F86516D2BF6E46"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "019E205CEC2A777C"
 				item: {
@@ -317,6 +402,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "25410BB03FE93BAE"
+			rewards: [{
+				id: "4219C9190E693E2E"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "74D4FAEFB7EBDF58"
 				item: {
@@ -335,6 +425,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "35C94420B26C6343"
+			rewards: [{
+				id: "24F339862C115C4D"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "2847278F713FED9B"
 				item: {
@@ -353,6 +448,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "667AE93210ED9D96"
+			rewards: [{
+				id: "5592D69CDFEC3980"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "273E6AD24A8CDFFF"
 				item: {
@@ -371,6 +471,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "7540AF5DD3FD0CB8"
+			rewards: [{
+				id: "414099F1A572AF18"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "31104AF7C3D45E3C"
 				item: {
@@ -389,6 +494,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "142DF80D4EFA817A"
+			rewards: [{
+				id: "5DEAACCCA708FDE5"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "2B2AA3FA286267A8"
 				item: {
@@ -407,6 +517,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "41EE6F44500C760F"
+			rewards: [{
+				id: "3FDBF3269B4D2484"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "60366F151EB24668"
 				item: {
@@ -425,6 +540,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "3AC62D6817577AC5"
+			rewards: [{
+				id: "11F03D942D769C5A"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "39517286062C419E"
 				item: {
@@ -443,6 +563,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "14CF78F078BEB82D"
+			rewards: [{
+				id: "1FC427091F98C723"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "78B96D526B2A8447"
 				item: {
@@ -461,6 +586,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "004BDE2719ACF20A"
+			rewards: [{
+				id: "499459BCA71DBF7E"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "61ACAAFCE451F887"
 				item: {
@@ -479,6 +609,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "686FB053A0B68FF3"
+			rewards: [{
+				id: "530D75C02350613F"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "2B66A5CBC00608A2"
 				item: {
@@ -497,6 +632,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "5A5CB90154248C7C"
+			rewards: [{
+				id: "0A90BE5E74AFCC6E"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3BC1F3F86368C612"
 				item: "immersiveengineering:ore_aluminum"
@@ -508,6 +648,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "07844F125CE440BB"
+			rewards: [{
+				id: "05F0DFE72BA3F309"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "44C85E2ACE2FF899"
 				item: {
@@ -526,6 +671,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "182B4B178BA9E407"
+			rewards: [{
+				id: "1199A5B7781C10C6"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "4409B0487A6977B4"
 				item: {
@@ -544,6 +694,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "28486CE74F54C403"
+			rewards: [{
+				id: "10D58D777DAFA7BF"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "0F0D7989BCFA47D7"
 				item: {
@@ -562,6 +717,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "2494F99B40EF8726"
+			rewards: [{
+				id: "2371AB72118057D3"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "5712B541DABE87FF"
 				item: {
@@ -580,6 +740,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "4F1F005BCF616635"
+			rewards: [{
+				id: "2030E1721A6B6628"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "367656E8554DA69E"
 				item: {
@@ -598,6 +763,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "35308832EFE8B5E7"
+			rewards: [{
+				id: "365CFC7008F6438D"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1D1DC46245F9DC0F"
 				item: {
@@ -616,6 +786,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "0594F64E874D6AE7"
+			rewards: [{
+				id: "06DAB5045AF5386F"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "6AA2F8E640E76CE1"
 				item: "bigreactors:anglesite_ore"
@@ -627,6 +802,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "5B242FA27A410567"
+			rewards: [{
+				id: "2891BB09D29DE4F9"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "700AC32021F33361"
 				item: "bigreactors:benitoite_ore"
@@ -638,6 +818,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "02CEE77B20B6478A"
+			rewards: [{
+				id: "08470D4EE4A20558"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "5FDD5E2F734DE32B"
 				item: {
@@ -656,6 +841,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "2F010424C6C4F553"
+			rewards: [{
+				id: "67496742E3463D29"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "4C4373F2CF9DB190"
 				item: {
@@ -674,6 +864,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "05A2132E84822270"
+			rewards: [{
+				id: "481DBE0A2AECFBA5"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7E16A8FD7AE5A1E4"
 				item: {
@@ -692,6 +887,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "286613FBA1139414"
+			rewards: [{
+				id: "034F1803946EB0CF"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "58678DB48E5D85A2"
 				item: {
@@ -710,6 +910,11 @@
 		{
 			dependencies: ["17DF32DAEF2CEC33"]
 			id: "551CA72FAD82F5EA"
+			rewards: [{
+				id: "53F94044C0B3D99F"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "4ACFC372256DEF70"
 				item: {
@@ -731,20 +936,27 @@
 			disable_toast: true
 			hide_dependent_lines: true
 			id: "17DF32DAEF2CEC33"
-			rewards: [{
-				id: "41182F1DB10FCB7F"
-				item: {
-					Count: 1b
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:silk_touch"
-							lvl: 1s
-						}]
+			rewards: [
+				{
+					id: "41182F1DB10FCB7F"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3075A6903B86EBCE"
+					type: "xp"
+					xp: 25
+				}
+			]
 			tasks: [{
 				id: "4D29D883FAD074E0"
 				title: "Every ore?!"

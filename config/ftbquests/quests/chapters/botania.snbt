@@ -11,11 +11,18 @@
 		{
 			description: ["Welcome to Botania!"]
 			id: "6C4FC067FB644982"
-			rewards: [{
-				id: "49C8E1AC46B39A40"
-				item: "botania:flower_bag"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "49C8E1AC46B39A40"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+				{
+					id: "07FA4390A08BC043"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				id: "658199751047D2D7"
 				item: "botania:fertilizer"
@@ -27,6 +34,11 @@
 		{
 			dependencies: ["7068474892E24F0D"]
 			id: "40EFDF16E7C6FAF6"
+			rewards: [{
+				id: "439CAD72F475CF2F"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7C8C4FC427330832"
 				item: "botania:pure_daisy"
@@ -38,6 +50,11 @@
 		{
 			dependencies: ["56979887933179BD"]
 			id: "7068474892E24F0D"
+			rewards: [{
+				id: "6CA9EB0F25D3B79C"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3EEF62A190321E2D"
 				item: "botania:apothecary_default"
@@ -53,6 +70,11 @@
 			]
 			icon: "botania:mana_pool"
 			id: "600E9872E34C5061"
+			rewards: [{
+				id: "358D128097CE00E6"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "48206ED8A6F14C10"
 				item: "botania:mana_pool"
@@ -64,6 +86,11 @@
 		{
 			dependencies: ["40EFDF16E7C6FAF6"]
 			id: "57B044E63576F7ED"
+			rewards: [{
+				id: "6DA6DA4280BA9F0E"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "25908762D34EA737"
 				item: "botania:livingrock"
@@ -75,6 +102,11 @@
 		{
 			dependencies: ["40EFDF16E7C6FAF6"]
 			id: "5E5164CB7D0BE726"
+			rewards: [{
+				id: "25199D4646449FC7"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "0B8A414A67C822D7"
 				item: {
@@ -93,6 +125,11 @@
 		{
 			dependencies: ["6C4FC067FB644982"]
 			id: "56979887933179BD"
+			rewards: [{
+				id: "0D3D8CAE3B6AF7EC"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "733F5F182CC98C20"
 				item: {
@@ -115,6 +152,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "21F131C628218300"
+			rewards: [{
+				id: "0F96FEDB80B144E2"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "26C9039281656996"
 				item: "botania:mana_tablet"
@@ -126,6 +168,11 @@
 		{
 			dependencies: ["600E9872E34C5061"]
 			id: "5B93E78A680A1247"
+			rewards: [{
+				id: "0F0DEB5AB4C9BBDE"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "5FF001C686F6CD9C"
 				item: "botania:mana_diamond"
@@ -140,6 +187,11 @@
 				"40EFDF16E7C6FAF6"
 			]
 			id: "30A1A17695884800"
+			rewards: [{
+				id: "6366C3A7F87D2BFF"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1ACA4009A779FDD6"
 				title: "Can you collect them all?"
@@ -151,6 +203,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "530C2E2B9EEFED79"
+			rewards: [{
+				id: "19728D2395054976"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7AA679FFE1410AC3"
 				item: "botania:white_mystical_flower"
@@ -162,6 +219,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "5D12D0CD05449E5E"
+			rewards: [{
+				id: "4C0A72A7AF60BC3A"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "25986DA18496E84F"
 				item: "botania:orange_mystical_flower"
@@ -173,6 +235,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "5927F1E80655053B"
+			rewards: [{
+				id: "2325B78F399A1E18"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "724528040203C59E"
 				item: "botania:magenta_mystical_flower"
@@ -184,6 +251,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "7FF0E396C97B352E"
+			rewards: [{
+				id: "79DFF7C64003C44E"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "53807704EC5BE2FD"
 				item: "botania:light_blue_mystical_flower"
@@ -195,6 +267,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "1A09D73C9C3EA739"
+			rewards: [{
+				id: "163EFD99671295BB"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "338A7275FED2E2FE"
 				item: "botania:yellow_mystical_flower"
@@ -206,6 +283,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "4E1B1A8184FF0331"
+			rewards: [{
+				id: "233DADCF807BF529"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "0991278915880512"
 				item: "botania:lime_mystical_flower"
@@ -217,6 +299,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "49FF2823B1F0DFC0"
+			rewards: [{
+				id: "5C1DCA3DF221581C"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "5017BDD8C7CBF0AE"
 				item: "botania:pink_mystical_flower"
@@ -228,6 +315,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "7FC49325B1A1D017"
+			rewards: [{
+				id: "603E2927FE2662CB"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1D6256F9F4B436B2"
 				item: "botania:gray_mystical_flower"
@@ -239,6 +331,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "6C82352CE2D0FCC2"
+			rewards: [{
+				id: "181CA07944DDFDD2"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "128EDF84530AFEBC"
 				item: "botania:light_gray_mystical_flower"
@@ -250,6 +347,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "75A1D9BD1FACDC78"
+			rewards: [{
+				id: "5FA3308525C2ACFC"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "28002AAFB9F35D91"
 				item: "botania:cyan_mystical_flower"
@@ -261,6 +363,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "707F3ACABE79D957"
+			rewards: [{
+				id: "674E90D49C86F07E"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "20A81BDB80C8DC04"
 				item: "botania:purple_mystical_flower"
@@ -272,6 +379,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "3F849FE9A03ABDCC"
+			rewards: [{
+				id: "7A5309BC1771F3B2"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "09CB4BB4A3C6E13F"
 				item: "botania:blue_mystical_flower"
@@ -283,6 +395,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "27C0D1032F86C336"
+			rewards: [{
+				id: "294B8A36F9DC149D"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "4B16D9C8CB94ED7B"
 				item: "botania:brown_mystical_flower"
@@ -294,6 +411,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "74EDAC258F7F6663"
+			rewards: [{
+				id: "4CA7091F9ADF9DFE"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "058F7FAFB9613E6F"
 				item: "botania:green_mystical_flower"
@@ -305,6 +427,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "09497F0429D359F6"
+			rewards: [{
+				id: "4047C904666C74A0"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "19D608DACB5F0721"
 				item: "botania:red_mystical_flower"
@@ -316,6 +443,11 @@
 		{
 			dependencies: ["30A1A17695884800"]
 			id: "0706F355042D0FC0"
+			rewards: [{
+				id: "15AC05579AA7132A"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1F1B7056ECC02772"
 				item: "botania:black_mystical_flower"
@@ -327,6 +459,11 @@
 		{
 			dependencies: ["5E5164CB7D0BE726"]
 			id: "1D1602929F806702"
+			rewards: [{
+				id: "1652CC0D32A7C4DB"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "0FA8F1F0D78B6DC9"
 				item: {
@@ -345,6 +482,11 @@
 		{
 			dependencies: ["600E9872E34C5061"]
 			id: "4C39602B023F751E"
+			rewards: [{
+				id: "1931223AC9556194"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "33CB47000BC3581E"
 				item: "botania:manasteel_ingot"
@@ -356,6 +498,11 @@
 		{
 			dependencies: ["4C39602B023F751E"]
 			id: "0E34902B0C4956D0"
+			rewards: [{
+				id: "416F6E888C0558C6"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [
 				{
 					id: "62889B35D4A774C9"
@@ -409,6 +556,11 @@
 			dependencies: ["4C39602B023F751E"]
 			description: ["Saving on Mana? I'm down! Follow the mystical agriculture questline to get this easier in future!"]
 			id: "3C01A2941A7564C5"
+			rewards: [{
+				id: "50B7ABA1DDC5C4DE"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "4C7941A2A39C5983"
 				item: "mysticalagriculture:manasteel_seeds"
@@ -420,6 +572,11 @@
 		{
 			dependencies: ["011A189F2E907650"]
 			id: "3630116A8D418798"
+			rewards: [{
+				id: "6D6F5D212660B00B"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3BF6B42D32EB4DC7"
 				item: "botania:alfheim_portal"
@@ -431,6 +588,11 @@
 		{
 			dependencies: ["5B815544E9B36B49"]
 			id: "011A189F2E907650"
+			rewards: [{
+				id: "27DC2C9F9ECE0AB4"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "04EEE64DE378B8C8"
 				item: "botania:terra_plate"
@@ -446,6 +608,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "5E9454CDC9787F01"
+			rewards: [{
+				id: "543708E9A2FD94ED"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "78072B6D96630CF2"
 				item: "botania:runic_altar"
@@ -457,6 +624,11 @@
 		{
 			dependencies: ["600E9872E34C5061"]
 			id: "0A6B4F1511703C97"
+			rewards: [{
+				id: "2EF39B757B402795"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "2E4A7B1225ECE9FF"
 				item: "botania:mana_pearl"
@@ -468,6 +640,11 @@
 		{
 			dependencies: ["5E9454CDC9787F01"]
 			id: "5B815544E9B36B49"
+			rewards: [{
+				id: "41906DA39D708F79"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [
 				{
 					id: "011BEE72A6B037E1"
@@ -502,6 +679,11 @@
 		{
 			dependencies: ["600E9872E34C5061"]
 			id: "1B3C9F5B9AEEE0E9"
+			rewards: [{
+				id: "56D37B1188B73BD6"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "5551A11E48015625"
 				item: "botania:mana_powder"
@@ -513,6 +695,11 @@
 		{
 			dependencies: ["011A189F2E907650"]
 			id: "3B08F6F379397914"
+			rewards: [{
+				id: "1481A5A07E8B02BF"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "5610B6E538EB5EA6"
 				item: {
@@ -531,6 +718,11 @@
 		{
 			dependencies: ["3B08F6F379397914"]
 			id: "464549DD1D1A97AA"
+			rewards: [{
+				id: "6DE6590602D212FF"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [
 				{
 					id: "2A765C54661A9298"
@@ -584,6 +776,11 @@
 			dependencies: ["3B08F6F379397914"]
 			description: ["Saving on Mana? I'm down! Follow the mystical agriculture questline to get this easier in future!"]
 			id: "7CFC3F08C3515E9F"
+			rewards: [{
+				id: "64800A9D7F911539"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7BF4EAFFA5BA7586"
 				item: "mysticalagriculture:terrasteel_seeds"
@@ -595,6 +792,11 @@
 		{
 			dependencies: ["3630116A8D418798"]
 			id: "588A012F055C2A3B"
+			rewards: [{
+				id: "4A8D38691B84F0CE"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "266F1677D4DF92F1"
 				item: "botania:elementium_ingot"
@@ -606,6 +808,11 @@
 		{
 			dependencies: ["588A012F055C2A3B"]
 			id: "551B48EB129A60C9"
+			rewards: [{
+				id: "24F46658C3FF49C2"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [
 				{
 					id: "1FC72F75526664F8"
@@ -659,6 +866,11 @@
 			dependencies: ["588A012F055C2A3B"]
 			description: ["Saving on Mana? I'm down! Follow the mystical agriculture questline to get this easier in future!"]
 			id: "1825EA9C7EDB162B"
+			rewards: [{
+				id: "786940410EDC8D06"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3D2A8225FB04397D"
 				item: "mysticalagriculture:elementium_seeds"
@@ -670,6 +882,11 @@
 		{
 			dependencies: ["3630116A8D418798"]
 			id: "1B1FD48CEA6C4290"
+			rewards: [{
+				id: "5D5136036E04357C"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "0385F95C23B94F7B"
 				item: {
@@ -688,6 +905,11 @@
 		{
 			dependencies: ["1B1FD48CEA6C4290"]
 			id: "23898436C2335F45"
+			rewards: [{
+				id: "134AD70BE0090D84"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "68C5B76A65795452"
 				item: "botania:elven_spreader"
@@ -699,6 +921,11 @@
 		{
 			dependencies: ["3630116A8D418798"]
 			id: "07ACAB62F711B586"
+			rewards: [{
+				id: "157840937CE7841D"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "30AF4FB88D0D7F36"
 				item: {
@@ -717,6 +944,11 @@
 		{
 			dependencies: ["1D1602929F806702"]
 			id: "7E52F2C9D0AF387D"
+			rewards: [{
+				id: "01BADD368863DAF3"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "705877D6F61FCF4B"
 				item: "botania:mana_spreader"
@@ -728,6 +960,11 @@
 		{
 			dependencies: ["4C39602B023F751E"]
 			id: "34ADEF304ADE0BFD"
+			rewards: [{
+				id: "507995238D9C4D55"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3DF19C3118547990"
 				item: "botania:mana_distributor"

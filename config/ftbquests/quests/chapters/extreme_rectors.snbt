@@ -5,100 +5,607 @@
 	group: "0B1CECDAF6B5EB34"
 	icon: "alltheores:uranium_ingot"
 	id: "1BD7C97139DBADF1"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["37B719553AE4FB00"]
 			description: ["Welcome to Extreme Reactors! This is an easy early game way to get a large amount of power but first you'll need a lot of uranium as this will be fuelling our reactor!"]
 			id: "72F6870038A554DB"
+			rewards: [{
+				id: "569E9490F63A30B7"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "square"
 			tasks: [{
 				id: "3FEF208B735EF038"
-				item: "alltheores:uranium_ingot"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/uranium"
+					}
+				}
+				title: "Any #forge:ingots/uranium"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			title: "Uranium/Yellorium"
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7B9A8F0FF621F36E"]
 			description: [
-				"You can use either of these items to build your first reactor!"
+				"For our first reactor, we'll build a 3x3 size. You're welcome to change the size however I'd recommend checking the book to see that you're able to. with basic reactor casing/components."
 				""
-				"You can use glass on the side of the reactor but not along the edges, this will require casing instead."
+				"You can use glass on the side of the reactor but not along the frame, this will require casing instead."
 			]
 			id: "62BDA3E56C3160A3"
-			tasks: [
-				{
-					id: "7EBE0DA55477CE3D"
-					item: "bigreactors:basic_reactorcasing"
-					type: "item"
-				}
-				{
-					id: "507B3AD100B68552"
-					item: "bigreactors:basic_reactorglass"
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: -1.5d
+			rewards: [{
+				id: "706AF55255F8FBF5"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				count: 22L
+				id: "7EBE0DA55477CE3D"
+				item: "bigreactors:basic_reactorcasing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["72F6870038A554DB"]
 			id: "7B9A8F0FF621F36E"
+			rewards: [{
+				id: "1CA638C1E61D6C9D"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "42BA6B7EDDA1955A"
 				item: "bigreactors:graphite_ingot"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: -2.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["7B9A8F0FF621F36E"]
-			description: [
-				"The smallest reactor you can build is 3x3x3"
-				""
-				"Extreme Reactors doesn't have any pipes of their own so you will need to use different pipes, checkout the pipe category for this!"
-			]
-			id: "5C9FA64306E30355"
-			tasks: [
-				{
-					id: "717FC47C040C6AA2"
-					item: "bigreactors:basic_reactorsolidaccessport"
-					type: "item"
-				}
-				{
-					id: "284E9D2549FCDB5C"
-					item: "bigreactors:basic_reactorcontroller"
-					type: "item"
-				}
-				{
-					id: "6D7D6B896217F014"
-					item: "bigreactors:basic_reactorfuelrod"
-					type: "item"
-				}
-				{
-					id: "6263977DB105081C"
-					item: "bigreactors:basic_reactorpowertapfe_active"
-					type: "item"
-				}
-			]
-			title: "Reactor components"
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5C9FA64306E30355"]
+			dependencies: ["69260F274B789218"]
 			description: ["You'll get this in the form of your reactors waste!"]
 			id: "5817F46086975AAF"
+			rewards: [{
+				id: "2F5843D2DBBBCEB8"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "67D45C9839936713"
 				item: "bigreactors:cyanite_ingot"
 				type: "item"
 			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["62BDA3E56C3160A3"]
+			description: ["You can replace any reactor casing except on the frame with reactor glass"]
+			id: "33B444E62B057321"
+			optional: true
+			rewards: [{
+				id: "5C87843406B32190"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "5D308BBD9557F1A6"
+				item: "bigreactors:basic_reactorglass"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6505664C01619C8E"]
+			description: [
+				"You're now ready to build your reactor! "
+				""
+				"Once built, start putting uranium/yellorium into the reactor to power it up"
+			]
+			id: "69260F274B789218"
+			rewards: [{
+				id: "7643101B959FF181"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0605D5FBAB5BD38D"
+				item: "bigreactors:basic_reactorcontroller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["62BDA3E56C3160A3"]
+			id: "1EA9B89255CE6707"
+			rewards: [{
+				id: "2473B634704DA269"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "2D10C8F6B00E9484"
+					item: "bigreactors:basic_reactorcontrolrod"
+					type: "item"
+				}
+				{
+					id: "797D99C84E1CD3C6"
+					item: "bigreactors:basic_reactorfuelrod"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EA9B89255CE6707"]
+			description: ["You'll need one for input and one for output, make sure to specify which port does what."]
+			id: "0B8972D4A4FB5DEE"
+			rewards: [{
+				id: "00638DC7B2EF7922"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				count: 2L
+				id: "630DDFF11CF6BD09"
+				item: "bigreactors:basic_reactorsolidaccessport"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B8972D4A4FB5DEE"]
+			id: "6505664C01619C8E"
+			rewards: [{
+				id: "383BD02BA1BA2D4C"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "49CFC45EDE13329F"
+				item: "bigreactors:basic_reactorpowertapfe_active"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["62BDA3E56C3160A3"]
+			description: ["To allow you to expand beyond 5x5."]
+			id: "4CBA7015E695047A"
+			rewards: [{
+				id: "518F3A1BBCED5576"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "648A2E18A013495E"
+					item: "bigreactors:reinforced_reactorcasing"
+					type: "item"
+				}
+				{
+					id: "78C7C76F66E21376"
+					item: "bigreactors:reinforced_reactorglass"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1EA9B89255CE6707"]
+			description: ["To allow you to expand beyond 5x5."]
+			id: "6A905DF68CB9DCB2"
+			rewards: [{
+				id: "522ECFD698AB67E3"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "125A5DD45830C834"
+					item: "bigreactors:reinforced_reactorcontrolrod"
+					type: "item"
+				}
+				{
+					id: "383FDC7EE779AF04"
+					item: "bigreactors:reinforced_reactorfuelrod"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0B8972D4A4FB5DEE"]
+			description: ["To allow you to expand beyond 5x5."]
+			id: "54779FB2775352A4"
+			rewards: [{
+				id: "2690D3D43FDFD374"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "4DBE0DB2C780478C"
+				item: "bigreactors:reinforced_reactorsolidaccessport"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6505664C01619C8E"]
+			id: "6E25CCED96585462"
+			rewards: [{
+				id: "2DE4B8F584CE4F05"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "5BC4C79544C7B377"
+				item: "bigreactors:reinforced_reactorpowertapfe_active"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6505664C01619C8E"]
+			description: ["You're welcome to use a passive tap instead of active if you wish but I'd recommend using active until you know the mod more to make an education decision what's best for your setup"]
+			id: "2874DE1B0E51D736"
+			optional: true
+			rewards: [{
+				id: "3277753CB1914E20"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "0271D590497A708C"
+					item: "bigreactors:basic_reactorpowertapfe_passive"
+					type: "item"
+				}
+				{
+					id: "33EC1A3E8C8EC05B"
+					item: "bigreactors:reinforced_reactorpowertapfe_passive"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69260F274B789218"]
+			description: ["To allow you to expand beyond 5x5."]
+			id: "3D75D4B548A4017E"
+			rewards: [{
+				id: "3E9DEA817E5A42E3"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "674D98FA2611273F"
+				item: "bigreactors:reinforced_reactorcontroller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["07EF90341468A20C"]
+			description: ["This can go on any of the sides as long as it's not in the frame"]
+			id: "6BEE4E128EAA78FA"
+			rewards: [{
+				id: "4A1EDA4B6F2EFF2D"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "058B78AC052E588D"
+				item: "bigreactors:reprocessorcontroller"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5817F46086975AAF"]
+			description: [
+				"Next up is a 3x3x7 reprocessor, this will allow us to reprocess our Cyanite into Blutonium which is a more effective fuel than uranium/yellorium for our reactor"
+				""
+				"You can either do the route without glass or the route with, as long as you do one of those!"
+			]
+			id: "43ABA0FDA647709F"
+			optional: true
+			rewards: [{
+				id: "37AC25886347A508"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				count: 52L
+				id: "48572551A6C63227"
+				item: "bigreactors:reprocessorcasing"
+				type: "item"
+			}]
+			title: "Just casing"
 			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1EA9B89255CE6707"]
+			description: [
+				"This won't help out much on a 3x3 reactor to begin with however you can drastically decrease the temperature of your reactor by using moderator blocks, these will be quite expensive of course but they can help a lot with increasing fuel efficiency and power output. These blocks/fluids are placed on the sides of fuel rods inside the reactor."
+				""
+				"In order of how effective they are:"
+				""
+				"Dry Ice"
+				"Iron"
+				"Manasteel"
+				"Lead"
+				"Graphite"
+				"Tangerium"
+				"Electrum"
+				"Emerald"
+				"Cryomisi"
+				"Elementium"
+				"Diamond"
+				"Terrasteel"
+				"Nertherite"
+				"Redfrigium"
+			]
+			id: "255D92FA6B6D40DF"
+			rewards: [{
+				id: "45B29991066BD5D4"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "209C10B94702FDFE"
+				title: "Reactor moderators"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5817F46086975AAF"]
+			description: [
+				"Next up is a 3x3x7 reprocessor, this will allow us to reprocess our Cyanite into Blutonium which is a more effective fuel than uranium/yellorium for our reactor"
+				""
+				"You can either do the route without glass or the route with, as long as you do one of those!"
+			]
+			id: "217B303456EFE20E"
+			optional: true
+			rewards: [{
+				id: "20424005578E834D"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 36L
+					id: "696C55DBE9580385"
+					item: "bigreactors:reprocessorcasing"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "68DF86DF5EDF14FE"
+					item: "bigreactors:reprocessorglass"
+					type: "item"
+				}
+			]
+			title: "With glass"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"217B303456EFE20E"
+				"43ABA0FDA647709F"
+			]
+			dependency_requirement: "one_completed"
+			description: ["This must go in the middle spot on the top of the machine"]
+			id: "676B4ABFAD894F8A"
+			rewards: [{
+				id: "69285B4611E9CB12"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "739B33098B98F506"
+				item: "bigreactors:reprocessorwasteinjector"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3824110D52FD47F1"]
+			description: ["This can go on any of the sides as long as it's not in the frame"]
+			id: "07EF90341468A20C"
+			rewards: [{
+				id: "66AC9A54F27378AF"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "60132847B70CB658"
+					item: "bigreactors:reprocessorpowerport"
+					type: "item"
+				}
+				{
+					id: "19BC0D0EBDE8D5AF"
+					item: "bigreactors:reprocessorfluidinjector"
+					type: "item"
+				}
+				{
+					id: "2819F200EAE85956"
+					item: "bigreactors:reprocessoroutputport"
+					type: "item"
+				}
+			]
+			title: "Reprocessor components"
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["676B4ABFAD894F8A"]
+			description: ["This must go in the middle spot on the base of the machine, there should be 5 air blocks between this and the waste injector."]
+			id: "3824110D52FD47F1"
+			rewards: [{
+				id: "382FF7B48D5B77BE"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "482773F22E9BD9E5"
+				item: "bigreactors:reprocessorcollector"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"21F9E46FE1B34744"
+				"6BEE4E128EAA78FA"
+			]
+			description: [
+				"Now you're using the reprocessor and fluidizer to make better fuels for your reactor, you'll require this to put fluid forms into the reactor. Just add it to your initital reactor on one of the sides, pump the new fuel in and it should be good to go!"
+				""
+				"You will have been required to upgrade to a reinforced reactor for this to work."
+			]
+			id: "50779F5C522358C2"
+			rewards: [{
+				id: "7CBC886631F0B251"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "2DED0AC71BBA345F"
+				item: "bigreactors:reinforced_reactorfluidaccessport"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C1CBF6875A6318D"]
+			description: ["This can go on any of the sides as long as it's not in the frame"]
+			id: "21F9E46FE1B34744"
+			rewards: [{
+				id: "1A12BA36DC0F3E70"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "06DDEFC8202C7B3F"
+				item: "bigreactors:fluidizercontroller"
+				type: "item"
+			}]
+			x: 6.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["5817F46086975AAF"]
+			description: [
+				"The minimum size for the Fluidizer is 3x3x3 which is what we'll build to begin with."
+				""
+				"You can either do this with or without glass."
+				""
+				"We'll be making 2 of these to so that we can have one to make solids into coolants, the other will turn fluids into fuel."
+				""
+				"The only difference in building is that one will require a fluid injector whereas the other will require a solid."
+			]
+			id: "68D29893FAB68207"
+			optional: true
+			rewards: [{
+				id: "7308012DA4E75FA1"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				count: 44L
+				id: "632D29F3C854E8D0"
+				item: "bigreactors:fluidizercasing"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68D29893FAB68207"]
+			dependency_requirement: "one_completed"
+			description: ["This can go on any of the sides as long as it's not in the frame"]
+			id: "2C1CBF6875A6318D"
+			rewards: [{
+				id: "6850FC377125C5B5"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "2AA78E340DBEA2A9"
+					item: "bigreactors:fluidizersolidinjector"
+					type: "item"
+				}
+				{
+					id: "2EFEA5E4D9470F75"
+					item: "bigreactors:fluidizerfluidinjector"
+					type: "item"
+				}
+				{
+					id: "48EBA714FEA4D63D"
+					item: "bigreactors:fluidizeroutputport"
+					type: "item"
+				}
+				{
+					id: "56D37655A2A30643"
+					item: "bigreactors:fluidizerpowerport"
+					type: "item"
+				}
+			]
+			title: "Fluidizer components"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68D29893FAB68207"]
+			description: ["If you expand beyond 3x3, you may wish to use glass instead of casing. That's fine as long as the frame is still made out of casing."]
+			id: "2E2E6876DBF5C694"
+			rewards: [{
+				id: "2699F962D54398B2"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "1191CD7E69CDF99E"
+				item: "bigreactors:fluidizerglass"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
 		}
 	]
 	title: "Extreme Reactors"

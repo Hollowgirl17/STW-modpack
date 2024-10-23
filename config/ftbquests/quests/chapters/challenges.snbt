@@ -24,6 +24,11 @@
 					item: "simplehats:hatbag_easter"
 					type: "item"
 				}
+				{
+					id: "342F4E2B4DF005F0"
+					type: "xp_levels"
+					xp_levels: 25
+				}
 			]
 			tasks: [{
 				id: "2CF8070F9A533BF8"
@@ -49,6 +54,11 @@
 					id: "020C6489E16CF0AC"
 					item: "simplehats:hatbag_summer"
 					type: "item"
+				}
+				{
+					id: "2E82F6DFE7829AC0"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
 			tasks: [{
@@ -76,6 +86,11 @@
 					item: "simplehats:hatbag_halloween"
 					type: "item"
 				}
+				{
+					id: "34662FCF6AE92529"
+					type: "xp_levels"
+					xp_levels: 25
+				}
 			]
 			tasks: [{
 				consume_items: true
@@ -102,6 +117,11 @@
 					id: "7F14C3164EEF8897"
 					item: "simplehats:hatbag_festive"
 					type: "item"
+				}
+				{
+					id: "32DDF5AB9A8B2726"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
 			tasks: [{

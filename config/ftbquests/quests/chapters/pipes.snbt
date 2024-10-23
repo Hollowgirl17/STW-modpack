@@ -5,12 +5,17 @@
 	group: "0B1CECDAF6B5EB34"
 	icon: "mekanism:ultimate_mechanical_pipe"
 	id: "37794EC2777B23BB"
-	order_index: 6
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["3DE51890E7003E45"]
 			id: "1CF08CD0D66ED261"
+			rewards: [{
+				id: "3C939AA10BA6A895"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "53246BFFE0FA43D7"
 				item: "pipez:item_pipe"
@@ -22,6 +27,11 @@
 		{
 			dependencies: ["3DE51890E7003E45"]
 			id: "0AA94F7CBA66E234"
+			rewards: [{
+				id: "517F3F9333A49AA7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7A4CAB602C35916C"
 				item: "pipez:fluid_pipe"
@@ -33,6 +43,11 @@
 		{
 			dependencies: ["3DE51890E7003E45"]
 			id: "1D40A637DA2281E3"
+			rewards: [{
+				id: "4E3CDE76B78BC74A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3B9EE4FBCC429118"
 				item: "pipez:energy_pipe"
@@ -48,6 +63,11 @@
 				"1CF08CD0D66ED261"
 			]
 			id: "5152E30904BEA80A"
+			rewards: [{
+				id: "3EAF954E89C476F0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "61579F32A397982F"
 				item: "pipez:universal_pipe"
@@ -63,6 +83,11 @@
 			]
 			description: ["Optional if you're using Mekanism and want to pull gasses around!"]
 			id: "7DA0A21B2E80DAE7"
+			rewards: [{
+				id: "3B916F8B6F416897"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "49927C1ADB3CA02A"
 				item: "pipez:gas_pipe"
@@ -75,6 +100,11 @@
 			dependencies: ["3DE51890E7003E45"]
 			description: ["The wrench for the Pipez mod"]
 			id: "4C5D4A5ADDE9C4A1"
+			rewards: [{
+				id: "13B38044D8BD93D7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3022A88A78C440FD"
 				item: "pipez:wrench"
@@ -87,6 +117,11 @@
 			dependencies: ["10C0227DA7BCA78F"]
 			description: ["An easy early game solution to moving around power"]
 			id: "3DE51890E7003E45"
+			rewards: [{
+				id: "03B0AB16CAE15483"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7D916B634B4ECCC5"
 				title: "Pipez mod"
@@ -103,21 +138,28 @@
 				"Please note: This isn't the case with some wrenches/mods however a lot of mods allow different wrenches from others to work on their items too!"
 			]
 			id: "10C0227DA7BCA78F"
+			rewards: [{
+				id: "0B79231650D4B8F0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1DAD8F164911CE2A"
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			title: "Different ways to move things around"
+			title: "Item/Energy/Fluid/Gas Logistics"
 			x: 6.0d
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"10C0227DA7BCA78F"
-				"49543785C439A59B"
-			]
+			dependencies: ["10C0227DA7BCA78F"]
 			id: "0EEA635484D9C366"
+			rewards: [{
+				id: "5C2B3CADED8EDDB6"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0176D334C8E11A7B"
 				title: "Mekanism"
@@ -129,6 +171,11 @@
 		{
 			dependencies: ["0EEA635484D9C366"]
 			id: "3491E6CE3ED1C3E4"
+			rewards: [{
+				id: "5E702C5FFCE0BD66"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "69EC22F6AB7DEDE2"
 				item: "mekanism:basic_universal_cable"
@@ -138,11 +185,13 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"5F17FBCC509599E3"
-				"3491E6CE3ED1C3E4"
-			]
+			dependencies: ["3491E6CE3ED1C3E4"]
 			id: "0A3CA297079BF12F"
+			rewards: [{
+				id: "52C191F89F3D00AD"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5C2704BFDDD0246B"
 				item: "mekanism:advanced_universal_cable"
@@ -152,11 +201,13 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"0A3CA297079BF12F"
-				"72D1BDCD631F4F24"
-			]
+			dependencies: ["0A3CA297079BF12F"]
 			id: "24EEAE9EFC67A454"
+			rewards: [{
+				id: "4C9AE450C330D8C3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "53759250A6BD7BF4"
 				item: "mekanism:elite_universal_cable"
@@ -166,11 +217,13 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"24EEAE9EFC67A454"
-				"7F7EFE3306AB4B8B"
-			]
+			dependencies: ["24EEAE9EFC67A454"]
 			id: "4C7264D033BC53EB"
+			rewards: [{
+				id: "19BAE5B7337F31CF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "14535CA3B9D7B75A"
 				item: "mekanism:ultimate_universal_cable"
@@ -182,6 +235,11 @@
 		{
 			dependencies: ["0EEA635484D9C366"]
 			id: "316B61195FF72AB6"
+			rewards: [{
+				id: "63C1F266F62C82A7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "680DCA093E44C4B0"
 				item: "mekanism:basic_mechanical_pipe"
@@ -191,11 +249,13 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"5F17FBCC509599E3"
-				"316B61195FF72AB6"
-			]
+			dependencies: ["316B61195FF72AB6"]
 			id: "37DCDA3CB3059FAA"
+			rewards: [{
+				id: "6B955B0133EA15E0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "063212B652562765"
 				item: "mekanism:advanced_mechanical_pipe"
@@ -205,11 +265,13 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"37DCDA3CB3059FAA"
-				"72D1BDCD631F4F24"
-			]
+			dependencies: ["37DCDA3CB3059FAA"]
 			id: "0A48CC93AE931627"
+			rewards: [{
+				id: "27524EDABE4DBD60"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3BB3E5847122D277"
 				item: "mekanism:elite_mechanical_pipe"
@@ -219,11 +281,13 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"0A48CC93AE931627"
-				"7F7EFE3306AB4B8B"
-			]
+			dependencies: ["0A48CC93AE931627"]
 			id: "76EE2721773D30EB"
+			rewards: [{
+				id: "3D3362987280B648"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1134B97C52C17759"
 				item: "mekanism:ultimate_mechanical_pipe"
@@ -235,6 +299,11 @@
 		{
 			dependencies: ["0EEA635484D9C366"]
 			id: "549BC2E44FC96B6E"
+			rewards: [{
+				id: "07CEECAB41197E01"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4A211D2E3FC290D1"
 				item: "mekanism:basic_pressurized_tube"
@@ -244,11 +313,13 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"549BC2E44FC96B6E"
-				"5F17FBCC509599E3"
-			]
+			dependencies: ["549BC2E44FC96B6E"]
 			id: "17289639BE016CF8"
+			rewards: [{
+				id: "507BB2E4155E1274"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "18FFD874C5C47026"
 				item: "mekanism:advanced_pressurized_tube"
@@ -258,11 +329,13 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"17289639BE016CF8"
-				"5F17FBCC509599E3"
-			]
+			dependencies: ["17289639BE016CF8"]
 			id: "757EF59DA23DC7D1"
+			rewards: [{
+				id: "475F38B4533DBAF9"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "19F34C58E7173C4B"
 				item: "mekanism:elite_pressurized_tube"
@@ -272,11 +345,13 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"757EF59DA23DC7D1"
-				"7F7EFE3306AB4B8B"
-			]
+			dependencies: ["757EF59DA23DC7D1"]
 			id: "7D3E275AE10FD99F"
+			rewards: [{
+				id: "11E9760C592E8389"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "383C106720C65574"
 				item: "mekanism:ultimate_pressurized_tube"
@@ -288,6 +363,11 @@
 		{
 			dependencies: ["0EEA635484D9C366"]
 			id: "12942ECFE96289A7"
+			rewards: [{
+				id: "25A53EDEB9B2164A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7B499DBBEAF05FDC"
 				item: "mekanism:basic_logistical_transporter"
@@ -299,6 +379,11 @@
 		{
 			dependencies: ["0EEA635484D9C366"]
 			id: "53EBE351CF968DD0"
+			rewards: [{
+				id: "13EBB445DB7ADCFE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "468A3258696A3985"
 				item: "mekanism:basic_thermodynamic_conductor"
@@ -308,11 +393,13 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"12942ECFE96289A7"
-				"5F17FBCC509599E3"
-			]
+			dependencies: ["12942ECFE96289A7"]
 			id: "4C8B72A35D620AD9"
+			rewards: [{
+				id: "70ADC61E5D719A70"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "62A2B8C3585123D2"
 				item: "mekanism:advanced_logistical_transporter"
@@ -322,11 +409,13 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"53EBE351CF968DD0"
-				"5F17FBCC509599E3"
-			]
+			dependencies: ["53EBE351CF968DD0"]
 			id: "21284356B314C4BF"
+			rewards: [{
+				id: "3D23A118BD298E76"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "019889A6C81A1F0C"
 				item: "mekanism:advanced_thermodynamic_conductor"
@@ -336,11 +425,13 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"4C8B72A35D620AD9"
-				"72D1BDCD631F4F24"
-			]
+			dependencies: ["4C8B72A35D620AD9"]
 			id: "6BED73335947F03C"
+			rewards: [{
+				id: "1DF50AD17C775EFE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3B495D0E1D1D9302"
 				item: "mekanism:elite_logistical_transporter"
@@ -350,11 +441,13 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"21284356B314C4BF"
-				"72D1BDCD631F4F24"
-			]
+			dependencies: ["21284356B314C4BF"]
 			id: "500E27A5F78DE8AD"
+			rewards: [{
+				id: "3BFE2B942E623179"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "33EBF5A12FD12C1D"
 				item: "mekanism:elite_thermodynamic_conductor"
@@ -364,11 +457,13 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"6BED73335947F03C"
-				"7F7EFE3306AB4B8B"
-			]
+			dependencies: ["6BED73335947F03C"]
 			id: "6487645755651F03"
+			rewards: [{
+				id: "4FA1E244C61E81FE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7AF3390FA8B13CD4"
 				item: "mekanism:ultimate_logistical_transporter"
@@ -378,11 +473,13 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"7F7EFE3306AB4B8B"
-				"500E27A5F78DE8AD"
-			]
+			dependencies: ["500E27A5F78DE8AD"]
 			id: "33B7864391FAA295"
+			rewards: [{
+				id: "5A5E3D0EF47E8E6D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "36510D4E1D3DC4CA"
 				item: "mekanism:ultimate_thermodynamic_conductor"
@@ -395,6 +492,11 @@
 			dependencies: ["0EEA635484D9C366"]
 			description: ["This is the wrench for Mekanism"]
 			id: "6D1BFCF868C8F854"
+			rewards: [{
+				id: "62F4B8FAFCB5D45B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "345EA6CD6628166A"
 				item: "mekanism:configurator"
@@ -412,6 +514,11 @@
 			]
 			icon: "xnet:controller"
 			id: "04982769035408C4"
+			rewards: [{
+				id: "5E6A2CDC323134D4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "1600DAD6D877360E"
@@ -456,20 +563,22 @@
 				}
 			]
 			title: "XNet"
-			x: 2.5d
-			y: 2.5d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
-			dependencies: [
-				"10C0227DA7BCA78F"
-				"2BF7BF8C78794A07"
-			]
+			dependencies: ["10C0227DA7BCA78F"]
 			description: [
 				"Used to connect different things via Refined Storage"
 				""
 				"Items will still require power"
 			]
 			id: "519273DE61DAA2E8"
+			rewards: [{
+				id: "52AB474471B158B0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4862BA35A9B38AE5"
 				item: "refinedstorage:cable"
@@ -482,6 +591,11 @@
 			dependencies: ["519273DE61DAA2E8"]
 			description: ["This wrench is used for Refined Storage cables and items, this will also allow you to rotate things such as crafters"]
 			id: "4CA8B539EB8B78DE"
+			rewards: [{
+				id: "36B5B1C43D001EEA"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "28881CFA34AEA3A1"
 				item: "refinedstorage:wrench"
@@ -494,6 +608,11 @@
 			dependencies: ["519273DE61DAA2E8"]
 			description: ["Used to import items/fluids into your refined storage system"]
 			id: "495227B37C5C486D"
+			rewards: [{
+				id: "52D9D4C9E8B84E67"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5465645D38893D6C"
 				item: "refinedstorage:importer"
@@ -506,6 +625,11 @@
 			dependencies: ["519273DE61DAA2E8"]
 			description: ["Used to remove items/fluids from your refined storage system"]
 			id: "313CE18F5BCEC7C8"
+			rewards: [{
+				id: "0F8BBCE6CEF09FB7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "451A4ED715CD13D8"
 				item: "refinedstorage:exporter"
@@ -518,6 +642,11 @@
 			dependencies: ["519273DE61DAA2E8"]
 			description: ["Used on storage containers such as chests, drawers, barrels etc. This will allow refined storage to import into, export from or view that item/fluid container"]
 			id: "5C88B4189EB92F17"
+			rewards: [{
+				id: "5EA7E7CD453F11F8"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0A875AD6930FD000"
 				item: "refinedstorage:external_storage"
@@ -527,16 +656,18 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"10C0227DA7BCA78F"
-				"0538196CC93DC221"
-			]
+			dependencies: ["10C0227DA7BCA78F"]
 			description: [
 				"The basic tier of cable used in Applied Energistics 2"
 				""
 				"Unlike Refined Storage, the importers and exporters for this mod will be covered in the AE2 questline as they're technically not parts of the cabling."
 			]
 			id: "54C242B02DD4E8D9"
+			rewards: [{
+				id: "4CF3E4667CE421CC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6D5E3F5EB1781AF3"
 				item: "ae2:fluix_glass_cable"
@@ -548,6 +679,11 @@
 		{
 			dependencies: ["54C242B02DD4E8D9"]
 			id: "4536D315D6366E5D"
+			rewards: [{
+				id: "4F03B8CA45106459"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3FB1E79A8E5C8134"
 				item: "ae2:fluix_covered_cable"
@@ -559,6 +695,11 @@
 		{
 			dependencies: ["4536D315D6366E5D"]
 			id: "287DB74E0643279E"
+			rewards: [{
+				id: "472B18CC59DFBE18"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "173EB882E0833102"
 				item: "ae2:fluix_smart_cable"
@@ -570,6 +711,11 @@
 		{
 			dependencies: ["4536D315D6366E5D"]
 			id: "6BF41980FB1D55A7"
+			rewards: [{
+				id: "14F4E47C67662D98"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "10BFD942292BD243"
 				item: "ae2:fluix_covered_dense_cable"
@@ -581,6 +727,11 @@
 		{
 			dependencies: ["6BF41980FB1D55A7"]
 			id: "3BA0CFA92B641123"
+			rewards: [{
+				id: "03556E66D9D252C7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2ADE93EB0DAC35B6"
 				item: "ae2:fluix_smart_dense_cable"
@@ -593,6 +744,11 @@
 			dependencies: ["54C242B02DD4E8D9"]
 			description: ["The wrench for AE2"]
 			id: "1634231DE27AA657"
+			rewards: [{
+				id: "79D42FEECCED6C49"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "50F091313B7E8C8A"
 				item: {
@@ -612,6 +768,11 @@
 			dependencies: ["10C0227DA7BCA78F"]
 			description: ["Want to cover up those cables and make them blend in?"]
 			id: "2C5F7D71DFFB40E6"
+			rewards: [{
+				id: "1398C59333D101E8"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "562E731806012B8C"
 				title: "Facades"
@@ -628,6 +789,11 @@
 				"To use it, place it on the cable you want to hide and then right click or sneak right click with the block you want to use to cover it."
 			]
 			id: "527CFD86F5201A7B"
+			rewards: [{
+				id: "0E1630BB927E64B8"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3E0061EBA1ED97F7"
 				item: "xnet:facade"
@@ -638,13 +804,15 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"2C5F7D71DFFB40E6"
-				"0538196CC93DC221"
-			]
+			dependencies: ["2C5F7D71DFFB40E6"]
 			description: ["To use this, craft four cable anchors around the block you wish to use as a facade, if you're unsure you can always search it in JEI and click R or click U on the cable anchor."]
 			icon: "ae2:cable_anchor"
 			id: "52317A59A9E3FCF4"
+			rewards: [{
+				id: "0D60515BC621F402"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "243D43C4C73988D7"
@@ -668,6 +836,27 @@
 			x: 17.5d
 			y: -0.5d
 		}
+		{
+			dependencies: ["10C0227DA7BCA78F"]
+			description: [
+				"Modular routers are a great and cheap early game way to move pretty much anything from place to place! "
+				""
+				"Moving things is just the basic level of Modular routers, there's a lot more that they can do and I'd recommend experimenting with them!"
+			]
+			id: "28BABE019DDF77DE"
+			rewards: [{
+				id: "4698A2FEA3EBC0A0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5BD9B11E4B6F3D7A"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
 	]
-	title: "Ways to move things"
+	title: "Logistics"
 }

@@ -12,20 +12,11 @@
 			dependency_requirement: "all_started"
 			description: ["As always, we begin by punching a tree, any tree will do!"]
 			id: "2283526C08D3FAEA"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "13A6A8CFA25FC18C"
-					table_id: 2057222963205038249L
-					type: "random"
-				}
-				{
-					count: 10
-					id: "4DB77A90995E4BD1"
-					item: "minecraft:oak_log"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5F6F8C9116FE977B"
+				type: "xp"
+				xp: 250
+			}]
 			subtitle: "Get some wood"
 			tasks: [{
 				count: 32L
@@ -48,6 +39,11 @@
 			dependencies: ["2283526C08D3FAEA"]
 			description: ["This will unlock the Tinkers Construct questline"]
 			id: "68DA8BD14F76E41D"
+			rewards: [{
+				id: "5EC37AA15808A045"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "4F17335F41B21804"
 				item: {
@@ -73,10 +69,9 @@
 			]
 			id: "37B719553AE4FB00"
 			rewards: [{
-				count: 10
-				id: "59B742DD16E88150"
-				item: "tconstruct:blank_sand_cast"
-				type: "item"
+				id: "1B7EDCD66EF09EF0"
+				type: "xp"
+				xp: 250
 			}]
 			tasks: [{
 				id: "400F1E9F4572BAC3"
@@ -98,6 +93,11 @@
 			dependencies: ["37B719553AE4FB00"]
 			description: ["Welcome to the stone age!"]
 			id: "283E542C1F5B899B"
+			rewards: [{
+				id: "013330674C5B6E1B"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1584E5F4E960C0CF"
 				item: {
@@ -110,6 +110,7 @@
 				title: "Any #forge:cobblestone"
 				type: "item"
 			}]
+			title: "Any cobble will do!"
 			x: -8.0d
 			y: -0.5d
 		}
@@ -117,6 +118,11 @@
 			dependencies: ["283E542C1F5B899B"]
 			description: ["Will unlock the Iron Furnaces questline"]
 			id: "2FA8D0CBC969831F"
+			rewards: [{
+				id: "418928F76501869C"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "368302E98FC59D80"
 				item: "minecraft:furnace"
@@ -131,10 +137,9 @@
 			icon: "ae2:flawless_budding_quartz"
 			id: "6925D057D83F3442"
 			rewards: [{
-				count: 10
-				id: "773DA67339671D67"
-				item: "ae2:certus_quartz_dust"
-				type: "item"
+				id: "75EFC212BC25AA7C"
+				type: "xp"
+				xp: 250
 			}]
 			tasks: [{
 				id: "00AECFF34A73261F"
@@ -149,6 +154,11 @@
 			dependencies: ["2FA8D0CBC969831F"]
 			description: ["Now we're through the basics, lets see about moving forward!"]
 			id: "534CF52BB056D888"
+			rewards: [{
+				id: "22863195F2B342B7"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1BDF19F22949D742"
 				title: "Key to the world!"
@@ -162,6 +172,11 @@
 			description: ["Unlocks the nether mob kills!"]
 			icon: "minecraft:netherrack"
 			id: "5148F90F697FC5DF"
+			rewards: [{
+				id: "0BB56D6675AECBE3"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "6CEA632D4A06E23F"
@@ -174,6 +189,11 @@
 			dependencies: ["5148F90F697FC5DF"]
 			icon: "minecraft:end_stone"
 			id: "1C01BCEBE359CBFC"
+			rewards: [{
+				id: "5AB502DFEE37E2C4"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "41D68F6DA2E6252A"
@@ -185,6 +205,11 @@
 		{
 			dependencies: ["5148F90F697FC5DF"]
 			id: "6CD53BE4224DF794"
+			rewards: [{
+				id: "43A938293991DAC6"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				icon: "minecraft:sculk_sensor"
 				id: "309EAEF13C26082B"
@@ -202,18 +227,11 @@
 				"Unlocks the Refined Storage quest line"
 			]
 			id: "688D8AC263A89046"
-			rewards: [
-				{
-					id: "10590DAF79E447E3"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					id: "2568D8D6E9EC729B"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "12EE988D152E4AC8"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "0FEBF1593D9CBC29"
 				item: "minecraft:diamond"
@@ -226,6 +244,11 @@
 			dependencies: ["68DA8BD14F76E41D"]
 			description: ["Are you ready to fight through the night?"]
 			id: "57D4906A9E11A4AD"
+			rewards: [{
+				id: "1F8AD1E6ACB422CE"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "65F5FDAF8ACD852E"
 				item: {
@@ -245,6 +268,11 @@
 		{
 			dependencies: ["2283526C08D3FAEA"]
 			id: "29DD985949E51529"
+			rewards: [{
+				id: "52FCA0309C3A8BBA"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7875D1002015F985"
 				item: {
@@ -262,7 +290,13 @@
 		}
 		{
 			dependencies: ["68DA8BD14F76E41D"]
+			description: ["No, not your mother"]
 			id: "1889FF28C78AD47B"
+			rewards: [{
+				id: "67510ABBE51798C4"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7E09B59D82E8515D"
 				item: {
@@ -275,6 +309,7 @@
 				title: "Any #forge:tools/hoes"
 				type: "item"
 			}]
+			title: "Make a hoe!"
 			x: -11.0d
 			y: -1.5d
 		}
@@ -283,25 +318,32 @@
 			id: "5C27DDF6D06A0710"
 			rewards: [
 				{
-					id: "113BDB3660738BDA"
-					item: {
-						Count: 1b
-						id: "minecraft:iron_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
+					id: "38282BE69BCC071A"
+					type: "xp"
+					xp: 250
 				}
 				{
 					count: 32
-					id: "0399F15372B8B02F"
+					id: "5CF569FC435191B9"
 					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "18E956B62F7A1D75"
+					item: "minecraft:torch"
 					type: "item"
 				}
 			]
 			tasks: [{
 				dimension: "mining_dimension:mining"
+				icon: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "7CE9D3A041CA5A00"
 				type: "dimension"
 			}]
@@ -316,6 +358,11 @@
 				"In this pack, we know what it's like when you just want to relax, zone out and mine! To get to the mining dimension is pretty easy and should be easily one of the first things you get setup to help with ores!"
 			]
 			id: "4587EC3ED826875F"
+			rewards: [{
+				id: "5C8729C9EB99FF53"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "20FEFCC4C82481A8"
 				item: "mining_dimension:teleporter"
@@ -327,6 +374,11 @@
 		{
 			dependencies: ["5148F90F697FC5DF"]
 			id: "6F85A32CBBEBAA04"
+			rewards: [{
+				id: "4BBBE66EAAAA981F"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "568EEE23DC48C00B"
 				structure: "minecraft:fortress"
@@ -338,6 +390,11 @@
 		{
 			dependencies: ["5148F90F697FC5DF"]
 			id: "11CADA2CDEDA5FA2"
+			rewards: [{
+				id: "23AE5C88D6317CE8"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "77BCF057E551A94F"
 				structure: "minecraft:bastion_remnant"
@@ -349,6 +406,11 @@
 		{
 			dependencies: ["5148F90F697FC5DF"]
 			id: "44F42CC06CC4FEA7"
+			rewards: [{
+				id: "3B85DE70F6D9E587"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "22340647F7640D38"
 				item: "minecraft:ancient_debris"
@@ -360,6 +422,11 @@
 		{
 			dependencies: ["1C01BCEBE359CBFC"]
 			id: "6244BD13B490D719"
+			rewards: [{
+				id: "66458379F9E70DF2"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
@@ -373,6 +440,11 @@
 		{
 			dependencies: ["6244BD13B490D719"]
 			id: "04B9814E818C7F77"
+			rewards: [{
+				id: "3FBD6F2FEA9F5561"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "70AFEB293DF71861"
 				structure: "minecraft:end_city"
@@ -380,6 +452,86 @@
 			}]
 			x: 1.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["2283526C08D3FAEA"]
+			id: "632D943434BA3581"
+			rewards: [
+				{
+					count: 5
+					id: "145E6D1B16A4CFC5"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "439C7822AB499CEC"
+					item: "artifacts:villager_hat"
+					type: "item"
+				}
+				{
+					id: "431DBB57D0F77B60"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: "artifacts:villager_hat"
+				id: "1D47E66C29037A0A"
+				structure: "#minecraft:village"
+				type: "structure"
+			}]
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1889FF28C78AD47B"]
+			description: [
+				"Always doing farming when you'd rather be building a reactor getting you down? How about Botany Pots! Not the best automated farm in the game but a great early game resource for wood and crops!"
+				""
+				"These can even grow Botania resources AND Mystical Agriculture! A great early game farm setup if you can get a lot."
+			]
+			id: "60FA358EDEC29769"
+			rewards: [
+				{
+					id: "547A048275033796"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "51599EA837A7AAED"
+					item: "botanypots:terracotta_hopper_botany_pot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1D6EB529936450DD"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "botanypots:basic_botany_pots"
+						}
+					}
+					title: "Any #botanypots:basic_botany_pots"
+					type: "item"
+				}
+				{
+					id: "06B583F6009D21E4"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "botanypots:hopper_botany_pots"
+						}
+					}
+					title: "Any #botanypots:hopper_botany_pots"
+					type: "item"
+				}
+			]
+			title: "Botany pots"
+			x: -11.0d
+			y: -2.5d
 		}
 	]
 	title: "Starting out"

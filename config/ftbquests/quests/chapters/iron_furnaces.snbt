@@ -17,8 +17,14 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["2FA8D0CBC969831F"]
 			description: ["Hate how slow regular furnaces are? This is the mod for you!"]
 			id: "0C555EBCAF35F8F3"
+			rewards: [{
+				id: "0A12A1E01F00716F"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "062577BBBABFC666"
 				item: "minecraft:furnace"
@@ -30,6 +36,11 @@
 		{
 			dependencies: ["0C555EBCAF35F8F3"]
 			id: "782F3A4E17E6781C"
+			rewards: [{
+				id: "2A11F38EA2D090F6"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1C6474E7F45A80F1"
 				item: "ironfurnaces:iron_furnace"
@@ -45,6 +56,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "692D6A513EB69043"
+			rewards: [{
+				id: "5F72097F734E1BE5"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "10EA8A67F1EFEC0F"
 				item: "ironfurnaces:gold_furnace"
@@ -56,6 +72,11 @@
 		{
 			dependencies: ["692D6A513EB69043"]
 			id: "73984F5C805C99B8"
+			rewards: [{
+				id: "39EE36C1D217FD0B"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "154D40DDCB674F61"
 				item: "ironfurnaces:diamond_furnace"
@@ -67,6 +88,11 @@
 		{
 			dependencies: ["73984F5C805C99B8"]
 			id: "23C95F8A643F926A"
+			rewards: [{
+				id: "744B08B4D27A3354"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "75F6A8A47A90D99A"
 				item: "ironfurnaces:emerald_furnace"
@@ -82,6 +108,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "2A362D193B7CCCE5"
+			rewards: [{
+				id: "783648754A7FAF0A"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "77B4D653B17564CB"
 				item: "ironfurnaces:obsidian_furnace"
@@ -93,6 +124,11 @@
 		{
 			dependencies: ["73984F5C805C99B8"]
 			id: "25B33407D98A9D6F"
+			rewards: [{
+				id: "3AF6C8A6CA18DB9B"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "398F6C94F578B49A"
 				item: "ironfurnaces:crystal_furnace"
@@ -104,6 +140,11 @@
 		{
 			dependencies: ["2A362D193B7CCCE5"]
 			id: "4905252ADCFA679E"
+			rewards: [{
+				id: "08307FC9658EAABA"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1CE78874C6EC25FC"
 				item: "ironfurnaces:netherite_furnace"
@@ -115,6 +156,11 @@
 		{
 			dependencies: ["0C555EBCAF35F8F3"]
 			id: "046212301BD7C6AA"
+			rewards: [{
+				id: "3DC64370291EA506"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "66E5E65967FD7AEA"
 				item: "ironfurnaces:copper_furnace"
@@ -130,6 +176,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "42AD0D0EBBED18F4"
+			rewards: [{
+				id: "1F8B5FEB9ED76E4F"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "0BF96816581FDAA6"
 				item: "ironfurnaces:silver_furnace"
@@ -144,6 +195,11 @@
 				"399ADC02FA668AE1"
 			]
 			id: "6238A01B2F6B65FD"
+			rewards: [{
+				id: "78727AA4BEE4BFB3"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "21E4064590CDBA59"
 				item: {
@@ -163,6 +219,11 @@
 		{
 			dependencies: ["4905252ADCFA679E"]
 			id: "6708D898DDFB4E72"
+			rewards: [{
+				id: "6B3700DD1758D1C9"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				count: 8L
 				id: "4AE709C94C76652E"
@@ -175,6 +236,11 @@
 		{
 			dependencies: ["4905252ADCFA679E"]
 			id: "399ADC02FA668AE1"
+			rewards: [{
+				id: "62C394B90F4F5C95"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1F5A2A07EE7A2836"
 				item: "ironfurnaces:rainbow_core"
@@ -190,9 +256,9 @@
 			id: "1361AF583B3B7C8A"
 			optional: true
 			rewards: [{
-				id: "1B7B10EE980904F2"
+				id: "1EBC5ABEF287345C"
 				type: "xp"
-				xp: 1000
+				xp: 250
 			}]
 			tasks: [{
 				id: "32FDCD8C42DA0230"
@@ -206,6 +272,11 @@
 			dependencies: ["0C555EBCAF35F8F3"]
 			description: ["You can craft upgrade kits for your furnaces to save time! Just shift right click them onto your existing furnace, make sure you have the right tier upgrade!"]
 			id: "689528558361F160"
+			rewards: [{
+				id: "18F2145DA610D082"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "543A2C87385F5883"
 				item: "ironfurnaces:upgrade_iron"
@@ -217,6 +288,11 @@
 		{
 			dependencies: ["0A31AA41047ED81F"]
 			id: "4A93993A65FB2E72"
+			rewards: [{
+				id: "0E961251DD94A396"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "2D2F31B483E494C8"
 				item: "ironfurnaces:augment_blasting"
@@ -233,6 +309,11 @@
 				"Make sure you read the augment, they all have pros and cons!"
 			]
 			id: "0A31AA41047ED81F"
+			rewards: [{
+				id: "1C61AD6E662B32DC"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "61B715D862CB8DA7"
 				title: "Augments!"
@@ -244,6 +325,11 @@
 		{
 			dependencies: ["0A31AA41047ED81F"]
 			id: "218333901E23B34F"
+			rewards: [{
+				id: "46468123154EA856"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "6C83D6DD349B59D3"
 				item: "ironfurnaces:augment_smoking"
@@ -255,6 +341,11 @@
 		{
 			dependencies: ["0A31AA41047ED81F"]
 			id: "02F9E1F69B4D4F00"
+			rewards: [{
+				id: "5B5406D905F5C5D6"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "2F789D8B6973D7A1"
 				item: "ironfurnaces:augment_factory"
@@ -266,6 +357,11 @@
 		{
 			dependencies: ["0A31AA41047ED81F"]
 			id: "2CF313C16B161671"
+			rewards: [{
+				id: "2B83B5EB6296CB71"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "0D83679013EB147A"
 				item: "ironfurnaces:augment_generator"
@@ -277,6 +373,11 @@
 		{
 			dependencies: ["0A31AA41047ED81F"]
 			id: "6C7DF149A26E189B"
+			rewards: [{
+				id: "47D75A4F5D7ECDDD"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1CB6E672C22655AB"
 				item: "ironfurnaces:augment_speed"
@@ -288,6 +389,11 @@
 		{
 			dependencies: ["0A31AA41047ED81F"]
 			id: "043F8DA600E88153"
+			rewards: [{
+				id: "04EDF5F862F7D386"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1CAC62BFAD626B35"
 				item: "ironfurnaces:augment_fuel"
@@ -299,6 +405,11 @@
 		{
 			dependencies: ["0A31AA41047ED81F"]
 			id: "64AC5605FD34890D"
+			rewards: [{
+				id: "78D51E6BF2D5C995"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "42654CF54FDC7D63"
 				item: "ironfurnaces:augment_xp"
@@ -310,6 +421,11 @@
 		{
 			dependencies: ["74F468FAF2824033"]
 			id: "1539A88148729A3A"
+			rewards: [{
+				id: "5E944AEF8CB06ECD"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "72AD49F4347A0253"
 				item: "ironfurnaces:item_spooky"
@@ -321,6 +437,11 @@
 		{
 			dependencies: ["74F468FAF2824033"]
 			id: "706AC13CDE9A6190"
+			rewards: [{
+				id: "6D60CE89AA648B60"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "330B9E76F407F857"
 				item: "ironfurnaces:item_xmas"
@@ -332,6 +453,11 @@
 		{
 			dependencies: ["0C555EBCAF35F8F3"]
 			id: "74F468FAF2824033"
+			rewards: [{
+				id: "7BD3E79E00911690"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1A164801E256C147"
 				title: "Wraps!"

@@ -5,7 +5,7 @@
 	group: "0B1CECDAF6B5EB34"
 	icon: "fluxnetworks:flux_dust"
 	id: "1AADC8A0FC6C16DF"
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -18,12 +18,19 @@
 				"I'd recommend making a few stacks your first time just to ensure you're not going back and forth"
 			]
 			id: "1341ADB9369DACA9"
-			rewards: [{
-				count: 4
-				id: "37AE00FDF05FF328"
-				item: "fluxnetworks:flux_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "37AE00FDF05FF328"
+					item: "fluxnetworks:flux_dust"
+					type: "item"
+				}
+				{
+					id: "7475B1DA0447A68E"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "53E27E8315B7E7CA"
 				item: "fluxnetworks:flux_dust"
@@ -35,6 +42,11 @@
 		{
 			dependencies: ["1341ADB9369DACA9"]
 			id: "6C6E61EBCC94067C"
+			rewards: [{
+				id: "3BC2E15BC0EDE41C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "29E0675E541E3F66"
 				item: "fluxnetworks:flux_core"
@@ -46,6 +58,11 @@
 		{
 			dependencies: ["6C6E61EBCC94067C"]
 			id: "486F45918094523D"
+			rewards: [{
+				id: "252D5619DDEA57DB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0A5655763D30DFDF"
 				item: "fluxnetworks:flux_block"
@@ -57,6 +74,11 @@
 		{
 			dependencies: ["7BBCA2A9D2C3153E"]
 			id: "2AE55DF16F117499"
+			rewards: [{
+				id: "1B4D84205517D822"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "64D0BE6E8CB5E16D"
 				item: "fluxnetworks:flux_controller"
@@ -68,6 +90,11 @@
 		{
 			dependencies: ["486F45918094523D"]
 			id: "25AF07590EA27478"
+			rewards: [{
+				id: "0FB5C183129B716C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1E0E2F0807796D0E"
 				item: "fluxnetworks:basic_flux_storage"
@@ -79,6 +106,11 @@
 		{
 			dependencies: ["25AF07590EA27478"]
 			id: "3A1EBB3579F20CE0"
+			rewards: [{
+				id: "0161D2E586C4D966"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2AB0B2EDF29BB718"
 				item: "fluxnetworks:herculean_flux_storage"
@@ -90,6 +122,11 @@
 		{
 			dependencies: ["3A1EBB3579F20CE0"]
 			id: "7113B92A64B91268"
+			rewards: [{
+				id: "4F18D7A2913FD6C9"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1094F35E7677B706"
 				item: "fluxnetworks:gargantuan_flux_storage"
@@ -101,6 +138,11 @@
 		{
 			dependencies: ["25AF07590EA27478"]
 			id: "7BBCA2A9D2C3153E"
+			rewards: [{
+				id: "633279B459E96E45"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "2A0FF748348EACA2"
@@ -115,17 +157,6 @@
 			]
 			x: 6.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["1341ADB9369DACA9"]
-			id: "21C6E79CD352E5F8"
-			tasks: [{
-				id: "4B83995B2D84D164"
-				item: "fluxnetworks:flux_configurator"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.5d
 		}
 	]
 	title: "Flux Networks"

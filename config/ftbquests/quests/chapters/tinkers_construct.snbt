@@ -19,9 +19,9 @@
 			description: ["Your first tinkers setup!"]
 			id: "629FF0551D9E9159"
 			rewards: [{
-				id: "68BDDA79EF20FBF7"
-				item: "tconstruct:part_chest"
-				type: "item"
+				id: "761D65D6BDF0B2C9"
+				type: "xp"
+				xp: 250
 			}]
 			tasks: [
 				{
@@ -66,6 +66,11 @@
 			dependencies: ["629FF0551D9E9159"]
 			description: ["Make your first tinkers tool/weapon!"]
 			id: "3701FC55E14322D7"
+			rewards: [{
+				id: "646CE08603A9D741"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1EC8BA1921AB1E13"
 				item: {
@@ -86,11 +91,18 @@
 			dependencies: ["426F1383F4AD4000"]
 			description: ["Not all items can be modified without turning the ores into heated liquid, lets get started!"]
 			id: "3F09375E1F2538E7"
-			rewards: [{
-				id: "6AE8E45232E11E8C"
-				item: "tconstruct:puny_smelting"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6AE8E45232E11E8C"
+					item: "tconstruct:puny_smelting"
+					type: "item"
+				}
+				{
+					id: "49AAD0652C4FB0EF"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [
 				{
 					id: "1A619FE770A1158F"
@@ -127,6 +139,11 @@
 			dependencies: ["3701FC55E14322D7"]
 			description: ["To start moving forward in tinkers, you'll need a lot of this!"]
 			id: "426F1383F4AD4000"
+			rewards: [{
+				id: "11F0A2E85B29AF3E"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "64A8EDD0E397CFA0"
 				item: "tconstruct:grout"
@@ -144,15 +161,9 @@
 			]
 			id: "62B9EDADD5845341"
 			rewards: [{
-				id: "28F1E4736CC27D67"
-				item: {
-					Count: 1b
-					id: "tconstruct:tool_handle"
-					tag: {
-						Material: "tconstruct:iron"
-					}
-				}
-				type: "item"
+				id: "2C928EBB5CD8128F"
+				type: "xp"
+				xp: 250
 			}]
 			tasks: [
 				{
@@ -185,11 +196,18 @@
 			dependencies: ["3F09375E1F2538E7"]
 			description: ["A step up from the melter, introducing the smeltery!"]
 			id: "14260D947027F8DA"
-			rewards: [{
-				id: "71FAD20964957A89"
-				item: "tconstruct:mighty_smelting"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "71FAD20964957A89"
+					item: "tconstruct:mighty_smelting"
+					type: "item"
+				}
+				{
+					id: "3F30CE5CEE95D71E"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [
 				{
 					id: "63435D3E77B0BB9C"
@@ -259,11 +277,18 @@
 				}
 			}
 			id: "2FCAFC31090A631C"
-			rewards: [{
-				id: "52BABFC7C40D37A9"
-				item: "tconstruct:tinkers_gadgetry"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "52BABFC7C40D37A9"
+					item: "tconstruct:tinkers_gadgetry"
+					type: "item"
+				}
+				{
+					id: "07AD9BD449B25838"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				id: "01328FEB4A03AE17"
 				item: {
@@ -286,6 +311,11 @@
 				"Please note: The foundry can not make alloys "
 			]
 			id: "5D4BDC0A891BDD68"
+			rewards: [{
+				id: "17750318F663CB17"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [
 				{
 					id: "46242A67D0122797"
@@ -348,11 +378,18 @@
 			dependencies: ["14260D947027F8DA"]
 			description: ["Regular grout is no good to you anymore!"]
 			id: "534F2FA06E06F535"
-			rewards: [{
-				id: "7E7FBDB0BB33D853"
-				item: "tconstruct:fantastic_foundry"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7E7FBDB0BB33D853"
+					item: "tconstruct:fantastic_foundry"
+					type: "item"
+				}
+				{
+					id: "740EF37FC8996513"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				id: "7F893F8DBEA9A6ED"
 				item: "tconstruct:nether_grout"
@@ -365,6 +402,11 @@
 			dependencies: ["534F2FA06E06F535"]
 			description: ["If you want to use the foundry instead, you can use this to make alloys!"]
 			id: "057D3DCE3ED14327"
+			rewards: [{
+				id: "2B8309B5E983B7E7"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [
 				{
 					id: "748B1AFF149EB859"
@@ -404,6 +446,11 @@
 			]
 			description: ["Now you've got all the multiblocks, you'll probably want all the books in just one!"]
 			id: "6E07BF0307E55B3D"
+			rewards: [{
+				id: "12757AE8AF286279"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "160959404643B027"
 				item: "tconstruct:encyclopedia"
@@ -416,6 +463,11 @@
 			dependencies: ["14260D947027F8DA"]
 			description: ["A heavily modifiable piece of equiptment that will help a lot! Get yourself a set of tinkers armor!"]
 			id: "76410D5B566147E6"
+			rewards: [{
+				id: "60778D63979B25E6"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [
 				{
 					id: "7D73DC9042089DA4"

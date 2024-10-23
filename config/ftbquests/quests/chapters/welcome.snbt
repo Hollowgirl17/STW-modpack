@@ -17,9 +17,9 @@
 			]
 			id: "6BFD094738D8AA3E"
 			rewards: [{
-				id: "2B669E47F8827402"
-				type: "xp"
-				xp: 100
+				id: "6FD93A0DB9A09D54"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "01C316D6E6BC9FCC"
@@ -34,9 +34,14 @@
 			description: [
 				"If a quest is locked, you likely haven't completed one of the required quests to progress. "
 				""
-				"Most quests with dependencies will tell you what you must do to unlock them or if the quest is in the same line as the dependent, you can hover over the quest you want to do and it'll show a line of progression."
+				"Most quests with dependencies will tell you what you must do to unlock them or if the quest is in the same line as the dependent, you can hover over the quest you want to do and it'll show a line of progression. If neither of those work, try looking at the quest recipe in JEI and seeing if one of those components have a quest :)"
 			]
 			id: "502CE0126AC5B9F4"
+			rewards: [{
+				id: "2307B98296CCECBB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "579EE3B35AFDB7EA"
 				title: "Quest Progression"

@@ -12,10 +12,9 @@
 			dependencies: ["37B719553AE4FB00"]
 			id: "556B706FA9C82EEE"
 			rewards: [{
-				count: 8
-				id: "0DF8476EF2325A8F"
-				item: "mysticalagriculture:inferium_essence"
-				type: "item"
+				id: "7A997F7024CF5609"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "7DFEE110D82D42D5"
@@ -29,6 +28,11 @@
 			dependencies: ["5A5390ED205F195F"]
 			description: ["This crystal has 1000 uses but you can make a better one later on!"]
 			id: "225129A7D16BDB94"
+			rewards: [{
+				id: "60A9A238E29ACCD6"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0CBDC7193CFF3FEC"
 				item: {
@@ -46,6 +50,11 @@
 		{
 			dependencies: ["225129A7D16BDB94"]
 			id: "0F96878F1ECD1318"
+			rewards: [{
+				id: "0C24D786380F332C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4F81D985F816E891"
 				item: "mysticalagriculture:prudentium_essence"
@@ -57,6 +66,11 @@
 		{
 			dependencies: ["0F96878F1ECD1318"]
 			id: "475687AA1C91A9EA"
+			rewards: [{
+				id: "6958DD1DF0794FC8"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3CF1CAB2EAE59500"
 				item: "mysticalagriculture:tertium_essence"
@@ -68,6 +82,11 @@
 		{
 			dependencies: ["475687AA1C91A9EA"]
 			id: "38606623313119D3"
+			rewards: [{
+				id: "1F57A1ADDDB2A14E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7839F6A8232CC91D"
 				item: "mysticalagriculture:imperium_essence"
@@ -79,6 +98,11 @@
 		{
 			dependencies: ["38606623313119D3"]
 			id: "14DA875923C37020"
+			rewards: [{
+				id: "372CDD7DEB2FB013"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5C8A801FD3C281AC"
 				item: "mysticalagriculture:supremium_essence"
@@ -90,6 +114,11 @@
 		{
 			dependencies: ["14DA875923C37020"]
 			id: "2066EC7F90C5BCC9"
+			rewards: [{
+				id: "11FA32DFFCDA72BA"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6FAF2921FBE1DB4F"
 				item: "mysticalagradditions:insanium_essence"
@@ -102,6 +131,11 @@
 			dependencies: ["14DA875923C37020"]
 			description: ["A better version of the original crystal, this one has unlimited durability"]
 			id: "6EA9A33ADDF61930"
+			rewards: [{
+				id: "226C7FD23B108F5E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "34ECF7B0DD745189"
 				item: "mysticalagriculture:master_infusion_crystal"
@@ -113,6 +147,11 @@
 		{
 			dependencies: ["556B706FA9C82EEE"]
 			id: "0710A642A414FAF4"
+			rewards: [{
+				id: "194997DE58C244FF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4DE5F0DE036BFAC8"
 				item: "mysticalagriculture:prosperity_shard"
@@ -124,6 +163,11 @@
 		{
 			dependencies: ["0710A642A414FAF4"]
 			id: "32F7FA2954113A77"
+			rewards: [{
+				id: "50CA080E6DFBE8FF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "17D9B354CE5E742F"
 				item: "mysticalagriculture:prosperity_ingot"
@@ -135,6 +179,11 @@
 		{
 			dependencies: ["0710A642A414FAF4"]
 			id: "34D5B9893B3CE04B"
+			rewards: [{
+				id: "181EA166D0CD63A2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7B66E755A8DEB3C8"
 				item: "mysticalagriculture:prosperity_gemstone"
@@ -146,6 +195,11 @@
 		{
 			dependencies: ["0710A642A414FAF4"]
 			id: "52E45324BC923D4E"
+			rewards: [{
+				id: "7C4D4B395BA55235"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "075C95C5AC371CD8"
 				item: "mysticalagriculture:prosperity_seed_base"
@@ -162,6 +216,11 @@
 				"No wand here unfortunately, you'll have to activate it with redstone! "
 			]
 			id: "5A5390ED205F195F"
+			rewards: [{
+				id: "66BB121AF6CE190F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "3F845D0DC1376AB2"
@@ -182,10 +241,9 @@
 			dependencies: ["556B706FA9C82EEE"]
 			id: "1DB585450DC6F38C"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "54B4D490DC0E9320"
-				table_id: 9197777476832959063L
-				type: "random"
+				id: "119F2ED71BA46082"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "5AC7DF77E752AEDA"
@@ -198,6 +256,11 @@
 		{
 			dependencies: ["161EA9A00C221FA5"]
 			id: "317BEADA9A9B47BA"
+			rewards: [{
+				id: "210F408E55E883DE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7FC036FD7F4E711A"
 				item: "mysticalagriculture:soulium_seed_base"
@@ -210,10 +273,9 @@
 			dependencies: ["67BDA017FAF5C24F"]
 			id: "2121CE77515338FA"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "6D132CA7ED71E031"
-				table_id: 9197777476832959063L
-				type: "random"
+				id: "084C0E2EFB967CF2"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "3E7B3CF4A349C4FF"
@@ -227,10 +289,9 @@
 			dependencies: ["67BDA017FAF5C24F"]
 			id: "4F9CE22C10CC2925"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "3CC4DED00A673CCB"
-				table_id: 9197777476832959063L
-				type: "random"
+				id: "0EE616FA22024265"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "75D408D71543F02C"
@@ -244,10 +305,9 @@
 			dependencies: ["67BDA017FAF5C24F"]
 			id: "7C1FBB387878F7CA"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "368F6D479E4791EA"
-				table_id: 9197777476832959063L
-				type: "random"
+				id: "0DC0A020F181DC87"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "20C69BBA1831E955"
@@ -261,10 +321,9 @@
 			dependencies: ["67BDA017FAF5C24F"]
 			id: "5FBEB8B4C0FEB847"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "6CE97F3B2D192895"
-				table_id: 9197777476832959063L
-				type: "random"
+				id: "0C58DD608D606FD6"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "225147415CC6A1AA"
@@ -278,10 +337,9 @@
 			dependencies: ["67BDA017FAF5C24F"]
 			id: "462AF16F107833C0"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "2DECB9AE85D7992F"
-				table_id: 9197777476832959063L
-				type: "random"
+				id: "6DE82C61CAEA0C04"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "668794F1B8C52A0A"
@@ -295,10 +353,9 @@
 			dependencies: ["67BDA017FAF5C24F"]
 			id: "4149F288CA3D7B01"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "0CE3168607EE6D84"
-				table_id: 9197777476832959063L
-				type: "random"
+				id: "19C678108145990F"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "55AF60193C7629C8"
@@ -312,10 +369,9 @@
 			dependencies: ["67BDA017FAF5C24F"]
 			id: "014F68904457713C"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "0A222AF92361D27E"
-				table_id: 9197777476832959063L
-				type: "random"
+				id: "0A592DC30CD20FC9"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "268F5162B5DC0CF1"
@@ -329,10 +385,9 @@
 			dependencies: ["67BDA017FAF5C24F"]
 			id: "0F6F212936EEB0CF"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "267E2CCB2EE188FE"
-				table_id: 9197777476832959063L
-				type: "random"
+				id: "5B6807F2A1006D61"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "536865A2DBB5BA37"
@@ -346,10 +401,9 @@
 			dependencies: ["67BDA017FAF5C24F"]
 			id: "4C158F1A5A20ACB9"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "79BBE090464AE3A2"
-				table_id: 9197777476832959063L
-				type: "random"
+				id: "64480BA406CAB01B"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "1FF79CBEE664DED3"
@@ -363,10 +417,9 @@
 			dependencies: ["67BDA017FAF5C24F"]
 			id: "29AB274A314300A2"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "00461D2C79932EC8"
-				table_id: 9197777476832959063L
-				type: "random"
+				id: "3E157975087B0F38"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "2FAC7607FAD76EBD"
@@ -383,6 +436,11 @@
 				"5A5390ED205F195F"
 			]
 			id: "67BDA017FAF5C24F"
+			rewards: [{
+				id: "306BF26934A2E7A1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2F4E4A1376684732"
 				title: "Our first seeds!"
@@ -394,6 +452,11 @@
 		{
 			dependencies: ["0F96878F1ECD1318"]
 			id: "58A58FBCA40676F4"
+			rewards: [{
+				id: "4CB2D86064958924"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "66EE4695DC53E1B6"
 				item: "mysticalagriculture:prudentium_farmland"
@@ -405,6 +468,11 @@
 		{
 			dependencies: ["019FBB0FF6439101"]
 			id: "3B8028A19F7A4532"
+			rewards: [{
+				id: "446D2A3E4BE8FE7C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7859CE2F580EE60A"
 				item: "mysticalagriculture:inferium_growth_accelerator"
@@ -419,6 +487,11 @@
 				"688D8AC263A89046"
 			]
 			id: "019FBB0FF6439101"
+			rewards: [{
+				id: "0020E3854F1D447B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "61B642A5142F38CD"
@@ -440,6 +513,11 @@
 				"688D8AC263A89046"
 			]
 			id: "22B05B34BA31FA96"
+			rewards: [{
+				id: "1B36A89615C2B628"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "607DA14E051CEAE0"
@@ -461,6 +539,11 @@
 				"688D8AC263A89046"
 			]
 			id: "3B72C33D4C750BB5"
+			rewards: [{
+				id: "0F7BF3BC78A94965"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "60F2C1186FBE1B16"
@@ -482,6 +565,11 @@
 				"688D8AC263A89046"
 			]
 			id: "5AA2EB5C5B5F3A29"
+			rewards: [{
+				id: "4EFB5E316D351C41"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "6F95CCF6B13BFC82"
@@ -503,6 +591,11 @@
 				"688D8AC263A89046"
 			]
 			id: "7D16A04251ED3BD6"
+			rewards: [{
+				id: "1F8CC4145CE18FEE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "51D227B5D0EA02A6"
@@ -524,6 +617,11 @@
 				"688D8AC263A89046"
 			]
 			id: "786AB1D977A88879"
+			rewards: [{
+				id: "38285ADABC83742C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "43A55D031DF8A217"
@@ -542,6 +640,11 @@
 		{
 			dependencies: ["019FBB0FF6439101"]
 			id: "4765DC26D9E5AD16"
+			rewards: [{
+				id: "51A48974E6F29ABC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "725131681E841833"
 				item: {
@@ -559,6 +662,11 @@
 		{
 			dependencies: ["019FBB0FF6439101"]
 			id: "26A55894C03B610A"
+			rewards: [{
+				id: "347B197FE2CDFF21"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "04AC32B136E23442"
@@ -611,6 +719,11 @@
 		{
 			dependencies: ["22B05B34BA31FA96"]
 			id: "3690A23D3F73B9DA"
+			rewards: [{
+				id: "276B67E5CC11855D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "261E9B2755D6F458"
 				item: {
@@ -628,6 +741,11 @@
 		{
 			dependencies: ["22B05B34BA31FA96"]
 			id: "53B0FE169EF351B6"
+			rewards: [{
+				id: "5B3C397E6EC235B2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "3570F85D71953F8C"
@@ -680,6 +798,11 @@
 		{
 			dependencies: ["22B05B34BA31FA96"]
 			id: "263731E467EC122F"
+			rewards: [{
+				id: "4684FC51DB35797D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "61801A620E3D0E5D"
 				item: "mysticalagriculture:prudentium_growth_accelerator"
@@ -694,6 +817,11 @@
 				"5148F90F697FC5DF"
 			]
 			id: "161EA9A00C221FA5"
+			rewards: [{
+				id: "1784028BAAD43805"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6527F5E1F85F372A"
 				item: "mysticalagriculture:soulium_dust"
@@ -705,6 +833,11 @@
 		{
 			dependencies: ["161EA9A00C221FA5"]
 			id: "69336AE0B889D371"
+			rewards: [{
+				id: "5D85DE237BB47059"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "38F3BF5D7FA00CEF"
 				item: "mysticalagriculture:soulium_ingot"
@@ -716,6 +849,11 @@
 		{
 			dependencies: ["161EA9A00C221FA5"]
 			id: "024C281EE39116CE"
+			rewards: [{
+				id: "67DF35372050F6D6"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3DB4802492E5918F"
 				item: "mysticalagriculture:soulium_gemstone"
@@ -727,6 +865,11 @@
 		{
 			dependencies: ["161EA9A00C221FA5"]
 			id: "78B35A261847FB75"
+			rewards: [{
+				id: "315BFEB51D9CAAFE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7192566883C2CA41"
 				item: {
@@ -747,6 +890,11 @@
 				"6863E527601DFAE9"
 			]
 			id: "3A3C435BEF41A063"
+			rewards: [{
+				id: "70E1ED776756BED5"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "083A939CFD257AAE"
 				item: "mysticalagriculture:soul_extractor"
@@ -758,6 +906,11 @@
 		{
 			dependencies: ["78B35A261847FB75"]
 			id: "361298D5933F9FE8"
+			rewards: [{
+				id: "12B478C3097106AE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "50D849BB15E0C060"
 				item: "mysticalagriculture:soul_jar"
@@ -775,6 +928,11 @@
 			]
 			description: ["Now you've got the other things, you can start growing mob resources! Don't worry, mobs were not hurt during this process... &nyet&r"]
 			id: "179814FB9C7DAFD3"
+			rewards: [{
+				id: "4A11D52E6F7D915B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6012DD1E89759A2E"
 				title: "Mob seeds"
@@ -789,6 +947,11 @@
 				"32C4185F881773F2"
 			]
 			id: "6A2501B93ED6D333"
+			rewards: [{
+				id: "351E5BD93BA8E82D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0F8154E5C73312A8"
 				title: "Tier 2 mob seeds"
@@ -800,6 +963,11 @@
 		{
 			dependencies: ["0F96878F1ECD1318"]
 			id: "32C4185F881773F2"
+			rewards: [{
+				id: "3BA20D51FB8D79DE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4D4F6C0E091F0126"
 				title: "Tier 2 seeds"
@@ -811,6 +979,11 @@
 		{
 			dependencies: ["32C4185F881773F2"]
 			id: "6A7FC3A91B91D5B9"
+			rewards: [{
+				id: "26D4239E0CC9A4D1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "29B647FFA28BC1D1"
 				item: "mysticalagriculture:nature_seeds"
@@ -822,6 +995,11 @@
 		{
 			dependencies: ["32C4185F881773F2"]
 			id: "6B12E8A76CD15B3E"
+			rewards: [{
+				id: "5C944487D5BE80A2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "071B35F7914A445D"
 				item: "mysticalagriculture:dye_seeds"
@@ -833,6 +1011,11 @@
 		{
 			dependencies: ["32C4185F881773F2"]
 			id: "5C24265E563EDF3A"
+			rewards: [{
+				id: "4F0F56B081B3B48D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "312D778777052517"
 				item: "mysticalagriculture:nether_seeds"
@@ -844,6 +1027,11 @@
 		{
 			dependencies: ["32C4185F881773F2"]
 			id: "555D33EF98F2253F"
+			rewards: [{
+				id: "3E5E19B22F14BC33"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7EC07DE9A83264A5"
 				item: "mysticalagriculture:coal_seeds"
@@ -855,6 +1043,11 @@
 		{
 			dependencies: ["32C4185F881773F2"]
 			id: "1E6968486D081562"
+			rewards: [{
+				id: "23EDBD3AB5C829BC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6969EE0CE5E9123C"
 				item: "mysticalagriculture:coral_seeds"
@@ -866,6 +1059,11 @@
 		{
 			dependencies: ["32C4185F881773F2"]
 			id: "38D1435C85C144FE"
+			rewards: [{
+				id: "1DD83E053AFD2063"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6758562BC51B439A"
 				item: "mysticalagriculture:honey_seeds"
@@ -877,6 +1075,11 @@
 		{
 			dependencies: ["32C4185F881773F2"]
 			id: "21F15D9EFD468C88"
+			rewards: [{
+				id: "3C0971E4EB92BBED"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1CB3654892B755FB"
 				item: "mysticalagriculture:amethyst_seeds"
@@ -888,6 +1091,11 @@
 		{
 			dependencies: ["6A2501B93ED6D333"]
 			id: "177ED4509E562817"
+			rewards: [{
+				id: "182EFA970A790AB2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "64571193A76F1F97"
 				item: "mysticalagriculture:pig_seeds"
@@ -899,6 +1107,11 @@
 		{
 			dependencies: ["6A2501B93ED6D333"]
 			id: "32D0F24F45CC9E1E"
+			rewards: [{
+				id: "06CE1C95E9DB14C4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6F2CCFC01C1134BA"
 				item: "mysticalagriculture:chicken_seeds"
@@ -910,6 +1123,11 @@
 		{
 			dependencies: ["6A2501B93ED6D333"]
 			id: "2888E0ACCCC24FC9"
+			rewards: [{
+				id: "161FD209F89FFC38"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1599F2A23C28020E"
 				item: "mysticalagriculture:cow_seeds"
@@ -921,6 +1139,11 @@
 		{
 			dependencies: ["6A2501B93ED6D333"]
 			id: "1C6978CD11C8BD9E"
+			rewards: [{
+				id: "4A2275855168F887"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2EEDEF0BE3CFF156"
 				item: "mysticalagriculture:sheep_seeds"
@@ -932,6 +1155,11 @@
 		{
 			dependencies: ["6A2501B93ED6D333"]
 			id: "1FC6800960679AF6"
+			rewards: [{
+				id: "5E8F032322C82F4B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "15F52C3985449778"
 				item: "mysticalagriculture:squid_seeds"
@@ -943,6 +1171,11 @@
 		{
 			dependencies: ["6A2501B93ED6D333"]
 			id: "1670ED51A6864FC9"
+			rewards: [{
+				id: "5869ECAC3FC5980B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4416CDCA80685B5B"
 				item: "mysticalagriculture:fish_seeds"
@@ -954,6 +1187,11 @@
 		{
 			dependencies: ["6A2501B93ED6D333"]
 			id: "464295D1F91F295C"
+			rewards: [{
+				id: "6E24C0BE7D6E9318"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2879457AA2FEBF15"
 				item: "mysticalagriculture:slime_seeds"
@@ -965,6 +1203,11 @@
 		{
 			dependencies: ["6A2501B93ED6D333"]
 			id: "10037A93F6DE4AE6"
+			rewards: [{
+				id: "54701F1FDAD1CF05"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "19CEC5F9C5378080"
 				item: "mysticalagriculture:turtle_seeds"
@@ -976,6 +1219,11 @@
 		{
 			dependencies: ["32C4185F881773F2"]
 			id: "4585B66449C42183"
+			rewards: [{
+				id: "148FFE7ED595C15F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0EF1986BBF9DB853"
 				item: "mysticalagriculture:rubber_seeds"
@@ -987,6 +1235,11 @@
 		{
 			dependencies: ["32C4185F881773F2"]
 			id: "19338EAD77F24A9B"
+			rewards: [{
+				id: "02CD41678A1DD1E3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "10C8DBCB5B396595"
 				item: "mysticalagriculture:silicon_seeds"
@@ -998,6 +1251,11 @@
 		{
 			dependencies: ["32C4185F881773F2"]
 			id: "70CF21FAD4D8B2B0"
+			rewards: [{
+				id: "1CB91E2DE9A2EA2D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "07686073DE8F897A"
 				item: "mysticalagriculture:sulfur_seeds"
@@ -1009,6 +1267,11 @@
 		{
 			dependencies: ["32C4185F881773F2"]
 			id: "54C5D334FC0DF4E6"
+			rewards: [{
+				id: "388693A806504234"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "15CDEECF8FF5BD8E"
 				item: "mysticalagriculture:aluminum_seeds"
@@ -1020,6 +1283,11 @@
 		{
 			dependencies: ["32C4185F881773F2"]
 			id: "0A31220A86F37D90"
+			rewards: [{
+				id: "282BB8E0E186FF06"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "37761B5EF27B653B"
 				item: "mysticalagriculture:saltpeter_seeds"
@@ -1031,6 +1299,11 @@
 		{
 			dependencies: ["32C4185F881773F2"]
 			id: "70E81BE2DBB06C9D"
+			rewards: [{
+				id: "2FB18F5A7B5990F4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "771AF26924676633"
 				item: "mysticalagriculture:apatite_seeds"
@@ -1042,6 +1315,11 @@
 		{
 			dependencies: ["32C4185F881773F2"]
 			id: "09282C6632F0C7F9"
+			rewards: [{
+				id: "3FA8E8614C860131"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2F0CF3CCD27DE572"
 				item: "mysticalagriculture:mystical_flower_seeds"
@@ -1053,6 +1331,11 @@
 		{
 			dependencies: ["32C4185F881773F2"]
 			id: "0B6E799606EF62E2"
+			rewards: [{
+				id: "4D5A8F7D2B79F9C3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "31A428A979F47D49"
 				item: "mysticalagriculture:limestone_seeds"
@@ -1064,6 +1347,11 @@
 		{
 			dependencies: ["3B72C33D4C750BB5"]
 			id: "149582BFC6A4994B"
+			rewards: [{
+				id: "395306C08F70EF67"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "757D6CC09C99299A"
@@ -1116,6 +1404,11 @@
 		{
 			dependencies: ["475687AA1C91A9EA"]
 			id: "2EC8F8531FF8711C"
+			rewards: [{
+				id: "03B45ED2FE775FE2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4460A137F046D911"
 				item: "mysticalagriculture:tertium_farmland"
@@ -1127,6 +1420,11 @@
 		{
 			dependencies: ["3B72C33D4C750BB5"]
 			id: "0F15EDB1A2B9E8FE"
+			rewards: [{
+				id: "4543B5149C3AE445"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "08F08460B9BE0A15"
 				item: {
@@ -1144,6 +1442,11 @@
 		{
 			dependencies: ["3B72C33D4C750BB5"]
 			id: "3A853C9F13CEA495"
+			rewards: [{
+				id: "538B54E089135CDF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "43B7E70F8C3DC551"
 				item: "mysticalagriculture:tertium_growth_accelerator"
@@ -1155,6 +1458,11 @@
 		{
 			dependencies: ["475687AA1C91A9EA"]
 			id: "22FC16BD12E31452"
+			rewards: [{
+				id: "07FF793747E56360"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "036F7858BD005E90"
 				title: "Tier 3 seeds"
@@ -1169,6 +1477,11 @@
 				"22FC16BD12E31452"
 			]
 			id: "5F7D306E0D1672BC"
+			rewards: [{
+				id: "21245267A6186E8C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "46456814D4058BA3"
 				title: "Tier 3 mob seeds"
@@ -1180,6 +1493,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "55C947F444A4DF1B"
+			rewards: [{
+				id: "0DDCBE674F9229F3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "04E93548FFBA91B2"
 				item: "mysticalagriculture:iron_seeds"
@@ -1191,6 +1509,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "4F114109441FA409"
+			rewards: [{
+				id: "0E8257E463119967"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0B82BD551F7ADAFA"
 				item: "mysticalagriculture:copper_seeds"
@@ -1202,6 +1525,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "61500DCEB8E754AD"
+			rewards: [{
+				id: "37593D3F1D6C5783"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5AD11339EB570553"
 				item: "mysticalagriculture:copper_seeds"
@@ -1213,6 +1541,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "1C98202579F4CD56"
+			rewards: [{
+				id: "320595AA13D7073F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "35BAD02A55CDDAA3"
 				item: "mysticalagriculture:nether_quartz_seeds"
@@ -1224,6 +1557,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "2B74B724B2C45D56"
+			rewards: [{
+				id: "632496D2F82C8B87"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7D2C7B734B8025ED"
 				item: "mysticalagriculture:glowstone_seeds"
@@ -1235,6 +1573,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "0E1B38A9C365DEB3"
+			rewards: [{
+				id: "635676692C057D7B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "740F17B838FE59C9"
 				item: "mysticalagriculture:redstone_seeds"
@@ -1246,6 +1589,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "1040A0070845600E"
+			rewards: [{
+				id: "4CF80D20C6C8B800"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "68A54B7CA2F09C02"
 				item: "mysticalagriculture:obsidian_seeds"
@@ -1257,6 +1605,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "016891A2C809EF13"
+			rewards: [{
+				id: "7438DF9540DBB568"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6E28F98F6021910F"
 				item: "mysticalagriculture:prismarine_seeds"
@@ -1268,6 +1621,11 @@
 		{
 			dependencies: ["5F7D306E0D1672BC"]
 			id: "3AD5AA0AA309A4D9"
+			rewards: [{
+				id: "1D7D08949772F806"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6F61508219E5EB69"
 				item: "mysticalagriculture:zombie_seeds"
@@ -1279,6 +1637,11 @@
 		{
 			dependencies: ["5F7D306E0D1672BC"]
 			id: "268726DB3211E6B0"
+			rewards: [{
+				id: "6389B92594EAA784"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0A6FA7931EF9877D"
 				item: "mysticalagriculture:skeleton_seeds"
@@ -1290,6 +1653,11 @@
 		{
 			dependencies: ["5F7D306E0D1672BC"]
 			id: "7299936F7F07BC27"
+			rewards: [{
+				id: "2C7A979C48DC3CF0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "439EAD2B9BC8A54C"
 				item: "mysticalagriculture:creeper_seeds"
@@ -1301,6 +1669,11 @@
 		{
 			dependencies: ["5F7D306E0D1672BC"]
 			id: "39DFBA7679BA7D4D"
+			rewards: [{
+				id: "274C718F9C5ED120"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4D516CA60E7DE72C"
 				item: "mysticalagriculture:rabbit_seeds"
@@ -1313,6 +1686,11 @@
 			dependencies: ["5F7D306E0D1672BC"]
 			dependency_requirement: "one_started"
 			id: "00CED2F5569E4DC7"
+			rewards: [{
+				id: "4FE1E96AA92BBD61"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1A03494451F4C3DC"
 				item: "mysticalagriculture:spider_seeds"
@@ -1324,6 +1702,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "455B6A92C19A8A6C"
+			rewards: [{
+				id: "6EB4110834418A90"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "43022B0041069796"
 				item: "mysticalagriculture:tin_seeds"
@@ -1335,6 +1718,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "3FDEA11BE6EC9434"
+			rewards: [{
+				id: "57A519C33AB3EE78"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "56D922ECA4F35260"
 				item: "mysticalagriculture:bronze_seeds"
@@ -1346,6 +1734,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "11DAB69597DC98B1"
+			rewards: [{
+				id: "5B8DABAB8FE470D9"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1FC6B6BCE31C384E"
 				item: "mysticalagriculture:zinc_seeds"
@@ -1357,6 +1750,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "489D764F5EC47B82"
+			rewards: [{
+				id: "609E986F7D9C9DE5"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "07A99BEF41333F0B"
 				item: "mysticalagriculture:brass_seeds"
@@ -1368,6 +1766,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "0E5C4F0420D144C7"
+			rewards: [{
+				id: "52C66CCA7E9B012D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "56B3E323E0C064AF"
 				item: "mysticalagriculture:silver_seeds"
@@ -1379,6 +1782,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "271D68D1239460BD"
+			rewards: [{
+				id: "71CE9C26821EC1E1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "505648BD4EB23B2D"
 				item: "mysticalagriculture:lead_seeds"
@@ -1390,6 +1798,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "072B88C3EE3D51C4"
+			rewards: [{
+				id: "39B7551BDAF6A027"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0B47887BE1C2955E"
 				item: "mysticalagriculture:graphite_seeds"
@@ -1401,6 +1814,11 @@
 		{
 			dependencies: ["5F7D306E0D1672BC"]
 			id: "438E86CB0FD7EEF1"
+			rewards: [{
+				id: "0840022BF8D79460"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "49D81B6AF49E0331"
 				item: "mysticalagriculture:blizz_seeds"
@@ -1412,6 +1830,11 @@
 		{
 			dependencies: ["5F7D306E0D1672BC"]
 			id: "233B0D01B213356F"
+			rewards: [{
+				id: "219E53F409655F30"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7F9C9B3F1B0E8E51"
 				item: "mysticalagriculture:blitz_seeds"
@@ -1423,6 +1846,11 @@
 		{
 			dependencies: ["5F7D306E0D1672BC"]
 			id: "087D6912B0A770BC"
+			rewards: [{
+				id: "171F8034B269DB6A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "55C8298B4597421F"
 				item: "mysticalagriculture:basalz_seeds"
@@ -1434,6 +1862,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "3C84A6AF198C911B"
+			rewards: [{
+				id: "368245AD58397162"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "761DE89CFE311023"
 				item: "mysticalagriculture:amethyst_bronze_seeds"
@@ -1445,6 +1878,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "3482C7999698D6E5"
+			rewards: [{
+				id: "05B49523CBF47C46"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "15D60C61BAE2EF1F"
 				item: "mysticalagriculture:slimesteel_seeds"
@@ -1456,6 +1894,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "67B55876E4303F8B"
+			rewards: [{
+				id: "3E29B39A53608A7A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2CCEBF776E224849"
 				item: "mysticalagriculture:pig_iron_seeds"
@@ -1467,6 +1910,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "05A76ABB7B188094"
+			rewards: [{
+				id: "432A8674AA67568B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "50C77144F72F1EB1"
 				item: "mysticalagriculture:manasteel_seeds"
@@ -1478,6 +1926,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "278D3D9C21302D00"
+			rewards: [{
+				id: "0486FD21D4969722"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "10F83031E755A13B"
 				item: "mysticalagriculture:steeleaf_seeds"
@@ -1489,6 +1942,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "413ECBC0804ECC9C"
+			rewards: [{
+				id: "4029CBD76880CE21"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0D68BA815D989982"
 				item: "mysticalagriculture:ironwood_seeds"
@@ -1500,6 +1958,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "6E942B2E929948F4"
+			rewards: [{
+				id: "42A18BCB2CF64A69"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "466A37B902FE5E2E"
 				item: "mysticalagriculture:sky_stone_seeds"
@@ -1511,6 +1974,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "72A36CF8B497933E"
+			rewards: [{
+				id: "6CC8D2C475A09B83"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7BDC28BF43DA5A79"
 				item: "mysticalagriculture:certus_quartz_seeds"
@@ -1522,6 +1990,11 @@
 		{
 			dependencies: ["22FC16BD12E31452"]
 			id: "7E3BA3A9D7A59D6A"
+			rewards: [{
+				id: "49F53D92EF58EB84"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2D9A6B8FF2193FF8"
 				item: "mysticalagriculture:quartz_enriched_iron_seeds"
@@ -1533,6 +2006,11 @@
 		{
 			dependencies: ["38606623313119D3"]
 			id: "2F2F892D19B1424E"
+			rewards: [{
+				id: "170C6CEC469AA0E3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2E9F737BB0F7E00E"
 				title: "Tier 4 seeds"
@@ -1547,6 +2025,11 @@
 				"2F2F892D19B1424E"
 			]
 			id: "714EE40D326BA736"
+			rewards: [{
+				id: "5D1DB9CAB02462BB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "401D06AF1F55C581"
 				title: "Tier 4 mob seeds"
@@ -1558,6 +2041,11 @@
 		{
 			dependencies: ["38606623313119D3"]
 			id: "427731E2D566397C"
+			rewards: [{
+				id: "063949822252B508"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "133D6FA8048823E3"
 				item: "mysticalagriculture:imperium_farmland"
@@ -1569,6 +2057,11 @@
 		{
 			dependencies: ["5AA2EB5C5B5F3A29"]
 			id: "71F3A8389E6AADC5"
+			rewards: [{
+				id: "5A3129C93311BC20"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "71C9E77AFB8B90FD"
@@ -1621,6 +2114,11 @@
 		{
 			dependencies: ["5AA2EB5C5B5F3A29"]
 			id: "7645DCE1B19AA842"
+			rewards: [{
+				id: "40D0E4300D97BA26"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "217261F8EB28902E"
 				item: {
@@ -1638,6 +2136,11 @@
 		{
 			dependencies: ["5AA2EB5C5B5F3A29"]
 			id: "3827983B7A96B7CC"
+			rewards: [{
+				id: "7D868E47B041FB55"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2FBA6CEE4317E252"
 				item: "mysticalagriculture:imperium_growth_accelerator"
@@ -1649,6 +2152,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "120253674E9945A3"
+			rewards: [{
+				id: "1367CD0B8C102780"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5DA4A6AA029A720D"
 				item: "mysticalagriculture:gold_seeds"
@@ -1660,6 +2168,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "60BBB9F4D2D35A8A"
+			rewards: [{
+				id: "67E123B7CFA76446"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3E45228EC31027A0"
 				item: "mysticalagriculture:lapis_lazuli_seeds"
@@ -1671,6 +2184,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "6E1E44C03E0316CD"
+			rewards: [{
+				id: "26149A31FC9AEA68"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2882BA9B025600EA"
 				item: "mysticalagriculture:end_seeds"
@@ -1682,6 +2200,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "74E4A57E14010F09"
+			rewards: [{
+				id: "25FCFB2925DCE60E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "48D27EC5CDB0A71F"
 				item: "mysticalagriculture:experience_seeds"
@@ -1693,6 +2216,11 @@
 		{
 			dependencies: ["714EE40D326BA736"]
 			id: "14077F4DAF723041"
+			rewards: [{
+				id: "620F9E33BCA627AF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7AFDD26DAD0B56EC"
 				item: "mysticalagriculture:blaze_seeds"
@@ -1704,6 +2232,11 @@
 		{
 			dependencies: ["714EE40D326BA736"]
 			id: "62A36CBD2C7BF48B"
+			rewards: [{
+				id: "3B076D835F1BB6AE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6CCF32022AC286C8"
 				item: "mysticalagriculture:ghast_seeds"
@@ -1715,6 +2248,11 @@
 		{
 			dependencies: ["714EE40D326BA736"]
 			id: "77A102CCD425B329"
+			rewards: [{
+				id: "18660C948167D135"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3C1112B2EFE9D722"
 				item: "mysticalagriculture:enderman_seeds"
@@ -1726,6 +2264,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "42F33E0954DE2C8C"
+			rewards: [{
+				id: "39AE3CA1E2A25984"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "354CA71705A1326E"
 				item: "mysticalagriculture:steel_seeds"
@@ -1737,6 +2280,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "0B7D052F314CD3D6"
+			rewards: [{
+				id: "6B93D01D384C6A1D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "669A0835ED150F39"
 				item: "mysticalagriculture:nickel_seeds"
@@ -1748,6 +2296,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "3D9D66A53B1794DB"
+			rewards: [{
+				id: "0677DFA22A1CD46D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "67C07F90E88D49A7"
 				item: "mysticalagriculture:nickel_seeds"
@@ -1759,6 +2312,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "3FD0AE196702BB19"
+			rewards: [{
+				id: "06D68E33AE9072CA"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "25454E218359D2A3"
 				item: "mysticalagriculture:constantan_seeds"
@@ -1770,6 +2328,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "2A9C67B21E70212E"
+			rewards: [{
+				id: "4016556B53D1BC59"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6C31247316DCCDB9"
 				item: "mysticalagriculture:electrum_seeds"
@@ -1781,6 +2344,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "3DAE8DC706B3D824"
+			rewards: [{
+				id: "77F54776178CCFC7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "004D3AA69A0748F4"
 				item: "mysticalagriculture:invar_seeds"
@@ -1792,6 +2360,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "0EBEFD53FE4A0470"
+			rewards: [{
+				id: "754FCEF0E7069EC5"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1039FEA63A3F18C7"
 				item: "mysticalagriculture:mithril_seeds"
@@ -1803,6 +2376,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "74D528CAF79196A8"
+			rewards: [{
+				id: "79A5BEC08A2A4821"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4663DBC24C390EC1"
 				item: "mysticalagriculture:tungsten_seeds"
@@ -1814,6 +2392,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "7F4ED22D9EE8B9EF"
+			rewards: [{
+				id: "5C29881821179920"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "088AA1E5FB7CF2DF"
 				item: "mysticalagriculture:titanium_seeds"
@@ -1825,6 +2408,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "40CF5115A766D921"
+			rewards: [{
+				id: "270319CF15803FF8"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "23960CE0A9D3688D"
 				item: "mysticalagriculture:uranium_seeds"
@@ -1836,6 +2424,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "0B3E698895BF2213"
+			rewards: [{
+				id: "5EC8929FD3D88957"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0C264A0A80AD4125"
 				item: "mysticalagriculture:chrome_seeds"
@@ -1847,6 +2440,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "4BDE78121B21E27A"
+			rewards: [{
+				id: "137E1E878BA96D92"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "32329FE0BE8AC815"
 				item: "mysticalagriculture:ruby_seeds"
@@ -1858,6 +2456,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "29890B233CBADED5"
+			rewards: [{
+				id: "096CCE6C92F61C70"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0AF32C8F62204ACD"
 				item: "mysticalagriculture:sapphire_seeds"
@@ -1869,6 +2472,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "2C752D31B4646634"
+			rewards: [{
+				id: "3877B279D1801F8A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5338EE6914152F16"
 				item: "mysticalagriculture:signalum_seeds"
@@ -1880,6 +2488,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "5E68D514D2123C8F"
+			rewards: [{
+				id: "149436A0D960B076"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7955F18EABF1F557"
 				item: "mysticalagriculture:lumium_seeds"
@@ -1891,6 +2504,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "78EBC6B33C1A8EDE"
+			rewards: [{
+				id: "11FD46253D8FD162"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "71B40B7F97A39A1F"
 				item: "mysticalagriculture:hop_graphite_seeds"
@@ -1902,6 +2520,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "74F460DF2259AB28"
+			rewards: [{
+				id: "241EB506B4C835DC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "510F8CF9DE1AE78C"
 				item: "mysticalagriculture:cobalt_seeds"
@@ -1913,6 +2536,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "2C08BD49AD4AF09B"
+			rewards: [{
+				id: "070CBCECF40732E4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7D79ED23A4200BA4"
 				item: "mysticalagriculture:rose_gold_seeds"
@@ -1924,6 +2552,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "78EE33D47B28EA22"
+			rewards: [{
+				id: "51C1DD3ED398CCC2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4E7C9AEC511A120A"
 				item: "mysticalagriculture:elementium_seeds"
@@ -1935,6 +2568,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "6B7EB372297BECAB"
+			rewards: [{
+				id: "67F098188B1B22AE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "545AE69EDDF7246A"
 				item: "mysticalagriculture:osmium_seeds"
@@ -1946,6 +2584,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "47FCA1F88721D8C6"
+			rewards: [{
+				id: "1257BDA1825A9677"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2B2BC8F50BFD6F65"
 				item: "mysticalagriculture:fluorite_seeds"
@@ -1957,6 +2600,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "00F2D1710ADA393E"
+			rewards: [{
+				id: "0F3472CDA5515BFE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6B1E1527694F3A95"
 				item: "mysticalagriculture:refined_glowstone_seeds"
@@ -1968,6 +2616,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "0960D9A12DF93135"
+			rewards: [{
+				id: "13E615EDD2FFAE15"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6FB6B707EF02F16B"
 				item: "mysticalagriculture:refined_obsidian_seeds"
@@ -1979,6 +2632,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "3286DA568670EAF0"
+			rewards: [{
+				id: "1C070307D73B2AE6"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4443CA044897DFB9"
 				item: "mysticalagriculture:knightmetal_seeds"
@@ -1990,6 +2648,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "2A83BF32386F2526"
+			rewards: [{
+				id: "6F203550F974411E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1584F38C86E2ACE1"
 				item: "mysticalagriculture:fiery_ingot_seeds"
@@ -2001,6 +2664,11 @@
 		{
 			dependencies: ["2F2F892D19B1424E"]
 			id: "0D0B9E67AA70201A"
+			rewards: [{
+				id: "1D11F145430A3BE7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4EF05F85080B582C"
 				item: "mysticalagriculture:fluix_seeds"
@@ -2012,6 +2680,11 @@
 		{
 			dependencies: ["14DA875923C37020"]
 			id: "110E55EDB09373B7"
+			rewards: [{
+				id: "41B41DFFA997C125"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7A856F176B553260"
 				item: "mysticalagriculture:supremium_farmland"
@@ -2023,6 +2696,11 @@
 		{
 			dependencies: ["2066EC7F90C5BCC9"]
 			id: "227DD803353C7700"
+			rewards: [{
+				id: "02DCF1C5BD533677"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0BFC96D012697C6B"
 				item: "mysticalagradditions:insanium_farmland"
@@ -2034,6 +2712,11 @@
 		{
 			dependencies: ["7D16A04251ED3BD6"]
 			id: "552E753400A3EA56"
+			rewards: [{
+				id: "1AF6BA0565A1757A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "685902F1F3BEE137"
@@ -2086,6 +2769,11 @@
 		{
 			dependencies: ["7D16A04251ED3BD6"]
 			id: "3CA5A5D2AD112042"
+			rewards: [{
+				id: "3BA053E4208AEC07"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "121594C752910F17"
 				item: "mysticalagriculture:supremium_sword"
@@ -2097,6 +2785,11 @@
 		{
 			dependencies: ["7D16A04251ED3BD6"]
 			id: "55BA35668E497B83"
+			rewards: [{
+				id: "32CE82DDBD1F2275"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5FF50DB20F5CB60E"
 				item: "mysticalagriculture:supremium_growth_accelerator"
@@ -2108,6 +2801,11 @@
 		{
 			dependencies: ["14DA875923C37020"]
 			id: "01BF42CBCB978EE6"
+			rewards: [{
+				id: "011A71A484B4CDD7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1F7E4A1D5580AD80"
 				title: "Tier 5 seeds"
@@ -2122,6 +2820,11 @@
 				"01BF42CBCB978EE6"
 			]
 			id: "27515A795F5FB4AD"
+			rewards: [{
+				id: "72C1C98C298EBD44"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3D7397179B121105"
 				title: "Tier 5 mob seeds"
@@ -2133,6 +2836,11 @@
 		{
 			dependencies: ["0710A642A414FAF4"]
 			id: "691C8954B85ADD34"
+			rewards: [{
+				id: "47CEDC0ADCE74D15"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "74AF4E7C79DA8BE0"
 				item: "mysticalagriculture:upgrade_base"
@@ -2144,6 +2852,11 @@
 		{
 			dependencies: ["019FBB0FF6439101"]
 			id: "57415FBF836C7FBF"
+			rewards: [{
+				id: "586BF45198E38F74"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6F17C625E79B17A3"
 				item: "mysticalagriculture:inferium_upgrade"
@@ -2155,6 +2868,11 @@
 		{
 			dependencies: ["22B05B34BA31FA96"]
 			id: "0039FDC449B17629"
+			rewards: [{
+				id: "4D7946849A92B50D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "44CE9F14DD804688"
 				item: "mysticalagriculture:prudentium_upgrade"
@@ -2166,6 +2884,11 @@
 		{
 			dependencies: ["3B72C33D4C750BB5"]
 			id: "5EA73766FC308896"
+			rewards: [{
+				id: "79FDD988B7268EF4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "022FECAC1DA9F0DA"
 				item: "mysticalagriculture:tertium_upgrade"
@@ -2177,6 +2900,11 @@
 		{
 			dependencies: ["5AA2EB5C5B5F3A29"]
 			id: "0447843FA768CB8A"
+			rewards: [{
+				id: "12C7368A3BFEAD4C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4B09B35C7391DF94"
 				item: "mysticalagriculture:imperium_upgrade"
@@ -2188,6 +2916,11 @@
 		{
 			dependencies: ["7D16A04251ED3BD6"]
 			id: "4D454333B02AFD5D"
+			rewards: [{
+				id: "29BE2D7AC5FBF1DE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3C401EA1A45FFD47"
 				item: "mysticalagriculture:supremium_upgrade"
@@ -2199,6 +2932,11 @@
 		{
 			dependencies: ["01BF42CBCB978EE6"]
 			id: "6EF504016D0396A0"
+			rewards: [{
+				id: "0C9C1A1453651E48"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "09AAA23405D63140"
 				item: "mysticalagriculture:diamond_seeds"
@@ -2210,6 +2948,11 @@
 		{
 			dependencies: ["01BF42CBCB978EE6"]
 			id: "1842925C7B9D20DD"
+			rewards: [{
+				id: "0A4294E2E5E745A9"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6A057A76707C48E9"
 				item: "mysticalagriculture:emerald_seeds"
@@ -2221,6 +2964,11 @@
 		{
 			dependencies: ["01BF42CBCB978EE6"]
 			id: "19BFCA28F61E3B48"
+			rewards: [{
+				id: "21D35F68A8DE8C1B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "609640333956936F"
 				item: "mysticalagriculture:netherite_seeds"
@@ -2232,6 +2980,11 @@
 		{
 			dependencies: ["27515A795F5FB4AD"]
 			id: "63D45DF49B69FF15"
+			rewards: [{
+				id: "7F7BC47857795387"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3D267C777907EC5B"
 				item: "mysticalagriculture:wither_skeleton_seeds"
@@ -2243,6 +2996,11 @@
 		{
 			dependencies: ["01BF42CBCB978EE6"]
 			id: "2E423D5E5F368C5D"
+			rewards: [{
+				id: "114A39C616ED2D33"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6C855DDCB89493D9"
 				item: "mysticalagriculture:platinum_seeds"
@@ -2254,6 +3012,11 @@
 		{
 			dependencies: ["01BF42CBCB978EE6"]
 			id: "054E00E2E10B87C3"
+			rewards: [{
+				id: "404E2E24E1961A54"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "02364CAD467BE9C2"
 				item: "mysticalagriculture:iridium_seeds"
@@ -2265,6 +3028,11 @@
 		{
 			dependencies: ["01BF42CBCB978EE6"]
 			id: "6B77B1D6EBE2FE36"
+			rewards: [{
+				id: "1D7037775AB8C109"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "555B6F84089A5013"
 				item: "mysticalagriculture:enderium_seeds"
@@ -2276,6 +3044,11 @@
 		{
 			dependencies: ["01BF42CBCB978EE6"]
 			id: "155CF64973E6E9A1"
+			rewards: [{
+				id: "6C31F51C49F9F85D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "135A8D535BD0B393"
 				item: "mysticalagriculture:manyullyn_seeds"
@@ -2287,6 +3060,11 @@
 		{
 			dependencies: ["01BF42CBCB978EE6"]
 			id: "7444D7FD8585E735"
+			rewards: [{
+				id: "5FA9FB8F2A12B244"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2699FAF77C184D00"
 				item: "mysticalagriculture:queens_slime_seeds"
@@ -2298,6 +3076,11 @@
 		{
 			dependencies: ["01BF42CBCB978EE6"]
 			id: "2D74BD00FC991FF4"
+			rewards: [{
+				id: "1855DE0735067E79"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6B5C193B295B15CA"
 				item: "mysticalagriculture:hepatizon_seeds"
@@ -2309,6 +3092,11 @@
 		{
 			dependencies: ["01BF42CBCB978EE6"]
 			id: "3F908AC1C9EA0241"
+			rewards: [{
+				id: "42DEED4956D26819"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3C376717277E2860"
 				item: "mysticalagriculture:terrasteel_seeds"
@@ -2320,6 +3108,11 @@
 		{
 			dependencies: ["01BF42CBCB978EE6"]
 			id: "20344A6AD006B572"
+			rewards: [{
+				id: "0546DCFCD236F61E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7B448925BFE56792"
 				item: "mysticalagriculture:yellorium_seeds"
@@ -2331,6 +3124,11 @@
 		{
 			dependencies: ["01BF42CBCB978EE6"]
 			id: "062F8C408345560E"
+			rewards: [{
+				id: "7D02C6E6F7838183"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "13FE0448C9CD33CA"
 				item: "mysticalagriculture:cyanite_seeds"
@@ -2342,6 +3140,11 @@
 		{
 			dependencies: ["2B5406B4BC14F330"]
 			id: "27084A48D0B50107"
+			rewards: [{
+				id: "62B218DCFEA02C23"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "68646C8C3A2548A9"
 				item: "mysticalagriculture:nether_star_seeds"
@@ -2353,6 +3156,11 @@
 		{
 			dependencies: ["2B5406B4BC14F330"]
 			id: "4859C9B7B99AD6B6"
+			rewards: [{
+				id: "33FC30E6D0258DD9"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "66DEB8126B7E5688"
 				item: "mysticalagriculture:dragon_egg_seeds"
@@ -2364,6 +3172,11 @@
 		{
 			dependencies: ["2B5406B4BC14F330"]
 			id: "70A758E54DD54E66"
+			rewards: [{
+				id: "3DE758BB04F8B833"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "18C32CB95161FCBE"
 				item: "mysticalagriculture:gaia_spirit_seeds"
@@ -2375,6 +3188,11 @@
 		{
 			dependencies: ["2066EC7F90C5BCC9"]
 			id: "2B5406B4BC14F330"
+			rewards: [{
+				id: "6A9EDAD247234C0F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5BA70376FB066139"
 				title: "Tier 6 seeds"
@@ -2386,6 +3204,11 @@
 		{
 			dependencies: ["786AB1D977A88879"]
 			id: "7E5E370E2A2F5652"
+			rewards: [{
+				id: "4803FBA77D48D5C4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "6956B4AC846A2474"
@@ -2438,6 +3261,11 @@
 		{
 			dependencies: ["786AB1D977A88879"]
 			id: "4D341CA67B34ABF1"
+			rewards: [{
+				id: "527BEACAD5374533"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "761A33035E71F8DE"
 				item: "mysticaladaptations:insanium_sword"
@@ -2450,6 +3278,11 @@
 			dependencies: ["731ADADD9229DF9E"]
 			description: ["This will require you killing the wither using a mystical agriculture weapon that has the \"Mystical Enlightenment\" enchant on it"]
 			id: "1DE84C62EDA5CEEC"
+			rewards: [{
+				id: "4ECAEF374CEFE8E1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "53D0EC58AFD084E0"
 				item: "mysticalagriculture:cognizant_dust"
@@ -2463,6 +3296,11 @@
 			description: ["Once you get your block of awakened supremium, you can change it into 9 awakened supremium"]
 			icon: "mysticalagriculture:awakened_supremium_block"
 			id: "1814E205B489863B"
+			rewards: [{
+				id: "61BDD935C5BAE968"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "5E5E4017A1B4EC4E"
@@ -2486,6 +3324,11 @@
 			description: ["Come back to this once you get to supremium!"]
 			hide_dependency_lines: true
 			id: "731ADADD9229DF9E"
+			rewards: [{
+				id: "0D2C056663D983E4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -2512,6 +3355,11 @@
 		{
 			dependencies: ["61B36315F1E92A69"]
 			id: "6DA40AF7CAE4E17A"
+			rewards: [{
+				id: "5D4D668C47B5178E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0B525431817D588B"
 				item: "mysticalagriculture:awakened_supremium_sword"
@@ -2523,6 +3371,11 @@
 		{
 			dependencies: ["61B36315F1E92A69"]
 			id: "76E0884E0FA9A2B6"
+			rewards: [{
+				id: "045DB5C53C917A32"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "513DC9AA45103BD1"
@@ -2575,6 +3428,11 @@
 		{
 			dependencies: ["61B36315F1E92A69"]
 			id: "03D9B3561CB9AFC6"
+			rewards: [{
+				id: "0CF9512AC0360B5C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4699A9D782367CEE"
 				item: "mysticalagriculture:awakened_supremium_upgrade"
@@ -2586,6 +3444,11 @@
 		{
 			dependencies: ["1814E205B489863B"]
 			id: "61B36315F1E92A69"
+			rewards: [{
+				id: "75EDCA975C8C56C3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "311D5338206349E8"
@@ -2604,6 +3467,11 @@
 		{
 			dependencies: ["0710A642A414FAF4"]
 			id: "3735E418342AEA1E"
+			rewards: [{
+				id: "68460A523B908A5D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "706FC9E3FF07B9B6"
 				item: "mysticalagriculture:unattuned_augment"
@@ -2615,6 +3483,11 @@
 		{
 			dependencies: ["161EA9A00C221FA5"]
 			id: "146EEE65CBE5ABCC"
+			rewards: [{
+				id: "6D9D40EFDBEC5768"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "718441FFB5E63261"
 				item: "mysticalagriculture:tinkering_table"
@@ -2626,6 +3499,11 @@
 		{
 			dependencies: ["6863E527601DFAE9"]
 			id: "03DC380F8D6423D9"
+			rewards: [{
+				id: "29DEE304657D1A73"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2788C7A0BF59F3AD"
 				item: "mysticalagriculture:harvester"
@@ -2637,6 +3515,11 @@
 		{
 			dependencies: ["556B706FA9C82EEE"]
 			id: "6863E527601DFAE9"
+			rewards: [{
+				id: "269353F3E7CBBA7F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "29947510B72C437C"
 				item: "mysticalagriculture:machine_frame"
@@ -2648,6 +3531,11 @@
 		{
 			dependencies: ["6863E527601DFAE9"]
 			id: "20A84EF3A9565F70"
+			rewards: [{
+				id: "662D16D7972D7DFD"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "21D7AA3D5BC5C741"
 				item: "mysticalagriculture:basic_reprocessor"

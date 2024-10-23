@@ -5,7 +5,7 @@
 	group: "175372E337042CB9"
 	icon: "refinedstorage:quartz_enriched_iron"
 	id: "32F33DABE0E4733D"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,6 +16,11 @@
 				"To get into this mod, you'll first need to visit the nether and get some quartz!"
 			]
 			id: "2BF7BF8C78794A07"
+			rewards: [{
+				id: "7B32F93062D250D7"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "64323A2B0E2BDB5B"
 				title: "Welcome to refined storage!"
@@ -39,6 +44,11 @@
 					id: "4FDB1DE5FE04E797"
 					item: "refinedstorage:raw_basic_processor"
 					type: "item"
+				}
+				{
+					id: "7700DD564085961C"
+					type: "xp"
+					xp: 250
 				}
 			]
 			tasks: [
@@ -64,11 +74,18 @@
 		{
 			dependencies: ["2BF7BF8C78794A07"]
 			id: "08E52797191BBCD1"
-			rewards: [{
-				id: "66F392D22E48C6C0"
-				item: "refinedstorage:raw_basic_processor"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "66F392D22E48C6C0"
+					item: "refinedstorage:raw_basic_processor"
+					type: "item"
+				}
+				{
+					id: "4CABDF8673AA421C"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				id: "731ACA245F8DD979"
 				item: "refinedstorage:quartz_enriched_iron"
@@ -81,6 +98,11 @@
 			dependencies: ["2D197202AAAEB001"]
 			description: ["Did you know, you can dye your controller?!"]
 			id: "1AC608DC77D0F10E"
+			rewards: [{
+				id: "58D251F4957D853A"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "023563F574804694"
 				item: {
@@ -100,6 +122,11 @@
 			dependencies: ["08E52797191BBCD1"]
 			description: ["You can either get this via smelting nether quartz or certus quartz dust!"]
 			id: "22C62061CDCFEAD0"
+			rewards: [{
+				id: "181790503D93F050"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "2DA7E2D1D4F3611E"
 				item: {
@@ -120,6 +147,11 @@
 			dependencies: ["08E52797191BBCD1"]
 			description: ["Seeds will make this easier in future if you go through the mystical agriculture quests!"]
 			id: "04907A9B6AED968F"
+			rewards: [{
+				id: "49884429272EF9AC"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "62586D6AF812B2E7"
 				item: "mysticalagriculture:quartz_enriched_iron_seeds"
@@ -132,6 +164,11 @@
 			dependencies: ["22C62061CDCFEAD0"]
 			description: ["Seeds will make this easier in future if you go through the mystical agriculture quests!"]
 			id: "71F779B192BBA6E4"
+			rewards: [{
+				id: "2B4F8960F8A04E6F"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "6E812C5B9FC9AFA4"
 				item: "mysticalagriculture:silicon_seeds"
@@ -143,6 +180,11 @@
 		{
 			dependencies: ["2D197202AAAEB001"]
 			id: "0C65C2A445C83887"
+			rewards: [{
+				id: "066B0BB8F37D33BC"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "2C0C1FBD3CB2B251"
 				item: "refinedstorage:disk_drive"
@@ -154,6 +196,11 @@
 		{
 			dependencies: ["0C65C2A445C83887"]
 			id: "39B58AE2ECB77044"
+			rewards: [{
+				id: "664B8B822E79E3C9"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "6A0D27ADB24EF335"
 				item: "refinedstorage:1k_storage_part"
@@ -165,6 +212,11 @@
 		{
 			dependencies: ["7B0A68C15A56CF5B"]
 			id: "5751A3D56D3172F2"
+			rewards: [{
+				id: "26C3111138885F2C"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "5C2C60F119AE660D"
 				item: "refinedstorage:4k_storage_part"
@@ -176,6 +228,11 @@
 		{
 			dependencies: ["7B0A68C15A56CF5B"]
 			id: "568EEA52AD8DD0FA"
+			rewards: [{
+				id: "3D83A9B4232A5D9B"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "2F5B4FED752699D2"
 				item: "refinedstorage:16k_storage_part"
@@ -187,6 +244,11 @@
 		{
 			dependencies: ["7B0A68C15A56CF5B"]
 			id: "201BC29EF198853D"
+			rewards: [{
+				id: "27F75008F80702C8"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "12DCCD7126D5CCD6"
 				item: "refinedstorage:64k_storage_part"
@@ -198,6 +260,11 @@
 		{
 			dependencies: ["7B0A68C15A56CF5B"]
 			id: "4756DF95E96D7E35"
+			rewards: [{
+				id: "07E215BF72CFDC10"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "6D57B028AF60EB65"
 				item: "extradisks:256k_storage_part"
@@ -209,6 +276,11 @@
 		{
 			dependencies: ["7B0A68C15A56CF5B"]
 			id: "701136DE8BDEEAA6"
+			rewards: [{
+				id: "4530272400A5A2AF"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3781B6C60F30A897"
 				item: "extradisks:1024k_storage_part"
@@ -220,6 +292,11 @@
 		{
 			dependencies: ["7B0A68C15A56CF5B"]
 			id: "084ED5F1126E18C6"
+			rewards: [{
+				id: "21D1B19AFE6E8398"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "582465B75AA0576B"
 				item: "extradisks:4096k_storage_part"
@@ -231,6 +308,11 @@
 		{
 			dependencies: ["7B0A68C15A56CF5B"]
 			id: "2D8A739601F7B4E5"
+			rewards: [{
+				id: "1795D05BFF0B5F50"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "56CF21A244B55AFA"
 				item: "extradisks:16384k_storage_part"
@@ -242,6 +324,11 @@
 		{
 			dependencies: ["7B0A68C15A56CF5B"]
 			id: "1E1B9EDF4ABC7DA4"
+			rewards: [{
+				id: "240462B7BEB51E19"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "0D39E4CE233C93F4"
 				item: "extradisks:65536k_storage_part"
@@ -253,6 +340,11 @@
 		{
 			dependencies: ["7B0A68C15A56CF5B"]
 			id: "3E2E08FFC28A5746"
+			rewards: [{
+				id: "1780D5970E8A62B5"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "4DBD147E34E1B00D"
 				item: "extradisks:262144k_storage_part"
@@ -264,6 +356,11 @@
 		{
 			dependencies: ["7B0A68C15A56CF5B"]
 			id: "7030848FA4D0A668"
+			rewards: [{
+				id: "19D9720E8693A1DF"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "34119139FA88C3D0"
 				item: "extradisks:1048576k_storage_part"
@@ -275,6 +372,11 @@
 		{
 			dependencies: ["7B0A68C15A56CF5B"]
 			id: "2E693CA622A18CAE"
+			rewards: [{
+				id: "6223F26C007B510E"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3C185DA07B5D3607"
 				item: "extradisks:infinite_storage_part"
@@ -286,6 +388,11 @@
 		{
 			dependencies: ["37E19AEB93BE4636"]
 			id: "1D9A2C64D34F19D2"
+			rewards: [{
+				id: "39E0635622EEA283"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7C1AE7E4349A5282"
 				item: "extrastorage:neural_processor"
@@ -297,6 +404,11 @@
 		{
 			dependencies: ["37E19AEB93BE4636"]
 			id: "17B1F99A4DC2549D"
+			rewards: [{
+				id: "676ACBE4B0473F5F"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "0ACED64622DC48E5"
 				item: "rebornstorage:super_advanced_processor"
@@ -308,6 +420,11 @@
 		{
 			dependencies: ["37E19AEB93BE4636"]
 			id: "2A5349749C77EC42"
+			rewards: [{
+				id: "27B49BAA9545EB5D"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "6472594EDAF9F796"
 				item: "extradisks:withering_processor"
@@ -319,6 +436,11 @@
 		{
 			dependencies: ["394FDBEB2CF13401"]
 			id: "7E568A042BA29552"
+			rewards: [{
+				id: "0DF08E7CDF848D41"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3E781A960C45C308"
 				item: "refinedstorage:64k_fluid_storage_part"
@@ -330,6 +452,11 @@
 		{
 			dependencies: ["394FDBEB2CF13401"]
 			id: "4172E0F3C0BAAFC1"
+			rewards: [{
+				id: "0ED9CD510C827099"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "47982F06B21E542B"
 				item: "refinedstorage:256k_fluid_storage_part"
@@ -341,6 +468,11 @@
 		{
 			dependencies: ["394FDBEB2CF13401"]
 			id: "57DE087847282E1A"
+			rewards: [{
+				id: "14AAD7497EC5A835"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "325B3143D24EFBB8"
 				item: "refinedstorage:1024k_fluid_storage_part"
@@ -352,6 +484,11 @@
 		{
 			dependencies: ["394FDBEB2CF13401"]
 			id: "4B6A2CDA2564490C"
+			rewards: [{
+				id: "576849D304A97DCA"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "5FC00895824D454D"
 				item: "refinedstorage:4096k_fluid_storage_part"
@@ -363,6 +500,11 @@
 		{
 			dependencies: ["394FDBEB2CF13401"]
 			id: "5D4690F7D12D80AE"
+			rewards: [{
+				id: "515FD22A050EC730"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "5443E562144B691B"
 				item: "extradisks:16384k_fluid_storage_part"
@@ -374,6 +516,11 @@
 		{
 			dependencies: ["394FDBEB2CF13401"]
 			id: "4BD141DABE6D1715"
+			rewards: [{
+				id: "6ACAB4A34EF6A0F2"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "14A17287C48E8DDC"
 				item: "extradisks:65536k_fluid_storage_part"
@@ -385,6 +532,11 @@
 		{
 			dependencies: ["394FDBEB2CF13401"]
 			id: "49DC8497E90BC2A1"
+			rewards: [{
+				id: "0CD82DE72152F78C"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7750E7BD8D9FC0DD"
 				item: "extradisks:262144k_fluid_storage_part"
@@ -396,6 +548,11 @@
 		{
 			dependencies: ["394FDBEB2CF13401"]
 			id: "7D0652E850D5144D"
+			rewards: [{
+				id: "18B0CECE0A1609A1"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3925824D65938820"
 				item: "extradisks:1048576k_fluid_storage_part"
@@ -407,6 +564,11 @@
 		{
 			dependencies: ["394FDBEB2CF13401"]
 			id: "3868906FB09E82E2"
+			rewards: [{
+				id: "4C7838CD7D0BF04E"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3FF55B62AC8CBDB9"
 				item: "extradisks:infinite_fluid_storage_part"
@@ -418,6 +580,11 @@
 		{
 			dependencies: ["39B58AE2ECB77044"]
 			id: "394FDBEB2CF13401"
+			rewards: [{
+				id: "4BFB0AED6411F8C0"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "15B9B51FFCE89624"
 				title: "Fluid Storage"
@@ -429,6 +596,11 @@
 		{
 			dependencies: ["39B58AE2ECB77044"]
 			id: "7B0A68C15A56CF5B"
+			rewards: [{
+				id: "3236BCD7494E13E4"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7CD0E6C3A6D1E673"
 				title: "More storage!"
@@ -440,6 +612,11 @@
 		{
 			dependencies: ["59041C7FFD055531"]
 			id: "37E19AEB93BE4636"
+			rewards: [{
+				id: "16E7922A1E67F224"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1D903A496AF24C1A"
 				title: "More processors!"
@@ -451,6 +628,11 @@
 		{
 			dependencies: ["39B58AE2ECB77044"]
 			id: "532ACB7752C799D2"
+			rewards: [{
+				id: "20BA346D892EF5FF"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1E5CD6B87D056AAE"
 				item: "refinedstorage:storage_housing"
@@ -462,6 +644,11 @@
 		{
 			dependencies: ["2D197202AAAEB001"]
 			id: "2C5C0BD5B6875809"
+			rewards: [{
+				id: "3E59C2909791958F"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "4E48C6EFD724CC26"
 				item: {
@@ -480,6 +667,11 @@
 		{
 			dependencies: ["2C5C0BD5B6875809"]
 			id: "39DA1D9946199FF8"
+			rewards: [{
+				id: "6803E65444438D7D"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "18CE24B0AE5DF93A"
 				item: {
@@ -498,6 +690,11 @@
 		{
 			dependencies: ["4A8AA6B86A4894E9"]
 			id: "1E4E2893ED4B0BEC"
+			rewards: [{
+				id: "25E30D24E6EACEE8"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7EAAD76BF80842B7"
 				item: {
@@ -517,6 +714,11 @@
 			dependencies: ["2C5C0BD5B6875809"]
 			id: "3DD49DB41C9BFB1C"
 			optional: true
+			rewards: [{
+				id: "79B933A8BCC076EF"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7B6890B0F4892773"
 				item: {
@@ -535,6 +737,11 @@
 		{
 			dependencies: ["59041C7FFD055531"]
 			id: "2D197202AAAEB001"
+			rewards: [{
+				id: "33EB6E6392CEE57C"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "78F9B9FECD351A7C"
 				item: "refinedstorage:machine_casing"
@@ -551,6 +758,11 @@
 			]
 			description: ["Wouldn't you love to stop making logs into planks every minute?"]
 			id: "4A8AA6B86A4894E9"
+			rewards: [{
+				id: "4BC2AA3D41324602"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "10A642EC7E95E3EA"
 				title: "So, you have a system? How about autocrafting?"
@@ -562,6 +774,11 @@
 		{
 			dependencies: ["4A8AA6B86A4894E9"]
 			id: "203161B22045D27D"
+			rewards: [{
+				id: "09D7699821722EF6"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "285CF606EC0FEE6E"
 				item: {
@@ -580,6 +797,11 @@
 		{
 			dependencies: ["4A8AA6B86A4894E9"]
 			id: "3EB841EC232F2B0C"
+			rewards: [{
+				id: "06E1E41C885DE8B3"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "76DEC4C9F26C0361"
 				item: {
@@ -599,6 +821,11 @@
 			dependencies: ["3EB841EC232F2B0C"]
 			id: "7C1DCC856F43C261"
 			optional: true
+			rewards: [{
+				id: "12F5838A2B44B876"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3E4211B06F487CEB"
 				item: {
@@ -618,6 +845,11 @@
 			dependencies: ["3EB841EC232F2B0C"]
 			description: ["Has your crafter got too many patterns? Why not get a better crafter?"]
 			id: "401B102630317552"
+			rewards: [{
+				id: "06236AF184AA0B37"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3DE7E9BFF3D81239"
 				title: "Better crafters?!"
@@ -629,6 +861,11 @@
 		{
 			dependencies: ["401B102630317552"]
 			id: "0B0766C30DFF5E11"
+			rewards: [{
+				id: "50E0910E02128961"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7D17F76AC273B468"
 				item: "extrastorage:iron_crafter"
@@ -640,6 +877,11 @@
 		{
 			dependencies: ["401B102630317552"]
 			id: "51464624F17EF609"
+			rewards: [{
+				id: "1595801075589DC8"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "4C3133A66B67A90C"
 				item: "extrastorage:gold_crafter"
@@ -651,6 +893,11 @@
 		{
 			dependencies: ["401B102630317552"]
 			id: "7675C260B5584CC1"
+			rewards: [{
+				id: "0A29EECDCF8F780B"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "544ABED8F6953310"
 				item: "extrastorage:diamond_crafter"
@@ -662,6 +909,11 @@
 		{
 			dependencies: ["401B102630317552"]
 			id: "2E6B728C3BAC4BE2"
+			rewards: [{
+				id: "36273046DAB0CD30"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "77D91C0F1AD49493"
 				item: "extrastorage:netherite_crafter"
@@ -681,6 +933,11 @@
 				"Try these!"
 			]
 			id: "1D9BEB01DBA75BBB"
+			rewards: [{
+				id: "418810DA80708FFC"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "1D499B61EB36D6D1"
 				item: "refinedstorage:upgrade"
@@ -693,6 +950,11 @@
 		{
 			dependencies: ["1D9BEB01DBA75BBB"]
 			id: "007D8DFA23B6FE8A"
+			rewards: [{
+				id: "190C4DF61B37F59F"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7DAD4C3B4BF41EDA"
 				item: "refinedstorage:speed_upgrade"
@@ -704,6 +966,11 @@
 		{
 			dependencies: ["1D9BEB01DBA75BBB"]
 			id: "0C104A80EA45AC4C"
+			rewards: [{
+				id: "0E9BB5A1AD55CA76"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7E1338BAFCAD0FA1"
 				item: "refinedstorage:range_upgrade"
@@ -715,6 +982,11 @@
 		{
 			dependencies: ["1D9BEB01DBA75BBB"]
 			id: "13A185634126D134"
+			rewards: [{
+				id: "6081666C2C0D4083"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "70F77068E6922326"
 				item: "refinedstorage:crafting_upgrade"
@@ -726,6 +998,11 @@
 		{
 			dependencies: ["1D9BEB01DBA75BBB"]
 			id: "2C397E5A7DCAF922"
+			rewards: [{
+				id: "038C6FC2EF8B4328"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7E0EBC22C1D47CEA"
 				item: "refinedstorage:stack_upgrade"
@@ -737,6 +1014,11 @@
 		{
 			dependencies: ["1D9BEB01DBA75BBB"]
 			id: "7B8765944F4942E5"
+			rewards: [{
+				id: "2A452D814B8399CF"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7BE450677BAAA959"
 				item: "refinedstorage:silk_touch_upgrade"
@@ -748,6 +1030,11 @@
 		{
 			dependencies: ["1D9BEB01DBA75BBB"]
 			id: "7B1C23D72742FDA7"
+			rewards: [{
+				id: "0BCEA324721E3516"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "6916F80BA857353A"
 				item: "refinedstorage:fortune_1_upgrade"
@@ -760,6 +1047,11 @@
 			dependencies: ["7B1C23D72742FDA7"]
 			description: ["I wonder if we can upgrade our upgrades?"]
 			id: "63A8DDDB0A212414"
+			rewards: [{
+				id: "711222835956F76B"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "34CD56BA2B4D3111"
 				item: "refinedstorage:fortune_2_upgrade"
@@ -773,6 +1065,11 @@
 			dependencies: ["63A8DDDB0A212414"]
 			description: ["We totally can!"]
 			id: "6AC6BDD488B02861"
+			rewards: [{
+				id: "382BAB224A9AC2BA"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "74F8A1640070F93C"
 				item: "refinedstorage:fortune_3_upgrade"
@@ -785,6 +1082,11 @@
 		{
 			dependencies: ["1D9BEB01DBA75BBB"]
 			id: "7279425110DDFC8F"
+			rewards: [{
+				id: "1573D3933EC3012B"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "785B12AC548D7A7F"
 				item: "refinedstorage:regulator_upgrade"
@@ -801,6 +1103,11 @@
 			]
 			description: ["If you've got this far, you MUST have thought of wireless access, right?!"]
 			id: "24862643D719DAF0"
+			rewards: [{
+				id: "33FA8736E9A90C3F"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7404C42EB83F47DE"
 				title: "Still with me?"
@@ -812,6 +1119,11 @@
 		{
 			dependencies: ["24862643D719DAF0"]
 			id: "6E24C99F4C366D16"
+			rewards: [{
+				id: "4178C12D495EC6EB"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "319E4F98B5CAD841"
 				item: "refinedstorage:wireless_grid"
@@ -824,6 +1136,11 @@
 			dependencies: ["6E24C99F4C366D16"]
 			id: "48EBA7AAAD405DFA"
 			optional: true
+			rewards: [{
+				id: "64CA77A5F885FDD2"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "6CD40E2CD977C87F"
 				item: "refinedstorage:wireless_fluid_grid"
@@ -835,6 +1152,11 @@
 		{
 			dependencies: ["6E24C99F4C366D16"]
 			id: "2273C34B32DF80FB"
+			rewards: [{
+				id: "27B1D4EADFEC2780"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "7D22C4E24FB6A9CD"
 				item: "refinedstorage:wireless_crafting_monitor"
@@ -846,6 +1168,11 @@
 		{
 			dependencies: ["6E24C99F4C366D16"]
 			id: "7455045C8636C258"
+			rewards: [{
+				id: "6B82B897CF0891CB"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "409007C99DB5EDCC"
 				item: {
@@ -862,6 +1189,11 @@
 			dependencies: ["24862643D719DAF0"]
 			description: ["Stick this on your cables!"]
 			id: "0B26415E14ED27A1"
+			rewards: [{
+				id: "6F29B0CFB95A28F4"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3FBC55043BBBBDFA"
 				item: "refinedstorage:wireless_transmitter"
@@ -874,6 +1206,11 @@
 			dependencies: ["29DB80CDB3F3D6F4"]
 			description: ["Make sure to link to your receiver then go and leave the card in the transmitter!"]
 			id: "0B3666A6E11549D9"
+			rewards: [{
+				id: "705EF497781EA97F"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3D4D4FF3B033237E"
 				item: "refinedstorage:network_card"
@@ -886,6 +1223,11 @@
 			dependencies: ["24862643D719DAF0"]
 			description: ["How about getting your machines to talk wirelessly too? No more pesky cables!"]
 			id: "29DB80CDB3F3D6F4"
+			rewards: [{
+				id: "77FD1917525FB341"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [
 				{
 					id: "7D8CAF59C9CC4751"
@@ -906,6 +1248,11 @@
 			dependencies: ["08E52797191BBCD1"]
 			description: ["Needed to link up your system!"]
 			id: "466CDB703D06F308"
+			rewards: [{
+				id: "2BE24A2A3CBE81CE"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "5B35FFA80425A834"
 				item: "refinedstorage:cable"

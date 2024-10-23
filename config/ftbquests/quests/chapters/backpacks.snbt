@@ -18,17 +18,24 @@
 		}
 	}
 	id: "06FE23F78FD72951"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["238D7849116085A5"]
 			id: "40235F08542B4856"
-			rewards: [{
-				id: "137067F9E9930087"
-				item: "minecraft:copper_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "137067F9E9930087"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "0B8E99178512938B"
+					type: "xp_levels"
+					xp_levels: 250
+				}
+			]
 			tasks: [{
 				id: "1318BFACCBF0BAE1"
 				item: {
@@ -53,12 +60,19 @@
 		{
 			description: ["Because you always need more portable storage!"]
 			id: "238D7849116085A5"
-			rewards: [{
-				count: 4
-				id: "01442DC597979383"
-				item: "minecraft:leather"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "01442DC597979383"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "59BE9AAFA2662DB9"
+					type: "xp_levels"
+					xp_levels: 250
+				}
+			]
 			tasks: [{
 				id: "40C3B51AF73AFAF4"
 				title: "Backpacks!"
@@ -72,11 +86,18 @@
 			dependencies: ["40235F08542B4856"]
 			description: ["Need more storage? Start upgrading your existing one!"]
 			id: "24F79849683EC0B1"
-			rewards: [{
-				id: "71D9BE60E08A200A"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "71D9BE60E08A200A"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "6CCBD2917E4DB4DC"
+					type: "xp_levels"
+					xp_levels: 250
+				}
+			]
 			tasks: [{
 				id: "2DF1278D393E97D5"
 				item: {
@@ -101,11 +122,18 @@
 		{
 			dependencies: ["24F79849683EC0B1"]
 			id: "41869C5D6C75F2D4"
-			rewards: [{
-				id: "1E8064CDD8BF4F80"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1E8064CDD8BF4F80"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "415CFA7BD4B63FD6"
+					type: "xp_levels"
+					xp_levels: 250
+				}
+			]
 			tasks: [{
 				id: "6DCAF425FA282A8A"
 				item: {
@@ -130,11 +158,18 @@
 		{
 			dependencies: ["41869C5D6C75F2D4"]
 			id: "4EF2B389C0E9B284"
-			rewards: [{
-				id: "5ADBA87B91D39A07"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5ADBA87B91D39A07"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "160EA4BB1AB6E40E"
+					type: "xp_levels"
+					xp_levels: 250
+				}
+			]
 			tasks: [{
 				id: "743C2C712C0AF72E"
 				item: {
@@ -160,11 +195,18 @@
 			dependencies: ["4EF2B389C0E9B284"]
 			description: ["The ultimate backpack!"]
 			id: "6A3DA1AEE118CBC0"
-			rewards: [{
-				id: "33C5C3256B824720"
-				item: "sophisticatedbackpacks:upgrade_base"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "33C5C3256B824720"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "5BF1A1DC7DC0BE95"
+					type: "xp_levels"
+					xp_levels: 250
+				}
+			]
 			tasks: [{
 				id: "434A4DA584B3CAF5"
 				item: {
@@ -190,11 +232,18 @@
 			dependencies: ["40235F08542B4856"]
 			description: ["Your first upgrade! Checkout JEI to see what you can do with it and your upgrade options!"]
 			id: "3E209C62EACD0FFC"
-			rewards: [{
-				id: "6F69C34C28658B40"
-				item: "sophisticatedbackpacks:upgrade_base"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6F69C34C28658B40"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "70A437C9EE76793C"
+					type: "xp_levels"
+					xp_levels: 250
+				}
+			]
 			tasks: [{
 				id: "2550BE085A05513F"
 				item: "sophisticatedbackpacks:upgrade_base"
@@ -206,6 +255,11 @@
 		{
 			dependencies: ["238D7849116085A5"]
 			id: "3E9274CAEF2AADA1"
+			rewards: [{
+				id: "2B2C42AD47FB31F2"
+				type: "xp_levels"
+				xp_levels: 250
+			}]
 			tasks: [{
 				id: "12B43A9ACA5C811D"
 				item: {
@@ -221,6 +275,11 @@
 		{
 			dependencies: ["44880754393A0410"]
 			id: "03954B3DBE8B3A9A"
+			rewards: [{
+				id: "55BA3DF262B494F4"
+				type: "xp_levels"
+				xp_levels: 250
+			}]
 			tasks: [{
 				id: "59BB0C2DA70E31EE"
 				item: {
@@ -236,6 +295,11 @@
 		{
 			dependencies: ["56A6FE7E79EC7301"]
 			id: "76FF454136ECAC6D"
+			rewards: [{
+				id: "0305972EDDB1AE6E"
+				type: "xp_levels"
+				xp_levels: 250
+			}]
 			tasks: [{
 				id: "0B2C95B51CE428FD"
 				item: {
@@ -251,6 +315,11 @@
 		{
 			dependencies: ["33BAFB4005821898"]
 			id: "0EF607F811A1B7C9"
+			rewards: [{
+				id: "3644FCB047229874"
+				type: "xp_levels"
+				xp_levels: 250
+			}]
 			tasks: [{
 				id: "2BFAAAFC9C806D7C"
 				item: {
@@ -266,6 +335,11 @@
 		{
 			dependencies: ["149989D03242F34E"]
 			id: "6EB2522FA1BD593E"
+			rewards: [{
+				id: "1F2FB8E5C73C4664"
+				type: "xp_levels"
+				xp_levels: 250
+			}]
 			tasks: [{
 				id: "4832D415D151EEA0"
 				item: {
@@ -282,6 +356,11 @@
 			dependencies: ["3E9274CAEF2AADA1"]
 			description: ["Use this to upgrade your backpack tier or add a crafting table!"]
 			id: "10A0B66158650BCB"
+			rewards: [{
+				id: "63E8912AF857E863"
+				type: "xp_levels"
+				xp_levels: 250
+			}]
 			tasks: [{
 				id: "2C06EC7F55CA5DC0"
 				item: "travelersbackpack:blank_upgrade"
@@ -293,6 +372,11 @@
 		{
 			dependencies: ["238D7849116085A5"]
 			id: "26A351A1CC01C33F"
+			rewards: [{
+				id: "63AFA29D2BDEB8D5"
+				type: "xp_levels"
+				xp_levels: 250
+			}]
 			tasks: [{
 				id: "7037176C2F8E2B1B"
 				item: {
@@ -338,6 +422,11 @@
 		{
 			dependencies: ["238D7849116085A5"]
 			id: "581F982263968033"
+			rewards: [{
+				id: "05775ED5960CE401"
+				type: "xp_levels"
+				xp_levels: 250
+			}]
 			tasks: [{
 				id: "1061D0AD7907AFFC"
 				item: {
@@ -358,6 +447,11 @@
 		{
 			dependencies: ["238D7849116085A5"]
 			id: "2DEF483A267C0712"
+			rewards: [{
+				id: "395BE955FCF4F708"
+				type: "xp_levels"
+				xp_levels: 250
+			}]
 			tasks: [{
 				id: "6B8A2D457726B7FE"
 				item: {
@@ -378,11 +472,18 @@
 		{
 			dependencies: ["6A3DA1AEE118CBC0"]
 			id: "03B7D0D8482EB3CB"
-			rewards: [{
-				id: "608D5C334EED6D43"
-				item: "sophisticatedbackpacks:upgrade_base"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "608D5C334EED6D43"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "069623044EA798FE"
+					type: "xp_levels"
+					xp_levels: 250
+				}
+			]
 			tasks: [{
 				id: "335C4B4A3F37E4B7"
 				item: {
@@ -407,6 +508,11 @@
 		{
 			dependencies: ["3E9274CAEF2AADA1"]
 			id: "56A6FE7E79EC7301"
+			rewards: [{
+				id: "0F24D9EE798E8C12"
+				type: "xp_levels"
+				xp_levels: 250
+			}]
 			tasks: [{
 				id: "153503EC5FD9CFEA"
 				item: "travelersbackpack:iron_tier_upgrade"
@@ -418,6 +524,11 @@
 		{
 			dependencies: ["76FF454136ECAC6D"]
 			id: "33BAFB4005821898"
+			rewards: [{
+				id: "7467B5CC1F99F394"
+				type: "xp_levels"
+				xp_levels: 250
+			}]
 			tasks: [{
 				id: "56C025242AF6C9F3"
 				item: "travelersbackpack:gold_tier_upgrade"
@@ -429,6 +540,11 @@
 		{
 			dependencies: ["0EF607F811A1B7C9"]
 			id: "149989D03242F34E"
+			rewards: [{
+				id: "758F799DDEF58F2D"
+				type: "xp_levels"
+				xp_levels: 250
+			}]
 			tasks: [{
 				id: "4825B50BA364D62D"
 				item: "travelersbackpack:diamond_tier_upgrade"
@@ -440,6 +556,11 @@
 		{
 			dependencies: ["6EB2522FA1BD593E"]
 			id: "44880754393A0410"
+			rewards: [{
+				id: "5232BAAD12D65BD8"
+				type: "xp_levels"
+				xp_levels: 250
+			}]
 			tasks: [{
 				id: "05F903AC55527075"
 				item: "travelersbackpack:netherite_tier_upgrade"

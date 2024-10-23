@@ -15,54 +15,1237 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["78D1889CD546974E"]
 			id: "22AC3A565CA2B5A0"
+			rewards: [{
+				id: "6CB5FE1462B6FF3C"
+				type: "xp"
+				xp: 300
+			}]
 			tasks: [{
 				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
 				id: "4F0712A932368C58"
 				type: "dimension"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
+			dependencies: ["444264F97983CF3C"]
+			icon: "ad_astra:mars_globe"
 			id: "397341D6CB7D3735"
+			rewards: [{
+				id: "6D2C68E9051C3B9C"
+				type: "xp"
+				xp: 300
+			}]
 			tasks: [{
 				dimension: "ad_astra:mars"
 				id: "590A590E9606DE14"
 				type: "dimension"
 			}]
-			x: 2.5d
-			y: 1.0d
+			x: -6.5d
+			y: 3.5d
 		}
 		{
+			dependencies: ["0015CD018D0E04B2"]
+			description: [
+				"This will be needed to upgrade your rocket and other items going forward"
+				""
+				"Make sure to go hunting underground for this, it's unlikely you'll find any on the surface!"
+			]
+			icon: "ad_astra:mercury_globe"
 			id: "4FE843CFC7E0ACBC"
+			rewards: [{
+				id: "5A3DB4F78A7D4758"
+				type: "xp"
+				xp: 300
+			}]
 			tasks: [{
 				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
 				id: "45F7CCF82753477C"
 				type: "dimension"
 			}]
-			x: 3.5d
-			y: 1.0d
+			title: "Mercury"
+			x: -4.0d
+			y: 4.5d
 		}
 		{
+			dependencies: [
+				"589BDB28D4710081"
+				"52188250383599F1"
+			]
+			hide_dependency_lines: true
 			id: "2AE848322234D3E3"
+			rewards: [{
+				id: "118519ED5E5C4F89"
+				type: "xp"
+				xp: 300
+			}]
 			tasks: [{
 				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
 				id: "6AC7FE11DFF03F7F"
 				type: "dimension"
 			}]
-			x: 4.5d
-			y: 1.0d
+			title: "To the moon!"
+			x: -11.5d
+			y: 3.5d
 		}
 		{
+			dependencies: ["0015CD018D0E04B2"]
+			icon: "ad_astra:venus_globe"
 			id: "6E3236A58F987998"
+			rewards: [{
+				id: "01C604612B9F1520"
+				type: "xp"
+				xp: 300
+			}]
 			tasks: [{
 				dimension: "ad_astra:venus"
 				id: "02A3CD5B57FCE65F"
 				type: "dimension"
 			}]
-			x: 5.5d
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1FAB34DAEE7552BA"]
+			id: "5F8D3A7F8D25E667"
+			optional: true
+			rewards: [{
+				id: "70AE17174047D963"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "4F0D1D9D215180B4"
+				item: "ad_astra:astrodux"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1FAB34DAEE7552BA"]
+			id: "2625242D0A152C60"
+			rewards: [{
+				id: "70200E57ECD007DC"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "56242626A9C43FDF"
+				item: {
+					Count: 1b
+					id: "ad_astra:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2625242D0A152C60"]
+			hide_dependency_lines: true
+			id: "73CB9DE858F22DB8"
+			rewards: [{
+				id: "7308CDC2AF494023"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "1EBA917E88193530"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plates/steel"
+					}
+				}
+				title: "Any #forge:plates/steel"
+				type: "item"
+			}]
+			title: "Steel plate"
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["44972AE30959E7EC"]
+			description: [
+				"Now before you go blasting off, there's some important things you should know!"
+				""
+				"You'll need a second Launch Pad to get back from space so make sure you pack an extra one either on yourself or in your rocket inventory"
+				""
+				"You'll need at least 3 bucket of fuel with you to get back, I'd recommend taking a few extra to be safe!"
+				""
+				"You'll need to fill your suit with oxygen before you go or you WILL suffocate"
+				""
+				"If you plan to go back and forth, I'd recommend finding a waystone and taking one with you to place down but make sure you have one at home too or you won't be able to get back with this."
+				""
+				"When you begin landing on any planet, you'll be in descent mode. You'll need to hold &nspace&r to slow your descent so the rocket doesn't explode, make sure you do this!"
+			]
+			id: "589BDB28D4710081"
+			rewards: [{
+				id: "1E55005C80A2C404"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Ready to blast off, maybe?"
+			tasks: [{
+				id: "1F7AC398E3193841"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2625242D0A152C60"]
+			description: ["You only need to make one but I'd recommend making 2 if you want to actually fly back!"]
+			id: "1902128B1A96B092"
+			rewards: [{
+				id: "11777D9AB7D6983F"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "6CDD084A3DD7FBAF"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2625242D0A152C60"]
+			hide_dependency_lines: true
+			id: "69C2DF11C099EA90"
+			rewards: [{
+				id: "4C6D7BAEE7EAD76B"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "60667BC07B4A5D3E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plates/iron"
+					}
+				}
+				title: "Any #forge:plates/iron"
+				type: "item"
+			}]
+			title: "Iron plate"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0E5E2F9C58C7F94A"]
+			description: ["This workbench will be used to put all your rockets together!"]
+			id: "44972AE30959E7EC"
+			rewards: [{
+				id: "2853A9448D036BDE"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "547AAE3C4EDBADBB"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73CB9DE858F22DB8"]
+			id: "44B445AE85196749"
+			rewards: [{
+				id: "1A1EB6D1A1EDFDC7"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "374782A092599951"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48DB1F9EA333C50F"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F0A0AB611858860"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "444735E6D6AB817D"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			description: ["To have your first space mission, you'll need roughly 3 stacks of steel!"]
+			id: "1FAB34DAEE7552BA"
+			rewards: [
+				{
+					count: 15
+					id: "1611740D0A4D775B"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "0AC952F462BB5F50"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				id: "650CB9FCD9217471"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
+				type: "item"
+			}]
+			title: "Steel"
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["306BB603E797D421"]
+			description: ["I recommend using a sink to automate pumping water into this as it can be pretty slow to fill!"]
+			id: "06A6F9B620D0DF05"
+			rewards: [{
+				id: "02C230F126B809B5"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "374BF7D5B02BBD4F"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69C2DF11C099EA90"]
+			id: "306BB603E797D421"
+			rewards: [{
+				id: "53B552B82C1B7124"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "6168874AEA2F550C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:rods/iron"
+					}
+				}
+				title: "Any #forge:rods/iron"
+				type: "item"
+			}]
+			title: "Iron rod"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["306BB603E797D421"]
+			id: "24430AC59DC38F94"
+			rewards: [{
+				id: "10AC5EC9897FB25C"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "0878D4096F068334"
+				item: {
+					Count: 1b
+					id: "ad_astra_giselle_addon:oxygen_can"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73CB9DE858F22DB8"]
+			id: "53016A526B2632E1"
+			rewards: [{
+				id: "66B9F05A0E1E4781"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "3184F9525D062B5E"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["53016A526B2632E1"]
+			description: [
+				"Use the fuel refinery to turn oil into rocket fuel"
+				""
+				"Make sure to get a lot, oil is not renewable!"
+			]
+			id: "6603A557278112D3"
+			rewards: [{
+				id: "7550492B2650E447"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "355E467F392D42A1"
+					item: "ad_astra:oil_bucket"
+					type: "item"
+				}
+				{
+					id: "28310FB605F004C1"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+			]
+			title: "Making rocket fuel!"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["589BDB28D4710081"]
+			description: [
+				"If you're heading to space, you probably want to setup a base right?"
+				""
+				"You should take a few stacks of blocks so that you can build you base first."
+				""
+				"You'll also need an oxygen diffuser so that you can start pumping oxygen into your base atmosphere."
+				""
+				"You're going to need a way of generating power so that you can keep any machines running such as your diffuser, it's not necessary but I'd also recommend taking a sink with you and an additional oxygen compressor so that you can keep refuelling your space suit for missions, it's not a bad idea to take a second space suit for emergencies so you can always leave one filling with oxygen and one on you!"
+				""
+				"Finally, you're also going to need airlocking doors to avoid your oxygen escaping. Ideally you'd want an entrance and an exit however I'd recommend taking four so that you can have two airlocked corridors leading in/out of your base just to avoid any further issues."
+			]
+			id: "52188250383599F1"
+			rewards: [{
+				id: "269EFD4281C5829A"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Moonbase!"
+			tasks: [{
+				id: "30DAEA201574B1DC"
+				title: "So you're going to space! What now?"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["73CB9DE858F22DB8"]
+			id: "681C82ECE96B373F"
+			rewards: [{
+				id: "21DF705264E1E68D"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				count: 2L
+				id: "2DF2E503BD3446AC"
+				item: "ad_astra:airlock"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2AE848322234D3E3"]
+			id: "444264F97983CF3C"
+			rewards: [{
+				id: "090BCF671BCBD6A7"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "351EEC39735534E8"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AE848322234D3E3"]
+			description: [
+				"This will be needed to upgrade your rocket and other items going forward"
+				""
+				"Make sure to go hunting underground for this, it's unlikely you'll find any on the surface!"
+			]
+			id: "7538DA18639678BE"
+			rewards: [{
+				id: "3ED0E6F24BCA0E79"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "2A8CF20915D5C6B3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:raw_materials/desh"
+					}
+				}
+				title: "Any #forge:raw_materials/desh"
+				type: "item"
+			}]
+			title: "Desh"
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2625242D0A152C60"
+				"7538DA18639678BE"
+			]
+			hide_dependency_lines: true
+			id: "01BB1A642841AEB4"
+			rewards: [{
+				id: "0AEDC112C3C1777F"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "27D6F0F454513D54"
+				item: "ad_astra:desh_plate"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["397341D6CB7D3735"]
+			description: [
+				"This will be needed to upgrade your rocket and other items going forward"
+				""
+				"Make sure to go hunting underground for this, it's unlikely you'll find any on the surface!"
+			]
+			id: "7BD584C693F1B177"
+			rewards: [{
+				id: "2E712B2CD54A92A8"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "4E97F06E2C5B26D9"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:raw_materials/ostrum"
+					}
+				}
+				title: "Any #forge:raw_materials/ostrum"
+				type: "item"
+			}]
+			title: "Ostrum"
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1902128B1A96B092"]
+			id: "0E5E2F9C58C7F94A"
+			rewards: [{
+				id: "1ECFC2E1A3E0D269"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "42179C881D120574"
+					item: "ad_astra:engine_fan"
+					type: "item"
+				}
+				{
+					id: "2A9647EC3DD04A56"
+					item: "ad_astra:engine_frame"
+					type: "item"
+				}
+				{
+					id: "6462F1836E03D48A"
+					item: "ad_astra:steel_engine"
+					type: "item"
+				}
+				{
+					id: "1C83D5E87D7B0551"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					id: "30EBC2FCF45C3A29"
+					item: "ad_astra:rocket_fin"
+					type: "item"
+				}
+			]
+			title: "Rocket Components"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01BB1A642841AEB4"]
+			id: "5F6AC701492BA338"
+			rewards: [{
+				id: "6BC967FAA8DF8F6A"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "61ABF1D41D81C540"
+					item: "ad_astra:desh_engine"
+					type: "item"
+				}
+				{
+					id: "5B122DDF06936B6E"
+					item: "ad_astra:desh_tank"
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["397341D6CB7D3735"]
+			id: "0015CD018D0E04B2"
+			rewards: [{
+				id: "7E34F3615EE257A7"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "7910149D726979A5"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E3236A58F987998"]
+			id: "78D1889CD546974E"
+			rewards: [{
+				id: "2B02A031FD5219B3"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "0AD6983B2EC75515"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E3236A58F987998"]
+			description: [
+				"This will be needed to upgrade your rocket and other items going forward"
+				""
+				"Make sure to go hunting underground for this, it's unlikely you'll find any on the surface!"
+			]
+			id: "64E047F563705059"
+			rewards: [{
+				id: "7A67CC7A6950FA61"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "3CB19E8F23C750E5"
+				item: "ad_astra:raw_calorite"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69C2DF11C099EA90"]
+			description: ["For your base unless you have an alternate method for power"]
+			id: "68A26E1F15E27976"
+			rewards: [{
+				id: "05BBEA254A60F05E"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "308831A27B3D0E05"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"64E047F563705059"
+				"2625242D0A152C60"
+			]
+			hide_dependency_lines: true
+			id: "290F437EC5A36AB3"
+			rewards: [{
+				id: "682A8E408B73EA6F"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "76F24C69BD1A989A"
+				item: "ad_astra:calorite_plate"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2625242D0A152C60"
+				"7BD584C693F1B177"
+			]
+			hide_dependency_lines: true
+			id: "21294FF404990480"
+			rewards: [{
+				id: "21C60BDD5F0F30A5"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "27C1BEF3C0DA261D"
+				item: "ad_astra:ostrum_plate"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["21294FF404990480"]
+			id: "50D873C181949CA8"
+			rewards: [{
+				id: "29020DE4EE446534"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "6745ACD7A823C856"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BE9A1F9B91CAAEE"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07A4D4B4C9442BE2"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F3481F3DAF46C2C"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["290F437EC5A36AB3"]
+			id: "7E56A4DC0868E741"
+			rewards: [{
+				id: "2B33B8B9F489E516"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "72E3B5E0FFCBFA54"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "159804970957920D"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A2C7EEED6CEABF1"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FA1068F13136E24"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01BB1A642841AEB4"]
+			description: ["These doors are just to make your base look nicer, they won't keep the oxygen inside! Remember to use airlocks too!"]
+			id: "21DCBD1364050AAA"
+			rewards: [{
+				id: "2967E14E02CB41FE"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "690AD1C6A9E79CF9"
+				item: "ad_astra:desh_sliding_door"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["73CB9DE858F22DB8"]
+			description: ["These doors are just to make your base look nicer, they won't keep the oxygen inside! Remember to use airlocks too!"]
+			id: "3EDFBD3C4B5A323C"
+			rewards: [{
+				id: "3ED1D6B2F66ABCD7"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "48181BF3593D3DF0"
+				item: "ad_astra:steel_sliding_door"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["69C2DF11C099EA90"]
+			description: ["These doors are just to make your base look nicer, they won't keep the oxygen inside! Remember to use airlocks too!"]
+			id: "60DFA80CE286C64D"
+			rewards: [{
+				id: "4305464E8FB8D404"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "4979694E15CF05FE"
+				item: "ad_astra:iron_sliding_door"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["21294FF404990480"]
+			id: "5EF7B53999187E2F"
+			rewards: [{
+				id: "39FB47BD8ABF2526"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "79EDA0BEF5A486BC"
+					item: "ad_astra:ostrum_engine"
+					type: "item"
+				}
+				{
+					id: "6AAE36AE0EB81A19"
+					item: "ad_astra:ostrum_tank"
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["290F437EC5A36AB3"]
+			id: "15DB8913E0E6FA7F"
+			rewards: [{
+				id: "2404A628E01EEE0F"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "1A42BB93991ED70D"
+					item: "ad_astra:calorite_engine"
+					type: "item"
+				}
+				{
+					id: "74F10D5917CA0703"
+					item: "ad_astra:calorite_tank"
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["290F437EC5A36AB3"]
+			description: ["These doors are just to make your base look nicer, they won't keep the oxygen inside! Remember to use airlocks too!"]
+			id: "69B1082C557B6124"
+			rewards: [{
+				id: "7576E1999C4068DF"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "6E0BDC32A80FA1AB"
+				item: "ad_astra:calorite_sliding_door"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21294FF404990480"]
+			description: ["These doors are just to make your base look nicer, they won't keep the oxygen inside! Remember to use airlocks too!"]
+			id: "20A27246F73B1CA9"
+			rewards: [{
+				id: "5C936BCE594F7C14"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "785FD9458526218A"
+				item: "ad_astra:ostrum_sliding_door"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2AE848322234D3E3"]
+			description: ["I guess the moon really is made of cheese, it's delicious too!"]
+			id: "104F616F652C592E"
+			rewards: [{
+				id: "02B7ED6A932A29DA"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "1EE2616BC8963864"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			title: "Cheese? On the moon?"
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["73CB9DE858F22DB8"]
+			description: ["Make sure to take extra for while you get setup!"]
+			id: "7B74CADC6ACCD0E4"
+			rewards: [{
+				id: "05229060A64D799B"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "709D1836E8B05B17"
+				item: {
+					Count: 1b
+					id: "ad_astra:oxygen_tank"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["01BB1A642841AEB4"]
+			id: "6C8D483E721897E6"
+			rewards: [{
+				id: "2F749F1769B992D1"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "6FBE60D2FFDD9327"
+				item: "ad_astra:water_pump"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["01BB1A642841AEB4"]
+			id: "70C5EE4B1ACD18C2"
+			rewards: [{
+				id: "01C7770F83107F9B"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "052A1258D111732C"
+				item: "ad_astra:solar_panel"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"21294FF404990480"
+				"5EF7B53999187E2F"
+			]
+			id: "1678AE874D9DD847"
+			rewards: [{
+				id: "5411CB028176DB11"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "0B11EEF5BB48CA15"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["306BB603E797D421"]
+			description: ["You'll want to mark your first step on each planet, right? Comes in many different colours and has your face on! Show them aliens who's boss!"]
+			id: "47DA6C19568B30DC"
+			rewards: [{
+				id: "5F22E3A65829A759"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "28D61650794E5415"
+				item: "ad_astra:white_flag"
+				type: "item"
+			}]
+			x: -7.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["01BB1A642841AEB4"]
+			id: "69450A3882B44878"
+			rewards: [{
+				id: "03C6A443BAD84AAC"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "11AA5D36B187595D"
+					item: "ad_astra:desh_cable"
+					type: "item"
+				}
+				{
+					id: "74FE16776B266C9F"
+					item: "ad_astra:desh_fluid_pipe"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["01BB1A642841AEB4"]
+			id: "128DB33D89A1DF93"
+			rewards: [{
+				id: "72E1245C844F64C6"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "27FE53C77FA0B9D2"
+				item: "ad_astra:fluid_pipe_duct"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["21294FF404990480"]
+			id: "058D27A63ECF8DFE"
+			rewards: [{
+				id: "5CEEDF6AF99B209E"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "6ED648A64FAC50AA"
+				item: "ad_astra:energizer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["21294FF404990480"]
+			id: "70238435429B8F67"
+			rewards: [{
+				id: "7FA1327315156641"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "4F22EC3A18AE4AFF"
+				item: "ad_astra:ostrum_fluid_pipe"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["73CB9DE858F22DB8"]
+			id: "2F448D82DA87112A"
+			rewards: [{
+				id: "57A82B658D9E213C"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "42C0F914555B4AC4"
+					item: "ad_astra:cable_duct"
+					type: "item"
+				}
+				{
+					id: "02026F47A08293B8"
+					item: "ad_astra:steel_cable"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -7.5d
 		}
 	]
 	title: "Space"

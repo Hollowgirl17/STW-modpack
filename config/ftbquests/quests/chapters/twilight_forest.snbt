@@ -20,8 +20,14 @@
 				"This will result in it being struck by lightning and turning into the portal"
 			]
 			id: "67A8248EDCA22A70"
+			rewards: [{
+				id: "3F3654A278AE2E4C"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
 				id: "66FA662AE6210C62"
 				type: "dimension"
 			}]
@@ -32,6 +38,11 @@
 			dependencies: ["6955457D3C28B369"]
 			icon: "twilightforest:naga_trophy"
 			id: "5083682D242CFE7C"
+			rewards: [{
+				id: "70221628982FA596"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				entity: "twilightforest:naga"
 				id: "25B5C18FA7B78622"
@@ -44,6 +55,11 @@
 		{
 			dependencies: ["45298D10611BAED5"]
 			id: "6955457D3C28B369"
+			rewards: [{
+				id: "45DFEF3540D174FC"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "49F5FEDCC57101AD"
 				structure: "twilightforest:naga_courtyard"
@@ -60,6 +76,11 @@
 				"Make sure you go left to right!"
 			]
 			id: "45298D10611BAED5"
+			rewards: [{
+				id: "643636EA998102B5"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3E99FAA5D4FA8DF5"
 				title: "Bosses!"
@@ -71,6 +92,11 @@
 		{
 			dependencies: ["35E5ABC1354EA705"]
 			id: "7F33A4367EDDD036"
+			rewards: [{
+				id: "5740769E6545E596"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				entity: "twilightforest:lich"
 				icon: "twilightforest:lich_trophy"
@@ -84,6 +110,11 @@
 		{
 			dependencies: ["26BD06F9CCB3A983"]
 			id: "09C35C2C067867F9"
+			rewards: [{
+				id: "678152FBF42CCAF6"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				entity: "twilightforest:minoshroom"
 				icon: "twilightforest:minoshroom_trophy"
@@ -97,6 +128,11 @@
 		{
 			dependencies: ["611B85189F8387CF"]
 			id: "71A0266201AA9217"
+			rewards: [{
+				id: "0D0AC57A635886C8"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				entity: "twilightforest:hydra"
 				icon: "twilightforest:hydra_trophy"
@@ -110,6 +146,11 @@
 		{
 			dependencies: ["4EC75A1CAE4BFB3D"]
 			id: "76B67D8CB9116B3C"
+			rewards: [{
+				id: "31044E76716AE5C3"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				entity: "twilightforest:knight_phantom"
 				icon: "twilightforest:knight_phantom_trophy"
@@ -123,6 +164,11 @@
 		{
 			dependencies: ["5EA75A090B86925B"]
 			id: "3E983AC3B7D69CB0"
+			rewards: [{
+				id: "1050DBAEA10D340F"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				entity: "twilightforest:ur_ghast"
 				icon: "twilightforest:ur_ghast_trophy"
@@ -136,6 +182,11 @@
 		{
 			dependencies: ["0DC312280EF39EFE"]
 			id: "36832239DB36F171"
+			rewards: [{
+				id: "2AFF015A02C233E1"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				entity: "twilightforest:alpha_yeti"
 				icon: "twilightforest:alpha_yeti_trophy"
@@ -149,6 +200,11 @@
 		{
 			dependencies: ["2AD571828F0C8CD9"]
 			id: "04EAE17D4ED26CB4"
+			rewards: [{
+				id: "2E9F15809CD3BB72"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				entity: "twilightforest:snow_queen"
 				icon: "twilightforest:snow_queen_trophy"
@@ -162,6 +218,11 @@
 		{
 			dependencies: ["45298D10611BAED5"]
 			id: "35E5ABC1354EA705"
+			rewards: [{
+				id: "0EF3F9FEF5E6CBF8"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "3706CC644A12B37A"
 				structure: "twilightforest:lich_tower"
@@ -173,6 +234,11 @@
 		{
 			dependencies: ["45298D10611BAED5"]
 			id: "26BD06F9CCB3A983"
+			rewards: [{
+				id: "374EE35319F2A29E"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "6460ACE4831CC6CB"
 				structure: "twilightforest:labyrinth"
@@ -184,6 +250,11 @@
 		{
 			dependencies: ["45298D10611BAED5"]
 			id: "611B85189F8387CF"
+			rewards: [{
+				id: "211D3D4F8B2B6596"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "718FAFBC6C90E4D4"
 				structure: "twilightforest:hydra_lair"
@@ -195,6 +266,11 @@
 		{
 			dependencies: ["45298D10611BAED5"]
 			id: "4EC75A1CAE4BFB3D"
+			rewards: [{
+				id: "7B84DE34F8ADEB9A"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "5B1691C072346CA0"
 				structure: "twilightforest:knight_stronghold"
@@ -206,6 +282,11 @@
 		{
 			dependencies: ["45298D10611BAED5"]
 			id: "0DC312280EF39EFE"
+			rewards: [{
+				id: "68C36F88F1E3245A"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "073F7AD3EABA0BB1"
 				structure: "twilightforest:yeti_cave"
@@ -217,6 +298,11 @@
 		{
 			dependencies: ["45298D10611BAED5"]
 			id: "5EA75A090B86925B"
+			rewards: [{
+				id: "264FBEA98D1FC8CA"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "5A4D39A173166AA2"
 				structure: "twilightforest:dark_tower"
@@ -236,6 +322,11 @@
 				"3E983AC3B7D69CB0"
 			]
 			id: "2AD571828F0C8CD9"
+			rewards: [{
+				id: "3C0B2A6583BA42A9"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "402347DCD3809C42"
 				structure: "twilightforest:aurora_palace"
@@ -243,17 +334,6 @@
 			}]
 			x: 7.0d
 			y: -4.5d
-		}
-		{
-			id: "554A9691F4A997F8"
-			tasks: [{
-				entity: "minecraft:zombie"
-				id: "3457221C88F61DA8"
-				type: "kill"
-				value: 100L
-			}]
-			x: 7.0d
-			y: -6.5d
 		}
 	]
 	title: "Twilight Forest"
